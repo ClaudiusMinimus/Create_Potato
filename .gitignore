@@ -28,6 +28,7 @@ minecraft/instance.cfg
 minecraft/knownkeys.txt
 minecraft/mmc-pack.json
 minecraft/options.txt
+minecraft/servers.dat*
 minecraft/realms_persistence.json
 minecraft/reauth.toml
 minecraft/usercache.json
