@@ -47,3 +47,4 @@ server/ops.json
 !server/config/theoneprobe-client.toml
 !server/config/theoneprobe-common.toml
 !minecraft/config/xaerominimap.txt
+*.tgz
