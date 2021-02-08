@@ -1,0 +1,252 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/customguis/images/create_potato.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-centered
+  x = -110
+  action = movebutton
+  y = 16
+}
+
+customization {
+  identifier = %id=400322%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/multiplayer.png
+  backgroundnormal = config/fancymenu/customguis/images/buttons/multiplayer.png
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-left
+  x = 97
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=604382%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/accessibility.png
+  backgroundnormal = config/fancymenu/customguis/images/buttons/accessibility.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-left
+  x = 17
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=400382%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/options.png
+  backgroundnormal = config/fancymenu/customguis/images/buttons/options.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-left
+  x = 382
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=502382%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/exitgame.png
+  backgroundnormal = config/fancymenu/customguis/images/buttons/exitgame.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-left
+  x = 302
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=376382%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/language.png
+  backgroundnormal = config/fancymenu/customguis/images/buttons/language.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 18
+  action = movebutton
+  y = 16
+}
+
+customization {
+  identifier = %id=400298%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/singleplayer.png
+  backgroundnormal = config/fancymenu/customguis/images/buttons/singleplayer.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 361
+  action = movebutton
+  y = 16
+}
+
+customization {
+  identifier = %id=400346%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/images/buttons/mods.png
+  backgroundnormal = config/fancymenu/customguis/images/buttons/mods.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 248
+  width = 100
+  action = addbutton
+  y = 16
+  backgroundhovered = config/fancymenu/customguis/images/buttons/discord.png
+  label = 
+  backgroundnormal = config/fancymenu/customguis/images/buttons/discord.png
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  buttonaction = openlink
+  x = 190
+  width = 100
+  action = addbutton
+  y = -36
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/server.png
+  label = 
+  backgroundnormal = config/fancymenu/customguis/images/buttons/server.png
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  centered = false
+  x = 6
+  action = addtext
+  y = -12
+  scale = 1.0
+  value = Create on a Potato pc v. 1.16.6-1.4.0
+}
+

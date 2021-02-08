@@ -1,0 +1,115 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/customguis/images/create_potato.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = 190
+  action = movebutton
+  y = 16
+}
+
+customization {
+  identifier = %id=400322%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-centered
+  x = -25
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-left
+  x = 18
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=400382%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-left
+  x = 361
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=502382%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-centered
+  x = 5
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=376382%
+  width = 17
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 18
+  action = movebutton
+  y = 16
+}
+
+customization {
+  identifier = %id=400298%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 361
+  action = movebutton
+  y = 16
+}
+
+customization {
+  identifier = %id=400346%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
