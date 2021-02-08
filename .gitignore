@@ -1,0 +1,28 @@
+#Ignore these folders
+minecraft/config/*
+minecraft/logs/*
+minecraft/mods/*
+minecraft/local/*
+minecraft/resourcepacks/*
+minecraft/saves/*
+minecraft/screenshots/*
+minecraft/Xaero*/*
+
+#Ignore these files
+instance.cfg
+mmc-pack.json
+minecraft/instance.cfg
+minecraft/knownkeys.txt
+minecraft/mmc-pack.json
+minecraft/options.txt
+minecraft/realms_persistence.json
+minecraft/reauth.toml
+minecraft/usercache.json
+minecraft/usernamecache.json
+
+#Stop Ignoring these folders
+!minecraft/config/brandon3055
+!minecraft/config/defaultoptions/
+!minecraft/config/fancymenu
+
+
