@@ -22,6 +22,7 @@ server/world*/*
 #Ignore these files
 instance.cfg
 mmc-pack.json
+minecraft/.mixin.out/*
 minecraft/instance.cfg
 minecraft/knownkeys.txt
 minecraft/mmc-pack.json
@@ -31,10 +32,15 @@ minecraft/reauth.toml
 minecraft/usercache.json
 minecraft/usernamecache.json
 server/1.16.5.json
+server/banned-ips.json
+server/banned-players.json
 server/eula.txt
 server/forge-1.16.5-36.0.14.jar
 server/minecraft_server.1.16.5.jar
+server/.mixin.out/*
 server/ops.json
+server/usercache.json
+server/whitelist.json
 
 
 #Stop Ignoring these folders
