@@ -1,12 +1,23 @@
 #Ignore these folders
 minecraft/config/*
+minecraft/local/*
 minecraft/logs/*
 minecraft/mods/*
-minecraft/local/*
 minecraft/resourcepacks/*
 minecraft/saves/*
 minecraft/screenshots/*
 minecraft/Xaero*/*
+server/config/*
+server/libraries/*
+server/local/*
+server/logs/*
+server/mods/*
+server/resourcepacks/*
+server/saves/*
+server/screenshots/*
+server/Xaero*/*
+server/mods/*
+server/world*/*
 
 #Ignore these files
 instance.cfg
@@ -19,10 +30,20 @@ minecraft/realms_persistence.json
 minecraft/reauth.toml
 minecraft/usercache.json
 minecraft/usernamecache.json
+server/1.16.5.json
+server/eula.txt
+server/forge-1.16.5-36.0.14.jar
+server/minecraft_server.1.16.5.jar
+server/ops.json
+
 
 #Stop Ignoring these folders
 !minecraft/config/brandon3055
 !minecraft/config/defaultoptions/
 !minecraft/config/fancymenu
+!server/config/brandon3055
 
-
+#Stop Ignoring these files
+!server/config/theoneprobe-client.toml
+!server/config/theoneprobe-common.toml
+!minecraft/config/xaerominimap.txt
