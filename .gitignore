@@ -56,3 +56,4 @@ server/whitelist.json
 !server/config/theoneprobe-common.toml
 !minecraft/config/xaerominimap.txt
 *.tgz
+server/mods
