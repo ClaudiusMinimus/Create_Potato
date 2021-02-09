@@ -218,10 +218,11 @@ customization {
   width = 100
   action = addbutton
   y = 16
-  backgroundhovered = config/fancymenu/customguis/images/buttons/discord.png
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/discord.png
+  description = Come join us on&nour discord server,&nGrumpy Old Men.&n&nWe have a great community&nand look forward to having&nYou a be part of it!
   label = 
   backgroundnormal = config/fancymenu/customguis/images/buttons/discord.png
-  value = 
+  value = https://discord.com/invite/jXrx4Tu
   height = 20
 }
 
@@ -233,9 +234,10 @@ customization {
   action = addbutton
   y = -36
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/server.png
+  description = Use the code minimus&nto get 25% off&nyour first month,
   label = 
   backgroundnormal = config/fancymenu/customguis/images/buttons/server.png
-  value = 
+  value = https://bisecthosting.com/minimus
   height = 20
 }
 
@@ -247,6 +249,6 @@ customization {
   action = addtext
   y = -12
   scale = 1.0
-  value = Create on a Potato pc v. 1.16.6-1.4.0
+  value = Create on a Potato pc v. 1.16.6-1.5.1
 }
 
