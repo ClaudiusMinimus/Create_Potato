@@ -7,6 +7,7 @@ minecraft/resourcepacks/*
 minecraft/saves/*
 minecraft/screenshots/*
 minecraft/Xaero*/*
+natives/*
 server/config/*
 server/libraries/*
 server/local/*
@@ -50,6 +51,7 @@ server/whitelist.json
 !minecraft/config/brandon3055
 !minecraft/config/defaultoptions/
 !minecraft/config/fancymenu
+!minecraft/config/ftbchunks-client.toml
 !server/config/brandon3055
 
 #Stop Ignoring these files
