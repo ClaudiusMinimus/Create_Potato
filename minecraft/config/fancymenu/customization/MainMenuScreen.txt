@@ -249,6 +249,6 @@ customization {
   action = addtext
   y = -12
   scale = 1.0
-  value = Create on a Potato pc v. 1.16.6-1.5.1
+  value = Create on a Potato pc v. 1.16.6-1.6.0
 }
 
