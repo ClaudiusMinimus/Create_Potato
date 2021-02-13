@@ -1,0 +1,25 @@
+# Change Log
+## Version 1.8.0
+- Mods Added: 
+  - architectury-1.5.112-forge  
+  - CustomStartingGear-1.16.4-2.0.2.1-universal  
+  - Disenchanting-forge_1.16.3-1.6.0-alpha  
+  - kubejs-1605.3.6-build.165-forge  
+  - rhino-1.7.13-build.14   
+- Mods Updated:
+  - alexsmobs-1.5.1  
+  - citadel-1.6.1  
+  - Controlling-7.0.0.13  
+  - ftb-quests-1605.2.0-build.27-forge  
+  - ftb-ranks-1604.1.1.11  
+  - jei-1.16.4-7.6.1.71  
+  - SilentGear-1.16.3-2.6.0+217   
+  - Xaeros_Minimap_21.3.0.2_Forge_1.16.5   
+  - XaerosWorldMap_1.12.0.2_Forge_1.16.5
+- Mods Removed: none
+- Other Changes:
+  - Updated forge to 36.0.22
+  - Imported applicable quests from 99 Mods on the Wall
+  - Added questline for Allomancy
+  - Edited forge configs
+  - Offical server has been moved
