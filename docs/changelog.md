@@ -22,4 +22,3 @@
   - Imported applicable quests from 99 Mods on the Wall
   - Added questline for Allomancy
   - Edited forge configs
-  - Offical server has been moved
