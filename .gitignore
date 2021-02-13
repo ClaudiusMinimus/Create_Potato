@@ -25,6 +25,7 @@ instance.cfg
 mmc-pack.json
 build/create-potato-*.zip
 minecraft/.mixin.out/*
+minecraft/backups/*
 minecraft/instance.cfg
 minecraft/knownkeys.txt
 minecraft/mmc-pack.json
