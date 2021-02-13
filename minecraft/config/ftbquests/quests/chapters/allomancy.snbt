@@ -1,0 +1,495 @@
+{
+	id: "47CD03D96D079336",
+	group: "",
+	order_index: 4,
+	filename: "allomancy",
+	title: "Allomancy",
+	icon: "allomancy:lerasium_nugget",
+	subtitle: [
+		"Allomancy adds the basics of magic system from",
+		"Brandon Sanderson's Mistborn series to Minecraft"
+	],
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -8.0d,
+			y: -6.0d,
+			description: ["This mod is based around one key binding and the use of both mouse buttons.The basic mechanics of the mod are essentially the same as in the book series."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "4552BC432EA513E6",
+			tasks: [{
+				id: "7B14884315F37C90",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "270336F5FE21BAEC",
+				type: "item",
+				item: "allomancy:vial",
+				count: 3
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -8.5d,
+			description: ["Iron allows you to Pull on metals. For items and other small entities, this means pulling them toward you. For blocks and large metallic entities, this means you move toward them."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "7AE91FE272001F48",
+			tasks: [{
+				id: "2CB77262457FBE5F",
+				type: "item",
+				item: "allomancy:iron_flakes"
+			}],
+			rewards: [{
+				id: "4F412D40C798FBCA",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -8.5d,
+			description: [
+				"Steel allows you to Push on metals. This means moving metal items away from you or pushing yourself off of metal blocks. This can be used as a sort of rudimentary flight, though it is more falling with style than anything else.",
+				"",
+				"Steel also allows you to use the Coin Bag item. If you have gold nuggets in your inventory and are burning steel, you can use this as a ranged weapon similar to the old Beta-edition Bow. Iron nuggets can also be used, causing more damage but far less accurately."
+			],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "10698D30E608AD05",
+			tasks: [{
+				id: "42F99078341B47FF",
+				type: "item",
+				item: "allomancy:steel_flakes"
+			}],
+			rewards: [{
+				id: "7356B9D07A0F6C3F",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -9.0d,
+			description: ["Tin gives you Night Vision and allows you to see which direction sounds come from using an indicator particle. This particle is also colored according to the hostility of the sound source. Friendly mobs are green, hostile mobs are red."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "798E075AAB66C741",
+			tasks: [{
+				id: "356EE1752750F837",
+				type: "item",
+				item: "allomancy:tin_flakes"
+			}],
+			rewards: [{
+				id: "068A1CD6C9384971",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -9.0d,
+			description: ["Pewter grants increased speed, jump height, damage, and damage resistance to the player. Be careful, though - Any damage incurred while burning pewter is remembered, and if you stop burning it at the wrong time you could end up being killed by all the built-up damage. If there's ever an item that seems too heavy to use, try using some Pewter..."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "16B77223A8D6EEB0",
+			tasks: [{
+				id: "52712FD64A55AF05",
+				type: "item",
+				item: "allomancy:pewter_flakes"
+			}],
+			rewards: [{
+				id: "0C690C53939B93F7",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -9.0d,
+			description: ["Zinc allows you to Riot the emotions of mobs, making them hostile. This means they will attack anything nearby. Even farm animals can be a threat."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "20B7DFBEA7B5F227",
+			tasks: [{
+				id: "6172A1F28C320919",
+				type: "item",
+				item: "allomancy:zinc_flakes"
+			}],
+			rewards: [{
+				id: "0EE87ABEB9D1C479",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -9.0d,
+			description: ["Brass allows you to Soothe the emotions of mobs, making them passive, even fearful. Creepers are your buddies!"],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "7BB98753EE0118F3",
+			tasks: [{
+				id: "42AD0A0EF64CD001",
+				type: "item",
+				item: "allomancy:brass_flakes"
+			}],
+			rewards: [{
+				id: "0E712EFAA17E4BF3",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -8.5d,
+			description: ["Copper hides your Allomancy from detection. When you are burning copper, you and other allomancers nearby are cloaked from the senses of a Bronze burner. However, your ability to use Bronze is nullified when burning Copper."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "5B4DDA241089CD92",
+			tasks: [{
+				id: "4353426A774A6522",
+				type: "item",
+				item: "allomancy:copper_flakes"
+			}],
+			rewards: [{
+				id: "72CD8DBBC69C10FE",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -8.5d,
+			description: ["Bronze allows you to detect the Allomancy of other players, in much the same way Iron or Steel detects metal or Tin indicates sounds. "],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "2A315AF6088FA740",
+			tasks: [{
+				id: "6041ED696CA74119",
+				type: "item",
+				item: "allomancy:bronze_flakes"
+			}],
+			rewards: [{
+				id: "6B7B7D9F16D93F65",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -3.0d,
+			description: ["Chromium removes all metals from the stock of players you click on, while also removing all potion effects from them."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "7DD2476425C52590",
+			tasks: [{
+				id: "6C64ED7F9215DCF4",
+				type: "item",
+				item: "allomancy:chromium_flakes"
+			}],
+			rewards: [{
+				id: "6E797B36C9166C2F",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -3.0d,
+			description: ["Nicrosil enhances whatever metal the player you left-click on is burning. These enhancements are the same as Duralumin. When you stop enhancing them, they will lose their stock of the currently burning metal."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "07ECBD9CC02EDD61",
+			tasks: [{
+				id: "03625F3E16838DAD",
+				type: "item",
+				item: "allomancy:nicrosil_flakes"
+			}],
+			rewards: [{
+				id: "619D21CC87EAAA42",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -1.5d,
+			description: ['Gold lets you see into your "past" by showing you the location you most recently died in this dimension.'],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "25D54CA055933F21",
+			tasks: [{
+				id: "7FA65D4C267FDD24",
+				type: "item",
+				item: "allomancy:gold_flakes"
+			}],
+			rewards: [{
+				id: "40FA417F29D50ED0",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			description: ['Electrum lets you see your "future", showing you the location of your current spawn point.'],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "18A6D4A851179515",
+			tasks: [{
+				id: "3788C24875A0EFBE",
+				type: "item",
+				item: "allomancy:electrum_flakes"
+			}],
+			rewards: [{
+				id: "37F2560F452931F8",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			description: ["Cadmium slows down the mobs in the area around you."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "23A65845F0257D46",
+			tasks: [{
+				id: "2DC19E9C70C5D2AB",
+				type: "item",
+				item: "allomancy:cadmium_flakes"
+			}],
+			rewards: [{
+				id: "25BAABAD4B010780",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			description: ["Bendalloy speeds up everything in a bubble around you. Furnaces, crops, and mobs all go faster!"],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "13E73F31DB4098BF",
+			tasks: [{
+				id: "1D871ABE2D1E197D",
+				type: "item",
+				item: "allomancy:bendalloy_flakes"
+			}],
+			rewards: [{
+				id: "349D676DC867B8A0",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -3.0d,
+			description: ["Aluminum is a purifying metal - it removes all metals from your current stock. This may seem useless, but it also removes all potion effects - not a bad trade to remove some Wither or Poison before it kills you."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "7EA27C269B96093D",
+			tasks: [{
+				id: "0D47E47E1E335C73",
+				type: "item",
+				item: "allomancy:aluminum_flakes"
+			}],
+			rewards: [{
+				id: "773C2CFD71A134F4",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.0d,
+			description: [
+				"Duralumin enhances whatever other metal you are using. This may mean pushing harder with steel, speeding things up even more with Bendalloy, or even teleporting to special locations with Gold and Electrum. Be careful, this metal can have consequences!",
+				"",
+				"If this metal burns out (which it does quickly!) or is extinguished, it empties all other burning metals of their stock."
+			],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "611916B0C8BBA68C",
+			tasks: [{
+				id: "72F6C9B22139EEC6",
+				type: "item",
+				item: "allomancy:duralumin_flakes"
+			}],
+			rewards: [{
+				id: "71CA6F6ADB05A681",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -11.0d,
+			dependencies: ["10698D30E608AD05"],
+			hide: true,
+			id: "413906E7891AD174",
+			tasks: [{
+				id: "2C093F11B0F93E71",
+				type: "item",
+				item: "allomancy:coin_bag"
+			}],
+			rewards: [
+				{
+					id: "4F7D9CA4E8AD3C9E",
+					type: "item",
+					item: "minecraft:gold_nugget",
+					count: 32
+				},
+				{
+					id: "284A36BA4A0C5D8F",
+					type: "item",
+					item: "minecraft:iron_nugget",
+					count: 32
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -6.0d,
+			description: ["The allomantic vials are used to store your metals. You can have more or more metal per vial. You can mix and match according to your needs."],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "23FAF826E194B3BD",
+			tasks: [{
+				id: "4BB993594CC5F33D",
+				type: "item",
+				item: "allomancy:vial",
+				count: 32L
+			}],
+			rewards: [{
+				id: "2837CD63752DC122",
+				type: "item",
+				item: "allomancy:vial",
+				count: 12
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -10.0d,
+			shape: "diamond",
+			description: [
+				"Allomancy is one of the three magic systems in the Mistborn fantasy novel trilogy and is the most prominent.",
+				"",
+				"A person who can only burn one metal is known as a Misting. If a person is born with the ability to burn more than one metal, they can burn all Allomantic metals, and are known as Mistborn. In this world, all are born as Misting and are given a random metal on the first-join.o use the powers of this mod, you must first have the requisite ability. In other words, you must be an Allomancer.",
+				"",
+				"There are two types of Allomancer. All players will spawn as a Misting (unless disabled in the config). This designation means you can burn (utilize) a single metal. The type of metal you have been assigned is signified by a single metallic flake given to your player when you log in the first time. ",
+				"",
+				"The other type of Allomancer is a Mistborn. To become a Mistborn, you must consume Lerasium. This can be found in dungeons, or crafted, albeit rather expensively. "
+			],
+			hide_dependency_lines: false,
+			size: 2.0d,
+			id: "05AFB5D3880F7D41",
+			tasks: [{
+				id: "1F9E3D5DC73B7725",
+				type: "checkmark",
+				title: "Introduction to Allomancy",
+				icon: "allomancy:lerasium_nugget"
+			}],
+			rewards: [{
+				id: "75AA3C729A52684D",
+				type: "xp",
+				xp: 30
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			description: [
+				"Being a Mistborn grants you the ability to burn all metals. As such you will need the tools of the trade:",
+				"",
+				"The Obsidian Daggers do not have a lot of durability, but they more than make up for it in speed and damage dealt!",
+				"",
+				"The Mistcloak is the official garb for a Mistborn - With this cloak, you gain a lot of speed and a bit of armor."
+			],
+			dependencies: ["57EFF37186BFB2CA"],
+			hide: true,
+			id: "4BD5AE1C546A1CF6",
+			tasks: [{
+				id: "4D8ADDB7E2200D8A",
+				type: "item",
+				item: "allomancy:lerasium_nugget"
+			}],
+			rewards: [
+				{
+					id: "34997FC03EE66FCA",
+					type: "item",
+					item: {
+						id: "allomancy:obsidian_dagger",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5E89A462DA42510E",
+					type: "item",
+					item: {
+						id: "allomancy:mistcloak",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -11.0d,
+			description: ["This is too heavy for most, so be sure to burn pewter when using."],
+			dependencies: ["16B77223A8D6EEB0"],
+			hide: true,
+			id: "5DB063549002E1C6",
+			tasks: [{
+				id: "2A010F36BAFD9700",
+				type: "item",
+				item: {
+					id: "allomancy:koloss_blade",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Allomantic Metals",
+			disable_toast: true,
+			x: -2.0d,
+			y: -6.0d,
+			shape: "diamond",
+			description: [
+				"This mod revolves around the sixteen basic Allomantic metals: Iron, Steel, Tin, Pewter, Zinc, Brass, Copper, Bronze, Aluminum, Duralumin, Chromium, Nicrosil, Gold, Electrum, Cadmium, and Bendalloy.",
+				"",
+				"To use these metals, you must ingest them. Create a metal grinder and some Vials, and craft up some Elixirs. You can add one of each kind of metal to a vial, mix, and match for your perfect concoction.",
+				"",
+				"To burn a metal as a Misting, simply press the Burn keybind (; by default). To burn metals as a Mistborn, press the same keybind and then use the mouse to select which metals to burn in the GUI which is displayed.  ",
+				"",
+				"If a metal has an active power, it is likely activated by using one of the two mouse buttons. If it is the first metal in a group, it is activated by the left button, if it is the second metal it is activated by the right button.",
+				"",
+				"Each metal has a unique power, explained under each metal quest."
+			],
+			dependencies: ["05AFB5D3880F7D41"],
+			hide: true,
+			id: "57EFF37186BFB2CA",
+			tasks: [{
+				id: "0BCBC87932DDE620",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "72793EE021D12F9D",
+				type: "item",
+				item: "allomancy:allomantic_grinder"
+			}]
+		}
+	]
+}

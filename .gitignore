@@ -50,9 +50,10 @@ server/whitelist.json
 
 #Stop Ignoring these folders
 !minecraft/config/brandon3055
-!minecraft/config/defaultoptions/
+!minecraft/config/defaultoptions
 !minecraft/config/fancymenu
 !minecraft/config/ftbchunks-client.toml
+!minecraft/config/ftbquests
 !server/config/brandon3055
 
 #Stop Ignoring these files
