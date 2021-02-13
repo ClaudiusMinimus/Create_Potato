@@ -1,0 +1,193 @@
+{
+	id: "000000000000038C",
+	group: "",
+	order_index: 5,
+	filename: "cooking",
+	title: "Cooking",
+	icon: "cookingforblockheads:oven",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -2.5d,
+			y: 0.5d,
+			shape: "diamond",
+			size: 1.5d,
+			id: "000000000000038D",
+			tasks: [{
+				id: "000000000000038E",
+				type: "item",
+				item: "cookingforblockheads:recipe_book"
+			}],
+			rewards: [{
+				id: "0000000000000551",
+				type: "item",
+				item: "comforts:rope_and_nail",
+				count: 8
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			dependencies: ["000000000000038D"],
+			id: "000000000000038F",
+			tasks: [{
+				id: "0000000000000390",
+				type: "item",
+				item: "cookingforblockheads:crafting_book"
+			}],
+			rewards: [{
+				id: "0000000000000552",
+				type: "item",
+				item: "silentgear:spoon_upgrade"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -2.5d,
+			dependencies: ["000000000000038F"],
+			id: "0000000000000391",
+			tasks: [
+				{
+					id: "0000000000000392",
+					type: "item",
+					item: "cookingforblockheads:cooking_table"
+				},
+				{
+					id: "000000000000039D",
+					type: "item",
+					item: "cookingforblockheads:oven"
+				},
+				{
+					id: "000000000000039E",
+					type: "item",
+					item: "cookingforblockheads:sink"
+				},
+				{
+					id: "000000000000039F",
+					type: "item",
+					item: "cookingforblockheads:counter"
+				},
+				{
+					id: "00000000000003A0",
+					type: "item",
+					item: "cookingforblockheads:corner"
+				},
+				{
+					id: "00000000000003A1",
+					type: "item",
+					item: "cookingforblockheads:cabinet"
+				},
+				{
+					id: "00000000000003A2",
+					type: "item",
+					item: "cookingforblockheads:fridge"
+				}
+			],
+			rewards: [
+				{
+					id: "00000000000003A3",
+					type: "item",
+					item: "cookingforblockheads:white_kitchen_floor",
+					count: 16
+				},
+				{
+					id: "00000000000003AF",
+					type: "item",
+					item: "cookingforblockheads:fridge"
+				},
+				{
+					id: "00000000000003B0",
+					type: "item",
+					item: "cookingforblockheads:cabinet"
+				},
+				{
+					id: "00000000000003B1",
+					type: "item",
+					item: "cookingforblockheads:counter"
+				},
+				{
+					id: "00000000000003B2",
+					type: "item",
+					item: "cookingforblockheads:heating_unit"
+				},
+				{
+					id: "00000000000003B3",
+					type: "item",
+					item: "cookingforblockheads:ice_unit"
+				},
+				{
+					id: "00000000000003B4",
+					type: "item",
+					item: "cookingforblockheads:preservation_chamber"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -4.0d,
+			dependencies: ["0000000000000391"],
+			id: "00000000000003A4",
+			tasks: [{
+				id: "00000000000003A5",
+				type: "item",
+				item: "cookingforblockheads:milk_jar"
+			}],
+			rewards: [
+				{
+					id: "00000000000003AD",
+					type: "item",
+					item: "minecraft:cow_spawn_egg"
+				},
+				{
+					id: "00000000000003AE",
+					type: "item",
+					item: "minecraft:anvil"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -5.5d,
+			dependencies: ["00000000000003A4"],
+			id: "00000000000003A6",
+			tasks: [{
+				id: "00000000000003A7",
+				type: "item",
+				item: "cookingforblockheads:cow_jar"
+			}],
+			rewards: [{
+				id: "0000000000000553",
+				type: "item",
+				item: "minecraft:cauldron"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.5d,
+			dependencies: ["0000000000000391"],
+			id: "00000000000003A8",
+			tasks: [{
+				id: "00000000000003A9",
+				type: "item",
+				item: "cookingforblockheads:toaster"
+			}],
+			rewards: [
+				{
+					id: "00000000000003AA",
+					type: "item",
+					item: "cookingforblockheads:tool_rack"
+				},
+				{
+					id: "00000000000003AB",
+					type: "item",
+					item: "cookingforblockheads:spice_rack"
+				},
+				{
+					id: "00000000000003AC",
+					type: "item",
+					item: "cookingforblockheads:fruit_basket"
+				}
+			]
+		}
+	]
+}
