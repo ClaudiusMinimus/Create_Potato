@@ -1,0 +1,34 @@
+{
+    "name": "Create",
+    "icon": "create:large_cogwheel",
+    "category": "videos",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "link",
+            "text": "This link is not to a video, but to the offical Create discord server. On this discord server you can learn all kinds of information. It is a place to ask questions and help you troubleshoot your builds.",
+            "link_text": "Create discord",
+            "url": "https://discord.gg/BFT4d5HeFX"
+        },{
+            "type": "link",
+            "text": "This is Create is the offical trailer video. I was blown away when I first saw this!",
+            "link_text": "This is Create",
+            "url": "https://www.youtube.com/watch?v=jDIuWv7ROi8"
+        },{
+            "type": "link",
+            "text": "Rockit14 has a wonderful spotlight series featuring Create. His videos are very informative and to the point and don't waste a lot of time. His examples are easy to follow. I highly recommend watching this entire series.",
+            "link_text": "Create Mod Tutorials",
+            "url": "https://youtu.be/jlvW8jAUU_U"
+        },{
+            "type": "link",
+            "text": "Create: Get Started! Bit-by-Bit by Mischief of Mice! There are several more videos highlighting Create by Mischief of Mice",
+            "link_text": "Get Started!",
+            "url": "https://www.youtube.com/watch?v=lG_Z-tJ0hKY"
+        },{
+            "type": "link",
+            "text": "Monkey Farm also has some very good Create videos.",
+            "link_text": "Create Mod Basics",
+            "url": "https://www.youtube.com/watch?v=3NVsgAMv1rk"
+        }
+    ]
+}
