@@ -69,7 +69,8 @@
 			rewards: [{
 				id: "000000000000085F",
 				type: "item",
-				item: "cyclic:apple_chocolate"
+				item: "silentgems:cup_of_coffee",
+				count: 4
 			}]
 		},
 		{
@@ -154,7 +155,10 @@
 			rewards: [{
 				id: "0000000000000860",
 				type: "item",
-				item: "simplefarming:pulled_pork_sandwich",
+				item: {
+					id: "pamhc2foodcore:fishsticksitem",
+					Count: 8b
+				},
 				count: 8
 			}]
 		},
@@ -171,13 +175,8 @@
 			rewards: [{
 				id: "000000000000086C",
 				type: "item",
-				item: {
-					id: "cyclic:glowing_helmet",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "silentgems:fishy_stew",
+				count: 4
 			}]
 		},
 		{
@@ -282,7 +281,7 @@
 			rewards: [{
 				id: "0000000000000862",
 				type: "item",
-				item: "cyclic:heart"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
 			}]
 		},
 		{
