@@ -3,6 +3,7 @@
 - Mods Added:    
   - cloth-config-4.11.14-forge (required library)
   - journeymap-1.16.5-5.7.1b4
+  - moreoverlays-1.18.13-mc1.16.5
   - valhelsia_core-16.0.3 (required library)
 - Mods Updated:
   - alexsmobs-1.6.0
@@ -15,7 +16,6 @@
   - ftb-ultimine-1605.2.0-build.22-forge
   - item-filters-1605.2.4-build.29-forge
   - kubejs-1605.3.6-build.170-forge
-  - moreoverlays-1.18.13-mc1.16.5
   - Morpheus-1.16.5-4.2.70
   - MouseTweaks-2.14-mc1.16.2
   - Patchouli-1.16.4-50
