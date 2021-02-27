@@ -39,6 +39,12 @@ customization {
 }
 
 customization {
+  identifier = %id=400322%
+  action = setbuttondescription
+  description = The official server will soon be whitelisted.&nTo play, you will need to join our discord&n(see discord button on this page) and apply&nto be whitelisted.
+}
+
+customization {
   identifier = %id=604382%
   orientation = bottom-left
   x = 97
@@ -249,6 +255,6 @@ customization {
   action = addtext
   y = -12
   scale = 1.0
-  value = Create on a Potato pc v. 1.16.5-1.8.0
+  value = Create on a Potato pc v. 1.16.5-1.9.0
 }
 
