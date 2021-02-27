@@ -2020,17 +2020,28 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: "000000000000064A",
-				type: "item",
-				item: {
-					id: "silentgems:fragile_chaos_orb",
-					Count: 1b,
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "000000000000064A",
+					type: "item",
+					item: {
+						id: "silentgems:fragile_chaos_orb",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "591B2350FC180597",
+					type: "item",
+					item: {
+						id: "silentgems:chaos_meter",
+						Count: 1b,
+						tag: {}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Gilded Bowstring",
@@ -2086,6 +2097,136 @@
 						}]
 					}
 				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			description: ["To set up the Supercharger, check out the book Create on a Potato PC"],
+			dependencies: ["00000000000000AB"],
+			id: "3E790ED9AB5C7CFC",
+			tasks: [{
+				id: "5E382F912AB53E93",
+				type: "item",
+				item: "silentgems:supercharger"
+			}],
+			rewards: [{
+				id: "3DB0B4BEA3A339F1",
+				type: "item",
+				item: "silentgems:sapphire_block",
+				count: 2
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -4.5d,
+			description: [
+				"You need 4 x Chaos Iron blocks to make a level 1 Supercharger.",
+				"",
+				"You also need 4 x Silent's Gems gem blocks of any type.",
+				"",
+				"To set up the level 1 Supercharger, check out the book Create on a Potato PC."
+			],
+			dependencies: ["3E790ED9AB5C7CFC"],
+			id: "485F7FAC5FC8DF3D",
+			tasks: [{
+				id: "587C32BC3E25F8C5",
+				type: "item",
+				item: "silentgems:chaos_iron_block",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: "28DDF11F94EE19A8",
+					type: "item",
+					item: "silentgems:sapphire_block",
+					count: 2
+				},
+				{
+					id: "481C3CBA9974CC77",
+					type: "item",
+					item: "silentgems:charging_agent",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -4.5d,
+			description: [
+				"You need 4 x Enriched Choas Crystal blocks, plus the blocks from level 1 for the level 2 Supercharger.",
+				"",
+				"To set up the level 2 Supercharger, check out the book Create on a Potato PC."
+			],
+			dependencies: ["485F7FAC5FC8DF3D"],
+			id: "01CFC6308EF53003",
+			tasks: [{
+				id: "0EC6DC522C4CBAC1",
+				type: "item",
+				item: "silentgems:enriched_chaos_crystal_block",
+				count: 4L
+			}],
+			rewards: [{
+				id: "77EAD6FB08501D3F",
+				type: "item",
+				item: "silentgems:super_charging_agent",
+				count: 4
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			description: [
+				"You need 8 x Ender Crystal blocks, plus the blocks from level 2  for the level 3 Supercharger.",
+				"",
+				"To set up the level 3 Supercharger, check out the book Create on a Potato PC."
+			],
+			dependencies: ["01CFC6308EF53003"],
+			id: "2D37B0CA6A3CE4FE",
+			tasks: [{
+				id: "1D8AFBBC88D3A49F",
+				type: "item",
+				item: "silentgems:ender_crystal_block",
+				count: 8L
+			}],
+			rewards: [
+				{
+					id: "7CB5342A5CE2352D",
+					type: "item",
+					item: "silentgems:ultra_charging_agent",
+					count: 4
+				},
+				{
+					id: "2D6380B42FE29A7A",
+					type: "item",
+					item: {
+						id: "forbidden_arcanus:eternal_stella",
+						Count: 1b,
+						tag: {}
+					}
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -3.0d,
+			description: [
+				"Think of this as a Choas air purification system. As you do more and more with Silent's Gems your world becomes corrupted with chaos. This handy machine cleans the air of chaos.",
+				"",
+				"Beware, not taking care to clean chaos has consequences. You have been warned!"
+			],
+			dependencies: ["0000000000000648"],
+			id: "650D581330DA9048",
+			tasks: [{
+				id: "7B08C8D1600C6D06",
+				type: "item",
+				item: "silentgems:purifier"
+			}],
+			rewards: [{
+				id: "452E1E1042176B89",
+				type: "item",
+				item: "silentgems:purifying_powder",
+				count: 32
 			}]
 		}
 	]

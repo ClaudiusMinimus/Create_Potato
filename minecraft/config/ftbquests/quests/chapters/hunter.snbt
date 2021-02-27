@@ -756,15 +756,28 @@
 				entity: "minecraft:enderman",
 				value: 10L
 			}],
-			rewards: [{
-				id: "000000000000046B",
-				type: "item",
-				item: {
-					id: "pamhc2foodcore:fishsticksitem",
-					Count: 8b
+			rewards: [
+				{
+					id: "000000000000046B",
+					type: "item",
+					item: {
+						id: "pamhc2foodcore:fishsticksitem",
+						Count: 8b
+					},
+					count: 16
 				},
-				count: 16
-			}]
+				{
+					id: "7245E06B78584D52",
+					type: "item",
+					item: {
+						id: "forbidden_arcanus:pixie",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		},
 		{
 			icon: "minecraft:cauldron",
