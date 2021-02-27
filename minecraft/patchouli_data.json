@@ -1,0 +1,20 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "patchouli:potato": {
+      "viewedEntries": [
+        "patchouli:create",
+        "patchouli:ig_commands",
+        "patchouli:silent_gems_supercharging"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:silent_gems_supercharging",
+        "patchouli:ig_commands",
+        "patchouli:create"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
