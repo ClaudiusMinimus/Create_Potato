@@ -1,4 +1,37 @@
 # Change Log
+## Version 1.9.0
+- Mods Added:    
+  - cloth-config-4.11.14-forge (required library)
+  - journeymap-1.16.5-5.7.1b4
+  - valhelsia_core-16.0.3 (required library)
+- Mods Updated:
+  - alexsmobs-1.6.0
+  - architectury-1.8.128-forge
+  - createaddition-1.16.4-20210226b
+  - Cucumber-1.16.4-4.1.8
+  - forbidden_arcanus-16.2.0-beta-1
+  - ftb-gui-library-1605.2.1.40-forge
+  - ftb-quests-1605.2.0-build.32-forge
+  - ftb-ultimine-1605.2.0-build.22-forge
+  - item-filters-1605.2.4-build.29-forge
+  - kubejs-1605.3.6-build.170-forge
+  - moreoverlays-1.18.13-mc1.16.5
+  - Morpheus-1.16.5-4.2.70
+  - MouseTweaks-2.14-mc1.16.2
+  - Patchouli-1.16.4-50
+  - PickleTweaks-1.16.4-5.2.1
+  - repurposed_structures-1.16.5-2.4.4
+  - SilentGear-1.16.3-2.6.5+225
+  - SilentGems-1.16.3-3.7.10+113
+- Mods Removed:
+  - Xaeros Minimap
+  - Xaeros World Map
+- Other Changes:
+  - Updated Forge to 36.0.43
+  - Added Create on a Potato PC book
+  - Updated and added quests
+  - Added a few recipes
+
 ## Version 1.8.0
 - Mods Added: 
   - architectury-1.5.112-forge  
