@@ -12,6 +12,7 @@ minecraft/Xaero*/*
 natives/*
 server/config/*
 server/crash-reports/*
+server/journeymap/*
 server/libraries/*
 server/local/*
 server/logs/*
@@ -39,6 +40,7 @@ minecraft/realms_persistence.json
 minecraft/reauth.toml
 minecraft/usercache.json
 minecraft/usernamecache.json
+server/*.jar
 server/1.16.5.json
 server/banned-ips.json
 server/banned-players.json
@@ -49,6 +51,7 @@ server/mods
 server/.mixin.out/*
 server/ops.json
 server/usercache.json
+server/usernamecache.json
 server/whitelist.json
 
 
