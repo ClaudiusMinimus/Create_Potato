@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "silentgems:chaos_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "silentgems:chaos_crystal",
+      "count": 2
+    },
+    {
+      "item": "silentgems:chaos_crystal",
+         "chance": 0.5
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 400
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ores/crimson_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "silentgear:crimson_iron_chunks",
+      "count": 2
+    },
+    {
+      "item": "silentgear:crimson_iron_chunks",
+         "chance": 0.5
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 400,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/crimson_iron",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

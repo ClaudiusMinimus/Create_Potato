@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "silentgear:azure_silver_chunks"
+    }
+  ],
+  "results": [
+    {
+      "item": "silentgear:azure_silver_nugget",
+      "count": 10
+    },
+    {
+      "item": "silentgear:azure_silver_nugget",
+      "count": 5,
+      "chance": 0.5
+    }
+  ]
+}

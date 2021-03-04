@@ -26,7 +26,7 @@ events.listen('recipes', function (event) {
     })
 
     // Add shaped recipe for dragon breath
-    event.shaped(item.of('minecraft:dragon_breath', 2), [
+    event.shaped(item.of('minecraft:dragon_breath'), [
         'BBB',
         'BLB',
         'BBB'
