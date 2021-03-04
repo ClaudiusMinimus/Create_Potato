@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "silentgems:ender_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "silentgems:ender_crystal",
+      "count": 2
+    },
+    {
+      "item": "silentgems:ender_crystal",
+         "chance": 0.5
+    },
+    {
+      "item": "minecraft:end_stone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 400
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "silentgear:crimson_iron_chunks"
+    }
+  ],
+  "results": [
+    {
+      "item": "silentgear:crimson_iron_nugget",
+      "count": 10
+    },
+    {
+      "item": "silentgear:crimson_iron_nugget",
+      "count": 5,
+      "chance": 0.5
+    }
+  ]
+}
