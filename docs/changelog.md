@@ -1,4 +1,26 @@
 # Change Log
+## Version 1.10.1
+- Mods Added:    
+  - kubejs-create-1604.1.0.4
+- Mods Updated:
+  - alexsmobs-1.7.0
+  - architectury-1.8.130-forge
+  - citadel-1.6.2
+  - Controlling-7.0.0.14
+  - createaddition-1.16.4-20210303a
+  - FarmingForBlockheads_1.16.3-7.3.0
+  - forbidden_arcanus-16.2.0-beta-3
+  - ftb-ultimine-1605.2.0-build.23-forge
+  - journeymap-1.16.5-5.7.1
+  - kubejs-1605.3.6-build.171-forge
+  - repurposed_structures-1.16.5-2.4.6
+  - SilentGear-1.16.3-2.6.6+226
+  - valhelsia_core-16.0.5
+- Mods Removed: none
+- Other Changes:
+  - Updated Forge to 36.0.45
+  - Added a few recipes
+
 ## Version 1.9.0
 - Mods Added:    
   - cloth-config-4.11.14-forge (required library)
