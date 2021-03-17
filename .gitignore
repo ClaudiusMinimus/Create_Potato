@@ -40,6 +40,7 @@ minecraft/realms_persistence.json
 minecraft/reauth.toml
 minecraft/usercache.json
 minecraft/usernamecache.json
+minecraft/openloader/.cache
 server/*.jar
 server/1.16.5.json
 server/banned-ips.json
@@ -64,10 +65,12 @@ server/whitelist.json
 !server/config/ftbquests/
 
 #Stop Ignoring these files
+!minecraft/config/createaddition-common.toml
 !minecraft/config/forge-client.toml
 !minecraft/config/forge-common.toml
 !minecraft/config/ftbchunks-client.toml
 !minecraft/config/theoneprobe-client.toml
 !minecraft/config/xaerominimap.txt
+!server/config/createaddition-common.toml
 !server/config/forge-common.toml
 !server/config/theoneprobe-common.toml
