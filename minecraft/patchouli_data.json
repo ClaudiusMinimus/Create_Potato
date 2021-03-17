@@ -15,6 +15,42 @@
         "patchouli:create"
       ],
       "completedManualQuests": []
+    },
+    "patchouli:silentsgems": {
+      "viewedEntries": [
+        "patchouli:gettingstarted",
+        "patchouli:silent_gems_supercharging",
+        "patchouli:discord",
+        "patchouli:keyfeatures",
+        "patchouli:gems",
+        "patchouli:key_features",
+        "patchouli:token_enchanter",
+        "patchouli:gear_souls",
+        "patchouli:soul_urns",
+        "patchouli:chaso_gems",
+        "patchouli:teleporters",
+        "patchouli:chaos",
+        "patchouli:glow_roses",
+        "patchouli:enchantments",
+        "patchouli:other_useful_items"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:other_useful_items",
+        "patchouli:enchantments",
+        "patchouli:glow_roses",
+        "patchouli:chaos",
+        "patchouli:teleporters",
+        "patchouli:gear_souls",
+        "patchouli:soul_urns",
+        "patchouli:token_enchanter",
+        "patchouli:gems",
+        "patchouli:key_features",
+        "patchouli:discord",
+        "patchouli:chaso_gems",
+        "patchouli:keyfeatures"
+      ],
+      "completedManualQuests": []
     }
   }
 }
