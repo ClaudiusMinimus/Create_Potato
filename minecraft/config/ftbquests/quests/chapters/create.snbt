@@ -1148,7 +1148,8 @@
 					id: "create:chromatic_compound",
 					Count: 1b,
 					tag: {}
-				}
+				},
+				count: 32L
 			}],
 			rewards: [{
 				id: "0504A23E2B1FE5CD",
@@ -1176,7 +1177,14 @@
 			tasks: [{
 				id: "1D0B39C475B265E7",
 				type: "item",
-				item: "create:shadow_steel"
+				item: "create:shadow_steel",
+				count: 16L
+			}],
+			rewards: [{
+				id: "09281869C8ED265A",
+				type: "item",
+				item: "forbidden_arcanus:aquatic_dragon_scale",
+				count: 4
 			}]
 		},
 		{
@@ -1189,7 +1197,8 @@
 			tasks: [{
 				id: "60E082759F2C004C",
 				type: "item",
-				item: "create:refined_radiance"
+				item: "create:refined_radiance",
+				count: 16L
 			}],
 			rewards: [{
 				id: "735F65B1B6C2C586",
@@ -1203,6 +1212,7 @@
 			x: -4.0d,
 			y: 16.0d,
 			shape: "hexagon",
+			description: ["A handy tool for creating landscapes and terrain features."],
 			dependencies: [
 				"120FDBE3D5A86446",
 				"2EC000DBE2E8AEB0",
