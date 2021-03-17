@@ -12,8 +12,8 @@ customization {
 
 customization {
   identifier = %id=400322%
-  orientation = top-centered
-  x = -110
+  orientation = top-left
+  x = 127
   action = movebutton
   y = 16
 }
@@ -41,13 +41,13 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttondescription
-  description = The official server will soon be whitelisted.&nTo play, you will need to join our discord&n(see discord button on this page) and apply&nto be whitelisted.
+  description = Hi %playername%,%n%The offical server address is included%n%on the Multiplayer screen.%n%We look forward to seeing you in-game!
 }
 
 customization {
   identifier = %id=604382%
   orientation = bottom-left
-  x = 97
+  x = 92
   action = movebutton
   y = -36
 }
@@ -75,7 +75,7 @@ customization {
 customization {
   identifier = %id=400382%
   orientation = bottom-left
-  x = 17
+  x = 12
   action = movebutton
   y = -36
 }
@@ -102,8 +102,8 @@ customization {
 
 customization {
   identifier = %id=502382%
-  orientation = bottom-left
-  x = 382
+  orientation = bottom-right
+  x = -93
   action = movebutton
   y = -36
 }
@@ -130,8 +130,8 @@ customization {
 
 customization {
   identifier = %id=376382%
-  orientation = bottom-left
-  x = 302
+  orientation = bottom-right
+  x = -173
   action = movebutton
   y = -36
 }
@@ -159,7 +159,7 @@ customization {
 customization {
   identifier = %id=400298%
   orientation = top-left
-  x = 18
+  x = 17
   action = movebutton
   y = 16
 }
@@ -186,8 +186,8 @@ customization {
 
 customization {
   identifier = %id=400346%
-  orientation = top-left
-  x = 361
+  orientation = top-right
+  x = -118
   action = movebutton
   y = 16
 }
@@ -218,30 +218,32 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = top-right
   buttonaction = openlink
-  x = 248
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/discord.png
+  description = %playername%,%n%Please come join us on our discord server,%n%Grumpy Old Men. We have a great community%n%and look forward to having You a be part of it!
+  label = 
+  x = -224
   width = 100
+  actionid = 9431d303-4060-499c-bf53-5adaab9931381616013825170
   action = addbutton
   y = 16
-  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/discord.png
-  description = Come join us on&nour discord server,&nGrumpy Old Men.&n&nWe have a great community&nand look forward to having&nYou a be part of it!
-  label = 
   backgroundnormal = config/fancymenu/customguis/images/buttons/discord.png
   value = https://discord.com/invite/jXrx4Tu
   height = 20
 }
 
 customization {
-  orientation = bottom-left
+  orientation = bottom-centered
   buttonaction = openlink
-  x = 190
+  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/server.png
+  description = %playername%,%n%Need a server to play with friends?%n%%n%Use the code minimus%n%to get 25% off your first month!
+  label = 
+  x = -47
   width = 100
+  actionid = 6d40c2cd-997e-441b-9203-33166cccab191616013825174
   action = addbutton
   y = -36
-  backgroundhovered = config/fancymenu/customguis/images/buttons/hover/server.png
-  description = Use the code minimus&nto get 25% off&nyour first month,
-  label = 
   backgroundnormal = config/fancymenu/customguis/images/buttons/server.png
   value = https://bisecthosting.com/minimus
   height = 20
@@ -250,11 +252,12 @@ customization {
 customization {
   orientation = bottom-left
   shadow = false
-  centered = false
   x = 6
   action = addtext
+  actionid = 661d17f3-0416-41e8-9753-55b81bbe095e1616010972563
   y = -12
   scale = 1.0
-  value = Create on a Potato pc v. 1.16.5-1.10.1
+  alignment = left
+  value = Create on a Potato pc v. 1.16.5-1.11.0
 }
 

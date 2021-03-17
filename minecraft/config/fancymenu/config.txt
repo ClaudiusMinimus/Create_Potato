@@ -17,17 +17,14 @@ I:defaultguiscale = '-1';
 ##[customization]
 
 B:showcustomizationbuttons = 'false';
-[Maximizes mod compatibility. Disables background customization support for scrollable menu screens. Restart is needed after changing this value.]
-B:softmode = 'false';
-B:legacybuttonids = 'false';
 
 
 ##[mainmenu]
 
 S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
+S:copyrightcolor = '#ffffff';
 B:hidelogo = 'true';
-B:showmainmenufooter = 'false';
 B:hiderealmsnotifications = 'true';
 B:hideforgenotifications = 'true';
 
@@ -50,7 +47,7 @@ S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 S:customgameintroskiptext = '';
-B:loadingscreendarkmode = 'false';
+B:loadingscreendarkmode = 'true';
 
 
 ##[minecraftwindow]
@@ -58,7 +55,7 @@ B:loadingscreendarkmode = 'false';
 [A minecraft restart is required after changing this value.]
 S:customwindowtitle = '';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]
@@ -69,6 +66,11 @@ B:showloadingscreenpercent = 'true';
 
 ##[layouteditor]
 
-F:popupmenuscale = '0.75';
+B:editordeleteconfirmation = 'true';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'true';
+
+
+##[ui]
+
+F:uiscale = '2.0';
