@@ -203,8 +203,8 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 7.0d,
+			x: -4.0d,
+			y: 7.5d,
 			description: ["Iron Sheets are another common item needed for making machines. You will need lots of these."],
 			dependencies: ["0000000000000797"],
 			id: "00000000000007A1",
@@ -384,8 +384,8 @@
 			]
 		},
 		{
-			x: -5.0d,
-			y: 6.0d,
+			x: -5.5d,
+			y: 6.5d,
 			description: [
 				"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: ",
 				"",
@@ -520,7 +520,7 @@
 		},
 		{
 			x: -4.0d,
-			y: 8.5d,
+			y: 6.0d,
 			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."],
 			dependencies: ["00000000000007A1"],
 			id: "00000000000007C9",
@@ -626,7 +626,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 1.0d,
 			y: 6.0d,
 			dependencies: ["0000000000000799"],
 			id: "00000000000008C9",
@@ -691,7 +691,7 @@
 			]
 		},
 		{
-			x: -1.5d,
+			x: -2.5d,
 			y: 12.0d,
 			dependencies: ["00000000000007A5"],
 			id: "00000000000008CF",
@@ -708,7 +708,7 @@
 		},
 		{
 			x: 1.5d,
-			y: 10.5d,
+			y: 12.5d,
 			dependencies: ["00000000000008DD"],
 			id: "00000000000008D1",
 			tasks: [{
@@ -725,8 +725,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 8.0d,
+			x: -4.0d,
+			y: 9.0d,
 			dependencies: ["00000000000007A1"],
 			id: "00000000000008D6",
 			tasks: [
@@ -743,8 +743,8 @@
 			]
 		},
 		{
-			x: -5.0d,
-			y: 7.5d,
+			x: -2.5d,
+			y: 6.5d,
 			dependencies: ["00000000000007A1"],
 			id: "00000000000008D9",
 			tasks: [{
@@ -760,8 +760,8 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 9.0d,
+			x: -3.0d,
+			y: 10.0d,
 			dependencies: [
 				"00000000000008D6",
 				"0000000000000797"
@@ -798,8 +798,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 12.0d,
+			x: 4.0d,
+			y: 11.5d,
 			dependencies: [
 				"00000000000008D1",
 				"00000000000008E8"
@@ -827,7 +827,7 @@
 		},
 		{
 			x: 1.5d,
-			y: 14.0d,
+			y: 15.0d,
 			dependencies: ["00000000000008D1"],
 			id: "00000000000008E1",
 			tasks: [{
@@ -843,8 +843,8 @@
 			}]
 		},
 		{
-			x: 0.5d,
-			y: 13.0d,
+			x: 3.5d,
+			y: 14.5d,
 			dependencies: ["00000000000008D1"],
 			id: "00000000000008E3",
 			tasks: [{
@@ -860,8 +860,8 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 13.5d,
+			x: -0.5d,
+			y: 14.5d,
 			dependencies: ["00000000000008D1"],
 			id: "00000000000008E5",
 			tasks: [
@@ -904,8 +904,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 12.0d,
+			x: 1.5d,
+			y: 10.5d,
 			dependencies: ["00000000000008DD"],
 			id: "00000000000008EC",
 			tasks: [{
@@ -921,8 +921,8 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: 10.0d,
+			x: -4.5d,
+			y: 11.0d,
 			dependencies: ["00000000000008DB"],
 			id: "00000000000008EE",
 			tasks: [{
@@ -937,7 +937,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -1.0d,
 			y: 6.0d,
 			dependencies: ["0000000000000799"],
 			id: "00000000000008F0",
@@ -954,8 +954,8 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 5.5d,
+			x: -2.5d,
+			y: 8.5d,
 			description: ["Chutes are used to transport items to and from storage containers. Can interact with Funnels and Fans."],
 			dependencies: ["00000000000007A1"],
 			id: "00000000000008F2",
@@ -978,6 +978,438 @@
 						}]
 					}
 				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 13.5d,
+			dependencies: ["00000000000008D1"],
+			id: "3E31B9BBFA9BF2E4",
+			tasks: [{
+				id: "611DFDC2A0DC4BA9",
+				type: "item",
+				item: "createaddition:alternator"
+			}],
+			rewards: [
+				{
+					id: "1571FC993E115B60",
+					type: "item",
+					item: "createaddition:connector",
+					count: 2
+				},
+				{
+					id: "4DC9C7E4144C1897",
+					type: "item",
+					item: "createaddition:gold_spool",
+					count: 4
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 13.5d,
+			dependencies: ["00000000000008D1"],
+			id: "7B97A732BFADBE7B",
+			tasks: [{
+				id: "046961485E320756",
+				type: "item",
+				item: "createaddition:heater"
+			}],
+			rewards: [{
+				id: "1B541BBACE370FAE",
+				type: "item",
+				item: "createaddition:heater"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 12.5d,
+			dependencies: ["00000000000008D1"],
+			id: "37555B5839214875",
+			tasks: [{
+				id: "6E52BEBC20328BF7",
+				type: "item",
+				item: "createaddition:electric_motor"
+			}],
+			rewards: [{
+				id: "2C57E13A1DAA83F4",
+				type: "item",
+				item: {
+					id: "silentgems:soul_urn",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							Gem: "fluorite",
+							Color: 2651799
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 15.0d,
+			dependencies: ["00000000000008D1"],
+			id: "1BBEEF19114688A9",
+			tasks: [{
+				id: "2D698DE6C0875830",
+				type: "item",
+				item: "create:extendo_grip"
+			}],
+			rewards: [{
+				id: "3073DBD47D347721",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 8.5d,
+			description: ["Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"],
+			dependencies: [
+				"00000000000007A1",
+				"00000000000008D6"
+			],
+			id: "6B13CAC5E656A56E",
+			tasks: [{
+				id: "03CCC3CFA1545DE2",
+				type: "item",
+				item: "create:empty_blaze_burner"
+			}],
+			rewards: [{
+				id: "5FBC8C8BC08D5F0E",
+				type: "item",
+				item: "minecraft:emerald"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 8.5d,
+			description: [
+				"Did you know the Blaze Burner is kind of a specialty Blaze capturing device?",
+				"",
+				"Be sure to add fuel!"
+			],
+			dependencies: ["6B13CAC5E656A56E"],
+			id: "5AF43A02E87E4DF8",
+			tasks: [{
+				id: "0A6C5153B2E97C22",
+				type: "item",
+				item: "create:blaze_burner"
+			}],
+			rewards: [{
+				id: "76651AE2F678E6E5",
+				type: "item",
+				item: "minecraft:blaze_spawn_egg"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 10.0d,
+			dependencies: ["5AF43A02E87E4DF8"],
+			id: "5978B0740E745266",
+			tasks: [{
+				id: "4AD84DE3358DACD7",
+				type: "item",
+				item: "create:blaze_cake_base"
+			}],
+			rewards: [{
+				id: "5CB3FF6D019CEFEE",
+				type: "item",
+				item: "minecraft:ender_eye"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 11.5d,
+			dependencies: ["5978B0740E745266"],
+			id: "70CA0859E8976BEB",
+			tasks: [{
+				id: "4721BC2110467FBC",
+				type: "item",
+				item: "create:blaze_cake"
+			}],
+			rewards: [{
+				id: "1D6189B8DE5FD067",
+				type: "item",
+				item: "forbidden_arcanus:stella_arcanum"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 13.0d,
+			description: ["While this may be used in a few recipes, a conversion is required to unlock its full potential."],
+			dependencies: ["70CA0859E8976BEB"],
+			id: "688A222392CF08AA",
+			tasks: [{
+				id: "184B5389E877F3BB",
+				type: "item",
+				item: {
+					id: "create:chromatic_compound",
+					Count: 1b,
+					tag: {}
+				},
+				count: 32L
+			}],
+			rewards: [{
+				id: "0504A23E2B1FE5CD",
+				type: "item",
+				item: {
+					id: "apotheosis:hellshelf",
+					Count: 1b,
+					tag: {
+						Enchantments: [{
+							lvl: 5s,
+							id: "apotheosis:hell_infusion"
+						}]
+					}
+				},
+				count: 2
+			}]
+		},
+		{
+			title: "Into the Void",
+			x: -5.0d,
+			y: 14.5d,
+			description: ["If you jump into the void you will die, but what will happen to some Chromatic Compound thrown in?"],
+			dependencies: ["688A222392CF08AA"],
+			id: "120FDBE3D5A86446",
+			tasks: [{
+				id: "1D0B39C475B265E7",
+				type: "item",
+				item: "create:shadow_steel",
+				count: 16L
+			}],
+			rewards: [{
+				id: "09281869C8ED265A",
+				type: "item",
+				item: "forbidden_arcanus:aquatic_dragon_scale",
+				count: 2
+			}]
+		},
+		{
+			title: "Go Towards the Light",
+			x: -7.0d,
+			y: 15.0d,
+			description: ["What would happen if you threw a Chromatic Compound into a beam of light or on a bunch of glowstone?"],
+			dependencies: ["688A222392CF08AA"],
+			id: "2EC000DBE2E8AEB0",
+			tasks: [{
+				id: "60E082759F2C004C",
+				type: "item",
+				item: "create:refined_radiance",
+				count: 16L
+			}],
+			rewards: [{
+				id: "735F65B1B6C2C586",
+				type: "item",
+				item: "apotheosis:endshelf",
+				count: 2
+			}]
+		},
+		{
+			title: "A Grand Reward!",
+			x: -3.0d,
+			y: 16.0d,
+			shape: "hexagon",
+			description: ["A handy tool for creating landscapes and terrain features."],
+			dependencies: [
+				"120FDBE3D5A86446",
+				"2EC000DBE2E8AEB0",
+				"00000000000008E5",
+				"7B97A732BFADBE7B",
+				"37555B5839214875"
+			],
+			size: 2.0d,
+			id: "5D2231E1A60829E2",
+			tasks: [{
+				id: "7A87D2C9FF67A9EB",
+				type: "checkmark",
+				icon: "create:handheld_worldshaper"
+			}],
+			rewards: [{
+				id: "737FA77AA17CBA26",
+				type: "item",
+				item: "create:handheld_worldshaper"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 14.0d,
+			description: ["This is your basic blockzapper."],
+			dependencies: ["2EC000DBE2E8AEB0"],
+			id: "0576C5525D94D1CF",
+			tasks: [{
+				id: "1930F22138BEAF11",
+				type: "item",
+				item: {
+					id: "create:handheld_blockzapper",
+					Count: 1b,
+					tag: {
+						Replace: 0b,
+						Pattern: "Solid",
+						Retriever: "None",
+						Scope: "None",
+						SearchDiagonal: 0b,
+						Amplifier: "None",
+						Body: "None",
+						SearchMaterial: 0b,
+						SearchDistance: 1,
+						Accelerator: "None"
+					}
+				}
+			}],
+			rewards: [{
+				id: "6D8FAF997EA4EAC7",
+				type: "item",
+				item: "forbidden_arcanus:arcane_polished_darkstone",
+				count: 8
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 16.5d,
+			description: ["This can help with your OCD wanting blocks to be symmetrical!"],
+			dependencies: ["2EC000DBE2E8AEB0"],
+			id: "5C6483EDD2B8F901",
+			tasks: [{
+				id: "5F01387E7F118B48",
+				type: "item",
+				item: {
+					id: "create:wand_of_symmetry",
+					Count: 1b,
+					tag: {
+						symmetry: {
+							type: "triple_plane",
+							pos: [
+								-153.0f,
+								4.0f,
+								193.0f
+							],
+							enable: 1b,
+							direction: 0
+						},
+						enable: 1b
+					}
+				}
+			}],
+			rewards: [{
+				id: "1A13C2C27AB241A5",
+				type: "item",
+				item: "pickletweaks:diamond_apple",
+				count: 4
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 16.0d,
+			description: ["Have you ever felt like the lumberjack, Paul Bunyan? Now to find Babe the Blue Ox..."],
+			dependencies: ["2EC000DBE2E8AEB0"],
+			id: "1EF0E1674E05E24C",
+			tasks: [{
+				id: "526FD8AB1CB97CBD",
+				type: "item",
+				item: {
+					id: "create:deforester",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "2E15A6766DAFD023",
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:eternal_stella",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 13.0d,
+			description: [
+				"This one is a bit tricky to find the recipe. Look at the Handheld Blockzapper in JEI then right-click to see the various upgrades.",
+				"",
+				"This is the Brass version of the Handheld Blockzapper."
+			],
+			dependencies: ["0576C5525D94D1CF"],
+			id: "0328469EABDA93EE",
+			tasks: [{
+				id: "3ED52D6E04E17DEB",
+				type: "item",
+				item: {
+					id: "create:handheld_blockzapper",
+					Count: 1b,
+					tag: {
+						Replace: 0b,
+						Pattern: "Solid",
+						Retriever: "Brass",
+						Scope: "Brass",
+						SearchDiagonal: 0b,
+						Amplifier: "Brass",
+						Body: "Brass",
+						SearchMaterial: 0b,
+						SearchDistance: 1,
+						Accelerator: "Brass"
+					}
+				}
+			}],
+			rewards: [{
+				id: "3D1833981252E86C",
+				type: "item",
+				item: "silentgems:pearl_lamp",
+				count: 8
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 12.0d,
+			description: [
+				"This one is a bit tricky to find the recipe. Look at the Handheld Blockzapper in JEI then right-click to see the various upgrades.",
+				"",
+				"This is the Chromatic Compound version of the Handheld Blockzapper."
+			],
+			dependencies: [
+				"0328469EABDA93EE",
+				"688A222392CF08AA"
+			],
+			id: "3A4C8C7A561A7874",
+			tasks: [{
+				id: "57A05BF30E87BF3A",
+				type: "item",
+				item: {
+					id: "create:handheld_blockzapper",
+					Count: 1b,
+					tag: {
+						Replace: 0b,
+						Pattern: "Solid",
+						Retriever: "Chromatic",
+						Scope: "Chromatic",
+						SearchDiagonal: 0b,
+						Amplifier: "Chromatic",
+						Body: "Chromatic",
+						SearchMaterial: 0b,
+						SearchDistance: 1,
+						Accelerator: "Chromatic"
+					}
+				}
+			}],
+			rewards: [{
+				id: "109D2FA3993AB9E6",
+				type: "item",
+				item: "alexsmobs:spawn_egg_mimicube"
 			}]
 		}
 	]
