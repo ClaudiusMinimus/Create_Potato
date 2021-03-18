@@ -51,6 +51,7 @@ server/forge-1.16.5-36.0.14.jar
 server/minecraft_server.1.16.5.jar
 server/mods
 server/.mixin.out/*
+server/openloader/.cache
 server/ops.json
 server/usercache.json
 server/usernamecache.json
