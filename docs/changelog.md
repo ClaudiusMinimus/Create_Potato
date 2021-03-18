@@ -1,4 +1,38 @@
 # Change Log
+## Version 1.11.2
+- Mods Added:    
+  - charginggadgets-1.3.0
+  - windowlogging-mc1.16.3_v0.0.2
+- Mods Updated:
+  - alexsmobs-1.7.1
+  - architectury-1.9.132-forge
+  - cloth-config-4.11.15-forge
+  - CookingForBlockheads_1.16.5-9.3.1
+  - curios-forge-1.16.5-4.0.5.0
+  - fancymenu_2.0.3_MC_1.16.2-1.16.5
+  - ftb-chunks-1605.2.3-build.71
+  - ftb-gui-library-1605.2.1.41-forge
+  - ftb-quests-1605.2.0-build.33-forge
+  - ftb-teams-1604.1.0.16-forge
+  - ftb-ultimine-1605.2.0-build.25-forge
+  - item-filters-1605.2.4-build.30-forge
+  - konkrete_1.1.5_MC_1.16.2-1.16.5
+  - kubejs-1605.3.6-build.176-forge
+  - OpenLoader-1.16.5-9.0.3
+  - reap-1.16.5-1.0.1
+  - repurposed_structures-1.16.5-2.5.0
+  - silent-gear-1.16.3-2.6.9
+  - silent-lib-1.16.3-4.9.6
+  - SilentGems-1.16.3-3.7.12+115
+  - u_team_core-1.16.5-3.2.0.193
+  - useful_backpacks-1.16.5-1.12.0.88
+  - valhelsia_core-16.0.6
+- Mods Removed: none
+- Other Changes:
+  - Updated Forge to 36.1.0
+  - Added Silent's Gems custom manual
+  - Added/Updated quests
+  
 ## Version 1.10.1
 - Mods Added:    
   - kubejs-create-1604.1.0.4
