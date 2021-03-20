@@ -1,4 +1,12 @@
 # Change Log
+## Version 1.11.3
+- Mods Added: none
+- Mods Updated: none
+- Mods Removed: none
+- Other Changes:
+  - Added Ancient Debris ore doubling
+  - Minor updates to Silent's Gems and Potato books
+
 ## Version 1.11.2
 - Mods Added:    
   - charginggadgets-1.3.0
