@@ -221,11 +221,11 @@ customization {
   orientation = top-right
   buttonaction = openlink
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/discord.png
-  description = %playername%,%n%Please come join us on our discord server,%n%Grumpy Old Men. We have a great community%n%and look forward to having You a be part of it!
+  description = %playername%,%n%Please come join us on our discord server,%n%%n%We have a great community%n%and look forward to having You a be part of it!
   label = 
   x = -224
   width = 100
-  actionid = 6b7b007b-ae59-4e55-88ea-e0593ddb68561616030431352
+  actionid = c7d55ab9-d9ff-4c88-9207-014f12ad81621616256228994
   action = addbutton
   y = 16
   backgroundnormal = config/fancymenu/customguis/images/buttons/discord.png
@@ -241,7 +241,7 @@ customization {
   label = 
   x = -47
   width = 100
-  actionid = 33ec39fb-fa52-4b7c-827a-e02e96e63bb71616030431354
+  actionid = 86c3c715-7685-4bea-86de-e43ec52539b01616256228998
   action = addbutton
   y = -36
   backgroundnormal = config/fancymenu/customguis/images/buttons/server.png
@@ -258,6 +258,6 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Create on a Potato pc v. 1.16.5-1.11.2
+  value = Create on a Potato pc v. 1.16.5-1.11.3
 }
 
