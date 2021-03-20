@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(li)/sethome Allows you to set a home base.$(li)/home Teleports you to your home base.$(li)/delhome Deletes your home.$(li)/rtp Randomly teleports you to a new location--not always safe.$(li)/spawn Teleports you to Spawn."
+            "text": "$(li)/sethome Allows you to set a home base.$(li)/home Teleports you to your home base.$(li)/delhome Deletes your home.$(li)/rtp Randomly teleports you to a new location--not always safe.$(li)/spawn Teleports you to Spawn.$(li)/trashcan opens a trash can gui in your inventory."
         }
     ]
 }
