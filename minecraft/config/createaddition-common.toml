@@ -73,6 +73,18 @@
 	#Range: > 0
 	generator_max_output = 10240
 
+#Accumulator
+[accumulator]
+	#Accumulator internal capacity.
+	#Range: > 0
+	accumulator_capacity = 4196000
+	#Accumulator max output (Energy transfer).
+	#Range: > 0
+	accumulator_max_output = 8192
+	#Accumulator max input (Energy transfer).
+	#Range: > 0
+	accumulator_max_input = 8192
+
 #Rolling Mill
 [rolling_mill]
 	#Rolling Mill duration in ticks.
