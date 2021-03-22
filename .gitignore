@@ -44,6 +44,7 @@ minecraft/usernamecache.json
 minecraft/openloader/.cache
 server/*.jar
 server/1.16.5.json
+server/auto_restart/restart
 server/banned-ips.json
 server/banned-players.json
 server/eula.txt
