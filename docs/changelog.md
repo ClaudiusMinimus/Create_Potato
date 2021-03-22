@@ -1,4 +1,20 @@
 # Change Log
+## Version 1.12.0
+- Mods Added: none
+- Mods Updated: 
+  - alexsmobs-1.8.0
+  - architectury-1.10.137-forge
+  - createaddition-1.16.5-20210320b
+  - fancymenu_2.0.4_MC_1.16.2-1.16.5 (Fixes an issue where placing a Create Schematic crashes client and corrupts player data)
+  - FastWorkbench-1.16.4-4.5.1
+  - ftb-quests-1605.2.1-build.35-forge
+  - jei-1.16.5-7.6.1.75
+  - repurposed_structures-1.16.5-2.5.1
+  - silent-gear-1.16.3-2.6.13
+- Mods Removed: none
+- Other Changes:
+  - Added recipes for smelting crushed aluminum, lead, silver, and tin
+
 ## Version 1.11.3
 - Mods Added: none
 - Mods Updated: none
