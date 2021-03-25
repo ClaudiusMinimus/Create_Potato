@@ -1,4 +1,23 @@
 # Change Log
+## Version 1.13.1
+- Mods Added: none
+  - bwncr-1.16.4-3.9.16 (Bad Wither No Cookie)
+- Mods Updated:
+  - alexsmobs-1.8.1
+  - architectury-1.10.138-forge
+  - createplus-1.16.4_v0.3.1.3
+  - Cucumber-1.16.4-4.1.9
+  - fancymenu_2.0.5_MC_1.16.2-1.16.5
+  - ftb-chunks-1605.2.3-build.75
+  - ftb-quests-1605.2.1-build.39-forge
+  - kubejs-1605.3.6-build.177-forge
+  - silent-gear-1.16.3-2.6.14
+  - windowlogging-mc1.16.3_v0.0.4 
+- Mods Removed: none
+- Other Changes:
+  - Support is added for four Curios slots and additional milestones have been added to the Spice of Life Carrot Edition, which results in gaining additional hearts. For existing single player worlds you will need to copy the files in your folder ".minecraft/defaultconfigs" to ".minecraft/saves/[world name]/serverconfig"
+  - Added about 60 new quests and updated others
+  
 ## Version 1.12.0
 - Mods Added: none
 - Mods Updated: 
