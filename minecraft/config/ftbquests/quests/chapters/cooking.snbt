@@ -1,7 +1,7 @@
 {
 	id: "000000000000038C",
 	group: "",
-	order_index: 5,
+	order_index: 4,
 	filename: "cooking",
 	title: "Cooking",
 	icon: "cookingforblockheads:oven",
@@ -186,6 +186,445 @@
 					id: "00000000000003AC",
 					type: "item",
 					item: "cookingforblockheads:fruit_basket"
+				}
+			]
+		},
+		{
+			x: -13.0d,
+			y: -3.5d,
+			dependencies: ["77D207067A648941"],
+			id: "624264355877F572",
+			tasks: [{
+				id: "791858A99D9DE101",
+				type: "item",
+				item: "pamhc2foodcore:fruitsaladitem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 5.0d,
+			dependencies: [
+				"74D535B9979630D3",
+				"464A32BAA89FD4AF"
+			],
+			id: "0F8BE234F7A4FA76",
+			tasks: [{
+				id: "51D07A39CC1ECA93",
+				type: "item",
+				item: "pamhc2foodcore:glazedcarrotsitem"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 1.5d,
+			dependencies: [
+				"45E569C931899C1A",
+				"7B3B3C3A5BC15355"
+			],
+			id: "59A549FB355EB794",
+			tasks: [{
+				id: "7DBB761543789D3A",
+				type: "item",
+				item: "pamhc2foodcore:pumpkincheesecakeitem"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 0.5d,
+			dependencies: ["524EA580A1C937B2"],
+			id: "45E569C931899C1A",
+			tasks: [{
+				id: "2BC36344A191490C",
+				type: "item",
+				item: "pamhc2foodcore:carrotcakeitem"
+			}]
+		},
+		{
+			x: -18.0d,
+			y: -2.5d,
+			dependencies: ["3A9C3584A5B384FA"],
+			id: "4F4EF42F453B7867",
+			tasks: [{
+				id: "5C7D33EF64F998AC",
+				type: "item",
+				item: "pamhc2foodcore:chocolatecakeitem"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -5.5d,
+			dependencies: ["62534F18097A5495"],
+			id: "1F30D633E2431418",
+			tasks: [{
+				id: "1EF8E3AAAB7EB617",
+				type: "item",
+				item: "pamhc2foodcore:yogurtitem"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -4.5d,
+			dependencies: ["670746BD72F02ABF"],
+			id: "62534F18097A5495",
+			tasks: [{
+				id: "763FB8ABCFF3B2D4",
+				type: "item",
+				item: "pamhc2foodcore:sweetberryyogurtitem"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -3.5d,
+			dependencies: ["77D207067A648941"],
+			id: "670746BD72F02ABF",
+			tasks: [{
+				id: "6E6F5FA593566597",
+				type: "item",
+				item: "pamhc2foodcore:caramelyogurtitem"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: 2.5d,
+			dependencies: ["62AECE1AD1E469EE"],
+			id: "1F4CE01071320741",
+			tasks: [{
+				id: "592D3693A7973D6A",
+				type: "item",
+				item: "pamhc2foodcore:chickendinneritem"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -0.5d,
+			dependencies: ["7B40968241A69741"],
+			id: "7504F62146E0A70B",
+			tasks: [{
+				id: "5CBB9B1E28A5AB7F",
+				type: "item",
+				item: "pamhc2foodcore:basicchickensandwichitem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 0.5d,
+			dependencies: ["77F264F7080E0896"],
+			id: "1916ED6D4D297D6A",
+			tasks: [{
+				id: "3C572A7B833ABD49",
+				type: "item",
+				item: "pamhc2foodcore:basiccheeseburgeritem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 2.0d,
+			dependencies: ["1916ED6D4D297D6A"],
+			id: "74D535B9979630D3",
+			tasks: [{
+				id: "5CD71D4B0787BB35",
+				type: "item",
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -2.5d,
+			description: ["Although you do not get any direct awards from eating all these foods, you will benefit by gaining Two extra hearts for every Five NEW foods. There is also a nice reward at the end of this questline."],
+			dependencies: ["0000000000000391"],
+			id: "77D207067A648941",
+			tasks: [{
+				id: "724DA8D877532C0F",
+				type: "item",
+				item: "pamhc2foodcore:gummybearsitem"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: -2.5d,
+			dependencies: ["43BE721732687524"],
+			id: "14AD956850560EEC",
+			tasks: [{
+				id: "622FD4F0B0F5E32A",
+				type: "item",
+				item: "pamhc2foodcore:hotchocolateitem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 3.5d,
+			dependencies: ["74D535B9979630D3"],
+			id: "464A32BAA89FD4AF",
+			tasks: [{
+				id: "51C6A59B4540479B",
+				type: "item",
+				item: "pamhc2foodcore:meatloafitem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -1.0d,
+			dependencies: ["77D207067A648941"],
+			id: "77F264F7080E0896",
+			tasks: [{
+				id: "12F8D605856A770F",
+				type: "item",
+				item: "pamhc2foodcore:hotdogitem"
+			}]
+		},
+		{
+			x: -18.0d,
+			y: -8.5d,
+			dependencies: [
+				"1630948BB22C4FA9",
+				"11DB1566F54C249A"
+			],
+			id: "2FB9D71487975C34",
+			tasks: [{
+				id: "1B7260BA45769C2E",
+				type: "item",
+				item: "pamhc2foodcore:p8juiceitem"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: 0.5d,
+			dependencies: ["7504F62146E0A70B"],
+			id: "4836905F7B092AF9",
+			tasks: [{
+				id: "1754F2E259B1B329",
+				type: "item",
+				item: "pamhc2foodcore:butteredbakedpotatoitem"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -6.5d,
+			dependencies: ["1F30D633E2431418"],
+			id: "3FD1A0FBBA7A6769",
+			tasks: [{
+				id: "3AECAE77F2B0D2CA",
+				type: "item",
+				item: "pamhc2foodcore:sunflowerseedsitem"
+			}]
+		},
+		{
+			x: -16.5d,
+			y: -2.5d,
+			dependencies: ["14AD956850560EEC"],
+			id: "3A9C3584A5B384FA",
+			tasks: [{
+				id: "3DA307438D15A7FD",
+				type: "item",
+				item: "pamhc2foodcore:chocolatedonutitem"
+			}]
+		},
+		{
+			x: -19.5d,
+			y: -2.5d,
+			dependencies: ["4F4EF42F453B7867"],
+			id: "3FB58E503B8A503A",
+			tasks: [{
+				id: "4DD1D7C413A3B9DD",
+				type: "item",
+				item: "pamhc2foodcore:chocolatebaritem"
+			}]
+		},
+		{
+			x: -21.0d,
+			y: -2.5d,
+			dependencies: ["3FB58E503B8A503A"],
+			id: "5DF6AB3519DDB3B3",
+			tasks: [{
+				id: "393D779ED4B1CBF0",
+				type: "item",
+				item: "pamhc2foodcore:chocolatebaconitem"
+			}]
+		},
+		{
+			x: -22.5d,
+			y: -2.5d,
+			dependencies: ["5DF6AB3519DDB3B3"],
+			id: "41942325858DE1DB",
+			tasks: [{
+				id: "5E461A8E40513508",
+				type: "item",
+				item: "pamhc2foodcore:chocolateicecreamitem"
+			}]
+		},
+		{
+			x: -13.5d,
+			y: -2.5d,
+			dependencies: ["77D207067A648941"],
+			id: "43BE721732687524",
+			tasks: [{
+				id: "7135AB2381BAF188",
+				type: "item",
+				item: "pamhc2foodcore:cookiesandmilkitem"
+			}]
+		},
+		{
+			x: -16.0d,
+			y: 1.5d,
+			dependencies: ["4836905F7B092AF9"],
+			id: "62AECE1AD1E469EE",
+			tasks: [{
+				id: "4A12C024006F3B29",
+				type: "item",
+				item: "pamhc2foodcore:chickenpotpieitem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -7.0d,
+			dependencies: ["37CC0DC1A3BB49A3"],
+			id: "0F68F9B0C8632D37",
+			tasks: [{
+				id: "7B89843EBA6DE24D",
+				type: "item",
+				item: "pamhc2foodcore:carrotmuffinitem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -4.0d,
+			dependencies: ["77D207067A648941"],
+			id: "2200F29FC2FC50A3",
+			tasks: [{
+				id: "3B6FB999B020662F",
+				type: "item",
+				item: "pamhc2foodcore:pumpkinmuffinitem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -5.5d,
+			dependencies: ["2200F29FC2FC50A3"],
+			id: "37CC0DC1A3BB49A3",
+			tasks: [{
+				id: "50D8765F43549F2F",
+				type: "item",
+				item: "pamhc2foodcore:caramelmuffinitem"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -8.5d,
+			dependencies: ["0F68F9B0C8632D37"],
+			id: "256746572721B465",
+			tasks: [{
+				id: "15FC0DEF6AFFEA0E",
+				type: "item",
+				item: "pamhc2foodcore:chocolatemuffinitem"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -4.5d,
+			dependencies: ["624264355877F572"],
+			id: "1874BDF19D2C4755",
+			tasks: [{
+				id: "3D06EBAFCC978F03",
+				type: "item",
+				item: "pamhc2foodcore:melonjellyitem"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: -5.5d,
+			dependencies: ["1874BDF19D2C4755"],
+			id: "42AF91A5A21EBE8B",
+			tasks: [{
+				id: "5AB40A538330F077",
+				type: "item",
+				item: "pamhc2foodcore:melonjuiceitem"
+			}]
+		},
+		{
+			x: -16.0d,
+			y: -6.5d,
+			dependencies: ["42AF91A5A21EBE8B"],
+			id: "1630948BB22C4FA9",
+			tasks: [{
+				id: "5AB31C1DE52A5D23",
+				type: "item",
+				item: "pamhc2foodcore:melonsmoothieitem"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -7.5d,
+			dependencies: ["1630948BB22C4FA9"],
+			id: "11DB1566F54C249A",
+			tasks: [{
+				id: "01185DE27E164398",
+				type: "item",
+				item: "pamhc2foodcore:sweetberrysmoothieitem"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -1.5d,
+			dependencies: ["77D207067A648941"],
+			id: "7B40968241A69741",
+			tasks: [{
+				id: "7408A6F5C2437A36",
+				type: "item",
+				item: "pamhc2foodcore:chickennuggetitem"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -0.5d,
+			dependencies: ["2B54D2CB79101DCA"],
+			id: "524EA580A1C937B2",
+			tasks: [{
+				id: "403C6385779CD7E5",
+				type: "item",
+				item: "pamhc2foodcore:cheesecakeitem"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -1.5d,
+			dependencies: ["77D207067A648941"],
+			id: "2B54D2CB79101DCA",
+			tasks: [{
+				id: "08C6AB5BF343755F",
+				type: "item",
+				item: "minecraft:cake"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -4.0d,
+			shape: "diamond",
+			description: ["Congratulations you have eaten a lot of food! As a reward you get a Create Creatitve Tank and a Curios Amulet. The tank is self explanitory, and the amulet provides you with Regeneration!"],
+			dependencies: [
+				"3FD1A0FBBA7A6769",
+				"0F8BE234F7A4FA76",
+				"256746572721B465",
+				"2FB9D71487975C34",
+				"41942325858DE1DB",
+				"1F4CE01071320741"
+			],
+			size: 2.0d,
+			id: "7B3B3C3A5BC15355",
+			tasks: [{
+				id: "3EE4DEAD7D72B0A4",
+				type: "checkmark",
+				title: "You baked them all!"
+			}],
+			rewards: [
+				{
+					id: "107AD64B8C223DDD",
+					type: "item",
+					item: "create:creative_fluid_tank"
+				},
+				{
+					id: "02C4D5DF5004C3F8",
+					type: "item",
+					item: "curios:amulet"
 				}
 			]
 		}

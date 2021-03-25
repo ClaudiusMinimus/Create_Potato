@@ -3,7 +3,7 @@
 	group: "",
 	order_index: 3,
 	filename: "farmer",
-	title: "Let's Get Farming",
+	title: "Let's Get Farming \\& Ranching",
 	icon: "minecraft:wheat",
 	default_quest_shape: "",
 	quests: [
@@ -70,8 +70,8 @@
 			}]
 		},
 		{
-			x: 7.0d,
-			y: 0.0d,
+			x: 6.5d,
+			y: -1.0d,
 			dependencies: ["00000000000000B6"],
 			id: "00000000000000B8",
 			tasks: [{
@@ -135,15 +135,15 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: -2.5d,
+			x: 2.5d,
+			y: -1.5d,
 			dependencies: ["00000000000000B0"],
 			id: "0000000000000371",
 			tasks: [{
 				id: "0000000000000372",
 				type: "item",
 				item: "farmingforblockheads:chicken_nest",
-				count: 4L
+				count: 3L
 			}],
 			rewards: [{
 				id: "0000000000000651",
@@ -152,7 +152,7 @@
 			}]
 		},
 		{
-			x: 3.0d,
+			x: 5.0d,
 			y: -2.5d,
 			dependencies: ["00000000000000B0"],
 			id: "0000000000000373",
@@ -167,6 +167,300 @@
 				type: "item",
 				item: "farmingforblockheads:green_fertilizer",
 				count: 4
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.0d,
+			dependencies: ["08BE2FAC175E4F61"],
+			id: "58A0817160D96360",
+			tasks: [{
+				id: "2EDF18FBF83FBA4D",
+				type: "item",
+				item: "minecraft:potato"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			dependencies: ["7EA4A355089C0061"],
+			id: "08BE2FAC175E4F61",
+			tasks: [{
+				id: "6C8A05C62C24A46F",
+				type: "item",
+				item: "minecraft:carrot"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			dependencies: ["58A0817160D96360"],
+			id: "583C7A4FE8D984CB",
+			tasks: [{
+				id: "5E0C719D4DFBB8FE",
+				type: "item",
+				item: "minecraft:pumpkin"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			dependencies: ["3FC4295847723271"],
+			id: "4AD3D33CC7F2C87B",
+			tasks: [{
+				id: "4F7B97AD12E30E83",
+				type: "item",
+				item: "minecraft:melon"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			description: ["There is a good reward at the end of this quest-line and you also will need these ingredients throughout the pack. Have fun!"],
+			dependencies: ["00000000000000B3"],
+			id: "7EA4A355089C0061",
+			tasks: [
+				{
+					id: "5AB195FFA5E7DBC5",
+					type: "item",
+					item: "silentgear:flax_fiber"
+				},
+				{
+					id: "08CEBC4515E6DFA8",
+					type: "item",
+					item: "silentgear:flax_flowers"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 1.5d,
+			id: "3FC4295847723271",
+			tasks: [{
+				id: "39508657AC6DA729",
+				type: "item",
+				item: "minecraft:beetroot"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			dependencies: ["4AD3D33CC7F2C87B"],
+			id: "5AB17565CCA74C58",
+			tasks: [{
+				id: "51F57AA941D8153F",
+				type: "item",
+				item: "minecraft:brown_mushroom"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 1.5d,
+			dependencies: [
+				"058852DD03C8D49D",
+				"583C7A4FE8D984CB"
+			],
+			id: "69D63CAEFC10E53D",
+			tasks: [{
+				id: "250EAA1AAB00AFA2",
+				type: "item",
+				item: "minecraft:kelp"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 3.0d,
+			dependencies: ["4FD111B5C2DFCC94"],
+			id: "518B3FF9DCABDCB9",
+			tasks: [{
+				id: "58FD2FC0A9FEF366",
+				type: "item",
+				item: "minecraft:wither_rose"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.0d,
+			dependencies: ["5110E3C2872FDBD3"],
+			id: "2772160249E18CF4",
+			tasks: [{
+				id: "25E70B79BC72DBE4",
+				type: "item",
+				item: "minecraft:nether_wart"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 3.0d,
+			dependencies: ["69D63CAEFC10E53D"],
+			id: "228834E80C9D580F",
+			tasks: [{
+				id: "325E23B384478C7F",
+				type: "item",
+				item: "minecraft:crimson_fungus"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.0d,
+			dependencies: ["228834E80C9D580F"],
+			id: "5110E3C2872FDBD3",
+			tasks: [{
+				id: "65B81916C63D2879",
+				type: "item",
+				item: "forbidden_arcanus:golden_orchid_seeds"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.5d,
+			dependencies: ["5AB17565CCA74C58"],
+			id: "058852DD03C8D49D",
+			tasks: [{
+				id: "0C03C8E0E1E978C2",
+				type: "item",
+				item: "minecraft:vine"
+			}]
+		},
+		{
+			title: "Ready for the Slaughter",
+			x: 7.0d,
+			y: -2.5d,
+			description: [""],
+			dependencies: ["0000000000000373"],
+			id: "27DF8606C56037DD",
+			tasks: [{
+				id: "74E8680A8FB78598",
+				type: "stat",
+				stat: "minecraft:animals_bred",
+				value: 100
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 0.0d,
+			shape: "diamond",
+			dependencies: ["518B3FF9DCABDCB9"],
+			size: 2.0d,
+			id: "02315A8C83FA7D53",
+			tasks: [{
+				id: "2ABBF9213FC0826C",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "58EDE99BAF4D2E8D",
+				type: "item",
+				item: "createaddition:creative_energy"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			dependencies: ["02315A8C83FA7D53"],
+			id: "03F291ACDBA1DBEE",
+			tasks: [{
+				id: "3A4CFD2D5B769692",
+				type: "kill",
+				entity: "minecraft:chicken",
+				value: 10L
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 1.5d,
+			dependencies: ["02315A8C83FA7D53"],
+			id: "295F3C124EBC2FA7",
+			tasks: [{
+				id: "05877E9674BE25C4",
+				type: "kill",
+				entity: "minecraft:cow",
+				value: 10L
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 1.0d,
+			dependencies: ["02315A8C83FA7D53"],
+			id: "0295D56733275C84",
+			tasks: [{
+				id: "6C7FA3C9E8959D66",
+				type: "kill",
+				entity: "minecraft:sheep",
+				value: 10L
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 0.0d,
+			dependencies: ["02315A8C83FA7D53"],
+			id: "4F5953DFCA0C460D",
+			tasks: [{
+				id: "1E171E4EDB7454C9",
+				type: "kill",
+				entity: "minecraft:pig",
+				value: 10L
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 1.0d,
+			dependencies: ["02315A8C83FA7D53"],
+			id: "48A506E3650ECB1E",
+			tasks: [{
+				id: "44A0F68E90B3952B",
+				type: "kill",
+				entity: "minecraft:rabbit",
+				value: 10L
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.0d,
+			dependencies: ["02315A8C83FA7D53"],
+			id: "15494CE3719EEF68",
+			tasks: [{
+				id: "22FD29019E1C39F5",
+				type: "kill",
+				entity: "minecraft:salmon",
+				value: 10L
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -1.0d,
+			dependencies: [
+				"02315A8C83FA7D53",
+				"27DF8606C56037DD"
+			],
+			id: "05E530DC06491CDF",
+			tasks: [{
+				id: "64A13E62554EA873",
+				type: "kill",
+				entity: "minecraft:squid",
+				value: 10L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.0d,
+			dependencies: ["2772160249E18CF4"],
+			id: "4FD111B5C2DFCC94",
+			tasks: [{
+				id: "430401B0234016CA",
+				type: "item",
+				item: "minecraft:chorus_flower"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -1.5d,
+			dependencies: ["02315A8C83FA7D53"],
+			id: "07AB2698FFAF22F0",
+			tasks: [{
+				id: "2411408B69B91C9D",
+				type: "kill",
+				entity: "alexsmobs:lobster",
+				value: 10L
 			}]
 		}
 	]

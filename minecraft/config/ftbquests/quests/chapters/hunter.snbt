@@ -1,7 +1,7 @@
 {
 	id: "000000000000003C",
 	group: "",
-	order_index: 7,
+	order_index: 6,
 	filename: "hunter",
 	title: "Hunter",
 	icon: {
@@ -922,6 +922,113 @@
 				type: "item",
 				item: "silentgear:crimson_steel_ingot",
 				count: 16
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.0d,
+			id: "0589E9190651D0D4",
+			tasks: [{
+				id: "21C315533C500E0E",
+				type: "kill",
+				entity: "alexsmobs:mimicube",
+				value: 10L
+			}],
+			rewards: [{
+				id: "05FFF203AE0AB8B8",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:scavenger"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.0d,
+			dependencies: ["0589E9190651D0D4"],
+			id: "785CB9B3BF03BC5E",
+			tasks: [{
+				id: "0394D5E7BC85F2F8",
+				type: "kill",
+				entity: "alexsmobs:mimicube",
+				value: 100L
+			}],
+			rewards: [{
+				id: "3724FA476B946458",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:scavenger"
+						}]
+					}
+				},
+				count: 2
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 3.0d,
+			dependencies: ["785CB9B3BF03BC5E"],
+			id: "52A6B024BD68AC6D",
+			tasks: [{
+				id: "6AE748759FAB9130",
+				type: "kill",
+				entity: "alexsmobs:mimicube",
+				value: 1000L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.0d,
+			dependencies: ["0000000000000077"],
+			id: "043EE8CDE9C3B394",
+			tasks: [{
+				id: "293DB51E90F6B1B2",
+				type: "kill",
+				entity: "minecraft:slime",
+				value: 100L
+			}],
+			rewards: [{
+				id: "5D53D0B97057F269",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:true_infinity"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			dependencies: ["043EE8CDE9C3B394"],
+			id: "7C193E14EB083DEE",
+			tasks: [{
+				id: "26F94ED51CCE5B0F",
+				type: "kill",
+				entity: "minecraft:slime",
+				value: 1000L
+			}],
+			rewards: [{
+				id: "0A68385885F74CC1",
+				type: "item",
+				item: "create:creative_motor"
 			}]
 		}
 	]
