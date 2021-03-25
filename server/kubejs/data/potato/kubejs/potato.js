@@ -52,9 +52,19 @@ events.listen('recipes', function (event) {
 
     // Add shapeless recipe for Silent's Gems book
     event.shapeless(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:silentsgems' }), ['minecraft:book', '#silentgems:gems'])
-    
+
     // Add shapeless recipe for making sticks from logs
     event.shapeless(item.of('minecraft:stick', 16), [
-        '#minecraft:logs','#minecraft:logs'
+        '#minecraft:logs', '#minecraft:logs'
     ])
+
+    // Add shaped recipe for bamboo
+    event.shaped(item.of('minecraft:bamboo', 1), [
+        'R',
+        'R',
+        'S'
+    ], {
+        R: '#forge:rods/wooden',
+        S: '#minecraft:saplings'
+    })
 })
