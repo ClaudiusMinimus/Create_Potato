@@ -13,7 +13,7 @@
 	quests: [
 		{
 			x: 0.0d,
-			y: 0.75d,
+			y: -3.0d,
 			shape: "diamond",
 			description: [
 				"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine.",
@@ -39,7 +39,7 @@
 		{
 			title: "No Trashy Andesite!",
 			x: 0.0d,
-			y: 3.0d,
+			y: -1.0d,
 			description: ["Andesite Alloy is a primary ingredient for much of Create. Don't throw out your Andesite anymore!"],
 			dependencies: ["000000000000062C"],
 			id: "000000000000078F",
@@ -57,7 +57,7 @@
 		},
 		{
 			x: 1.5d,
-			y: 1.5d,
+			y: -2.0d,
 			dependencies: ["000000000000078F"],
 			id: "0000000000000791",
 			tasks: [{
@@ -74,8 +74,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 3.0d,
+			x: 2.0d,
+			y: 1.5d,
 			dependencies: ["000000000000078F"],
 			id: "0000000000000793",
 			tasks: [{
@@ -91,8 +91,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 3.0d,
+			x: 3.5d,
+			y: 1.5d,
 			dependencies: ["0000000000000793"],
 			id: "0000000000000795",
 			tasks: [{
@@ -142,8 +142,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 1.5d,
+			x: 3.5d,
+			y: 0.0d,
 			dependencies: ["0000000000000795"],
 			id: "000000000000079B",
 			tasks: [{
@@ -203,8 +203,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 7.5d,
+			x: -4.5d,
+			y: 6.0d,
 			description: ["Iron Sheets are another common item needed for making machines. You will need lots of these."],
 			dependencies: ["0000000000000797"],
 			id: "00000000000007A1",
@@ -285,8 +285,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 3.0d,
+			x: 5.0d,
+			y: 1.5d,
 			description: [
 				"A water wheel is great for early game Rotational Force.",
 				"",
@@ -385,7 +385,7 @@
 		},
 		{
 			x: -5.5d,
-			y: 6.5d,
+			y: 5.0d,
 			description: [
 				"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: ",
 				"",
@@ -407,8 +407,8 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 1.5d,
+			x: -1.5d,
+			y: -2.0d,
 			description: ["The Millstone is used for grinding all kinds of items. Be sure to check JEI for what it can do. You can even make a needed material for crafting slime balls."],
 			dependencies: ["000000000000078F"],
 			id: "00000000000007BB",
@@ -426,7 +426,7 @@
 		},
 		{
 			x: 0.0d,
-			y: -2.5d,
+			y: -5.0d,
 			description: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."],
 			dependencies: ["000000000000062C"],
 			id: "00000000000007BD",
@@ -444,7 +444,7 @@
 		},
 		{
 			x: -1.5d,
-			y: -2.5d,
+			y: -5.0d,
 			description: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."],
 			dependencies: ["00000000000007BD"],
 			id: "00000000000007BF",
@@ -461,7 +461,7 @@
 		},
 		{
 			x: -1.5d,
-			y: -4.0d,
+			y: -6.5d,
 			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."],
 			dependencies: ["00000000000007BD"],
 			id: "00000000000007C1",
@@ -485,7 +485,7 @@
 		},
 		{
 			x: 1.5d,
-			y: -2.5d,
+			y: -5.0d,
 			description: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."],
 			dependencies: ["00000000000007BD"],
 			id: "00000000000007C5",
@@ -503,7 +503,7 @@
 		},
 		{
 			x: 0.0d,
-			y: -5.5d,
+			y: -8.0d,
 			description: ["The Spout is for refilling your fluid items. Can also be automated."],
 			dependencies: ["00000000000007CD"],
 			id: "00000000000007C7",
@@ -519,8 +519,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 6.0d,
+			x: -4.5d,
+			y: 4.5d,
 			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."],
 			dependencies: ["00000000000007A1"],
 			id: "00000000000007C9",
@@ -556,7 +556,7 @@
 		},
 		{
 			x: 0.0d,
-			y: -4.0d,
+			y: -6.5d,
 			description: ["The Fluid Tank can be a single block or a multi-block structure."],
 			dependencies: ["00000000000007BD"],
 			id: "00000000000007CD",
@@ -611,7 +611,7 @@
 		},
 		{
 			x: 1.5d,
-			y: -4.0d,
+			y: -6.5d,
 			dependencies: ["00000000000007BD"],
 			id: "0000000000000855",
 			tasks: [{
@@ -725,8 +725,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 9.0d,
+			x: -4.5d,
+			y: 7.5d,
 			dependencies: ["00000000000007A1"],
 			id: "00000000000008D6",
 			tasks: [
@@ -740,11 +740,16 @@
 					type: "item",
 					item: "create:basin"
 				}
-			]
+			],
+			rewards: [{
+				id: "2AF9A7C77EAC853F",
+				type: "item",
+				item: "create:chocolate_bucket"
+			}]
 		},
 		{
-			x: -2.5d,
-			y: 6.5d,
+			x: -3.5d,
+			y: 5.0d,
 			dependencies: ["00000000000007A1"],
 			id: "00000000000008D9",
 			tasks: [{
@@ -843,8 +848,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: 14.5d,
+			x: 4.0d,
+			y: 12.5d,
 			dependencies: ["00000000000008D1"],
 			id: "00000000000008E3",
 			tasks: [{
@@ -860,7 +865,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: 0.0d,
 			y: 14.5d,
 			dependencies: ["00000000000008D1"],
 			id: "00000000000008E5",
@@ -954,8 +959,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 8.5d,
+			x: -3.5d,
+			y: 7.0d,
 			description: ["Chutes are used to transport items to and from storage containers. Can interact with Funnels and Fans."],
 			dependencies: ["00000000000007A1"],
 			id: "00000000000008F2",
@@ -981,8 +986,8 @@
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 13.5d,
+			x: -1.0d,
+			y: 11.5d,
 			dependencies: ["00000000000008D1"],
 			id: "3E31B9BBFA9BF2E4",
 			tasks: [{
@@ -1047,8 +1052,9 @@
 			}]
 		},
 		{
-			x: 0.5d,
-			y: 15.0d,
+			x: 3.0d,
+			y: 14.5d,
+			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"],
 			dependencies: ["00000000000008D1"],
 			id: "1BBEEF19114688A9",
 			tasks: [{
@@ -1073,7 +1079,7 @@
 		},
 		{
 			x: -5.5d,
-			y: 8.5d,
+			y: 7.0d,
 			description: ["Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"],
 			dependencies: [
 				"00000000000007A1",
@@ -1410,6 +1416,119 @@
 				id: "109D2FA3993AB9E6",
 				type: "item",
 				item: "alexsmobs:spawn_egg_mimicube"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.0d,
+			description: [
+				"You would think the Cart Assembler was just for...well...minecarts. You could not be further from the truth. This is a very useful tool. You can not only make amazing trains, planes, and boats, but you can pick up and move many complex builds, different storage blocks, and mob spawners. You read this correctly, I said MOB SPAWNERS! The Cart Assemblers can take a bit to learn to use, but when you have mastered this device, you will learn to love it.",
+				"",
+				"To use, you need to first put down a minecart rail. Then place the Cart Assembler over the rail, then whatever it is you want to assemble. Place a Minecart on the rail and a lever on the Cart Assembler, and activate it. You will notice the Cart Assembler will rise slightly and you are ready to make the magic begin. If you shift-right click with a Create Wrench on the minecart, you will pick up the assembly. To place, put down a rail and break the Minecart and you have moved your assembly. There is so much more to the Cart Assembler and I highly recommend watching some videos on how to set it up and use it."
+			],
+			dependencies: ["000000000000078F"],
+			id: "17CA4F1D56A901CC",
+			tasks: [{
+				id: "7C313E1F88C6C245",
+				type: "item",
+				item: "create:cart_assembler"
+			}],
+			rewards: [{
+				id: "42C58549C85A3D98",
+				type: "item",
+				item: "create:minecart_coupling"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 6.0d,
+			dependencies: ["00000000000007A1"],
+			id: "69B84FECC7E0B3FE",
+			tasks: [{
+				id: "1A32450672E01215",
+				type: "item",
+				item: "createaddition:rolling_mill"
+			}],
+			rewards: [{
+				id: "7F0B7800B0312BAE",
+				type: "item",
+				item: "minecraft:blaze_rod"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 6.0d,
+			dependencies: ["00000000000007A1"],
+			id: "3833656251A9CA10",
+			tasks: [{
+				id: "52F509622D0FE14E",
+				type: "item",
+				item: "create:mechanical_plough"
+			}],
+			rewards: [{
+				id: "512E77E51990C4AB",
+				type: "item",
+				item: "minecraft:totem_of_undying"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: ["000000000000078F"],
+			id: "5EE6F31F44153287",
+			tasks: [{
+				id: "78FD0E0309E4F117",
+				type: "item",
+				item: "create:andesite_tunnel"
+			}],
+			rewards: [{
+				id: "73249E74470BB43A",
+				type: "item",
+				item: "create:andesite_tunnel"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.0d,
+			dependencies: ["000000000000078F"],
+			id: "06F565FE68808482",
+			tasks: [{
+				id: "516D1C4E03E66285",
+				type: "item",
+				item: "create:wooden_bracket"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.0d,
+			dependencies: ["000000000000078F"],
+			id: "404D832597883CA2",
+			tasks: [{
+				id: "606A1496DA32A3F0",
+				type: "item",
+				item: "create:metal_bracket"
+			}],
+			rewards: [{
+				id: "3C78DC7687EF31A8",
+				type: "item",
+				item: "biomesoplenty:jacaranda_sapling"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.0d,
+			dependencies: ["0000000000000799"],
+			id: "495A497F82554F9A",
+			tasks: [{
+				id: "059407E2D71AF845",
+				type: "item",
+				item: "create:andesite_tunnel"
+			}],
+			rewards: [{
+				id: "56DF6D92011148AB",
+				type: "item",
+				item: "minecraft:beetroot_seeds",
+				count: 5
 			}]
 		}
 	]
