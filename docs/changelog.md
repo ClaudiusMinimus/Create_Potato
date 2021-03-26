@@ -17,8 +17,9 @@
 - Mods Removed: none
 - Other Changes:
   - Support is added for four Curios slots and additional milestones have been added to the Spice of Life Carrot Edition, which results in gaining additional hearts.
-    - **IMPORTANT** For existing single player worlds you will need to copy the files in your folder ".minecraft/defaultconfigs" to ".minecraft/saves/[world name]/serverconfig"
-    - **IMPORTANT** For existing multiplayer worlds (server) you will need to copy the files in your folder "/defaultconfigs" to "[world name]/serverconfig"
+    - **IMPORTANT** 
+      - For existing single player worlds you will need to copy the files in your folder ".minecraft/defaultconfigs" to ".minecraft/saves/[world name]/serverconfig"
+      - For existing multiplayer worlds (server) you will need to copy the files in your folder "/defaultconfigs" to "[world name]/serverconfig"
   - Added about 60 new quests and updated others
   
 ## Version 1.12.0
