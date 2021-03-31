@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","file/MYTHIC+-+1.16.zip"]
+resourcePacks:["vanilla","mod_resources","kubejs:resource_pack","openloader/resources/silentsgems_resource_pack","file/Patrix_1.16_32x_basic.zip","file/Patrix_1.16_32x_bonus.zip","file/Patrix_1.16_32x_addon.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

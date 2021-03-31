@@ -35,14 +35,14 @@ key_key.hotbar.9:key.keyboard.9:NONE
 key_key.ftbultimine:key.keyboard.grave.accent:NONE
 key_Reload Menu | CTRL + ALT + :key.keyboard.r:NONE
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c:NONE
-key_key.ftbchunks.map:key.keyboard.m:NONE
+key_key.ftbchunks.map:key.keyboard.unknown:NONE
 key_key.toggleLiquids:key.keyboard.unknown:NONE
 key_key.toggleVisible:key.keyboard.unknown:NONE
+key_key.burn:key.keyboard.v:NONE
+key_key.hud:key.keyboard.semicolon:NONE
 key_key.invtweaks_sort_player.desc:key.keyboard.backslash:NONE
 key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent:NONE
 key_key.invtweaks_sort_either.desc:key.mouse.middle:NONE
-key_key.burn:key.keyboard.v:NONE
-key_key.hud:key.keyboard.unknown:NONE
 key_key.usefulbackpacks.curiosintegration.description:key.keyboard.comma:NONE
 key_key.silentgear.cycle.back:key.keyboard.z:NONE
 key_key.silentgear.cycle.next:key.keyboard.c:NONE
