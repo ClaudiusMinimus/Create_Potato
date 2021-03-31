@@ -1079,19 +1079,10 @@
 				item: "metalbarrels:silver_to_gold"
 			}],
 			rewards: [{
-				id: "00000000000005F6",
+				id: "4EBE02E3B50516FE",
 				type: "item",
-				icon: {
-					id: "silentgems:enchantment_token",
-					Count: 1b,
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s,
-							id: "minecraft:blast_protection"
-						}]
-					}
-				},
-				item: "rats:rat_upgrade_basic"
+				item: "silentgems:carnelian_teleporter",
+				count: 2
 			}]
 		},
 		{

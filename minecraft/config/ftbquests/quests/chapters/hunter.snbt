@@ -870,16 +870,17 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -3.0d,
 			y: -4.5d,
+			dependencies: ["29FFE1F7BC45D711"],
 			id: "000000000000045E",
 			tasks: [{
 				id: "000000000000045F",
 				type: "kill",
-				title: "Wither Slayer",
+				title: "Wither's Bane",
 				icon: "minecraft:nether_star",
 				entity: "minecraft:wither",
-				value: 10L
+				value: 100L
 			}],
 			rewards: [{
 				id: "0000000000000466",
@@ -889,7 +890,7 @@
 		},
 		{
 			x: -1.5d,
-			y: -4.5d,
+			y: -6.0d,
 			id: "0000000000000460",
 			tasks: [{
 				id: "0000000000000461",
@@ -909,7 +910,7 @@
 		{
 			icon: "minecraft:sea_lantern",
 			x: 0.0d,
-			y: -4.5d,
+			y: -6.0d,
 			id: "000000000000057E",
 			tasks: [{
 				id: "000000000000057F",
@@ -1029,6 +1030,30 @@
 				id: "0A68385885F74CC1",
 				type: "item",
 				item: "create:creative_motor"
+			}]
+		},
+		{
+			title: "Wither Slayer",
+			x: -1.5d,
+			y: -4.5d,
+			id: "29FFE1F7BC45D711",
+			tasks: [{
+				id: "7026974F128C0C61",
+				type: "kill",
+				icon: "minecraft:nether_star",
+				entity: "minecraft:wither",
+				value: 10L
+			}],
+			rewards: [{
+				id: "184618A1633008DF",
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:pixie",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
