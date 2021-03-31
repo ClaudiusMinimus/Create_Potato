@@ -1,4 +1,22 @@
 # Change Log
+## Version 1.15.0
+- Mods Added:
+  - globalxp-1.16.5-v1.7.1.jar
+- Mods Updated:
+  - architectury-1.10.139-forge.jar
+  - cloth-config-4.11.18-forge.jar
+  - Disenchanting-forge-1.16.5-1.6.0.jar
+  - fancymenu_2.0.6_MC_1.16.2-1.16.5.jar
+  - kubejs-1605.3.6-build.178-forge.jar
+  - silent-gear-1.16.3-2.6.16.jar
+  - SilentGems-1.16.3-3.7.13.jar
+  - solcarrot-1.16.3-1.9.10.jar
+- Mods Removed: none
+- Other Changes:
+  - Fixed some broken quests
+  - Added a couple of quests
+  - (Server only) Added FTB Ranks defaults
+  
 ## Version 1.14.0
 - Mods Added: none
   - bwncr-1.16.4-3.9.16 (Bad Wither No Cookie)
