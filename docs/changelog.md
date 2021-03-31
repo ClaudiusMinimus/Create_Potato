@@ -16,6 +16,7 @@
   - Fixed some broken quests
   - Added a couple of quests
   - (Server only) Added FTB Ranks defaults
+  - Official Server new address contained in the minecraft/config/defaultoptions/servers.dat
   
 ## Version 1.14.0
 - Mods Added: none
