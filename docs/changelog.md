@@ -1,5 +1,5 @@
 # Change Log
-## Version 1.16.0
+## Version 1.16.1
 - Mods Added: none
 - Mods Updated:
   - cloth-config-4.11.19-forge
