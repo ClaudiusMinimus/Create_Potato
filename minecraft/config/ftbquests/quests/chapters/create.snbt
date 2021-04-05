@@ -18,7 +18,7 @@
 			description: [
 				"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine.",
 				"",
-				"Holding the shift or Ctrl keys while hovering a kinetic block in your inventory or in JEI will show detailed information.",
+				'With the Create .3.1 update when holding the "w" key while hovering over a kinetic block in your inventory or JEI will show detailed information. In other items, the shift key will reveal information.',
 				"",
 				"Expect this questline to expand! Check back with each new version. Also rewards will be added, but for now this questline is a good starting point for using Create."
 			],
@@ -163,8 +163,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 9.0d,
+			x: 4.0d,
+			y: 9.5d,
 			dependencies: ["00000000000007A7"],
 			id: "000000000000079D",
 			tasks: [{
@@ -180,8 +180,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 7.5d,
+			x: 4.5d,
+			y: 8.5d,
 			description: [
 				"The wrench has several uses:",
 				"1. Rotate kinetic blocks when you right click them. If the block will not rotate, then try a different surface plane.",
@@ -253,8 +253,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 7.5d,
+			x: 3.0d,
+			y: 8.5d,
 			dependencies: ["0000000000000797"],
 			id: "00000000000007A7",
 			tasks: [{
@@ -766,7 +766,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 10.0d,
+			y: 9.0d,
 			dependencies: [
 				"00000000000008D6",
 				"0000000000000797"
@@ -927,7 +927,7 @@
 		},
 		{
 			x: -4.5d,
-			y: 11.0d,
+			y: 9.0d,
 			dependencies: ["00000000000008DB"],
 			id: "00000000000008EE",
 			tasks: [{
@@ -1515,7 +1515,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 1.5d,
 			y: 3.0d,
 			dependencies: ["0000000000000799"],
 			id: "495A497F82554F9A",
@@ -1551,6 +1551,102 @@
 						Damage: 0
 					}
 				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 10.5d,
+			description: ['Smart Chutes are vertical Chutes with additional controls. The animation when pressing the "w" key while hovering shows how to use this new block.'],
+			dependencies: ["00000000000007A5"],
+			id: "415DC4075FB46595",
+			tasks: [{
+				id: "58C85FAF9D213B06",
+				type: "item",
+				item: "create:smart_chute"
+			}],
+			rewards: [{
+				id: "3EFDD0FFE080BE6C",
+				type: "item",
+				item: {
+					id: "create:red_sand_paper",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						Enchantments: [{
+							lvl: 1s,
+							id: "forbidden_arcanus:indestructible"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.0d,
+			description: ["Gantry Carriages can mount to and slide along a Gantry Shaft."],
+			dependencies: ["0000000000000799"],
+			id: "2AA453BF3617F5BF",
+			tasks: [{
+				id: "08EDD9839DE89E8B",
+				type: "item",
+				item: "create:gantry_carriage"
+			}],
+			rewards: [{
+				id: "4B7E7A863F46908D",
+				type: "item",
+				item: "create:honeyed_apple",
+				count: 8
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			description: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."],
+			dependencies: ["2AA453BF3617F5BF"],
+			id: "63E0177EA97D97D0",
+			tasks: [{
+				id: "4718B391148B830B",
+				type: "item",
+				item: "create:gantry_shaft"
+			}],
+			rewards: [{
+				id: "61A912E49F5BA2F6",
+				type: "item",
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.0d,
+			dependencies: ["0000000000000799"],
+			id: "7C2067E003760D5E",
+			tasks: [{
+				id: "376833FF4FCE10B9",
+				type: "item",
+				item: "create:sticker"
+			}],
+			rewards: [{
+				id: "40CEBF4A272C00C1",
+				type: "item",
+				item: "minecraft:slime_block"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 7.5d,
+			description: ["Weighted Ejectors launch items to a predetermined target."],
+			dependencies: ["00000000000007A7"],
+			id: "70CC5D09206C01E6",
+			tasks: [{
+				id: "76E6A417A54E29BF",
+				type: "item",
+				item: "create:weighted_ejector"
+			}],
+			rewards: [{
+				id: "2DB6EBB755146B3E",
+				type: "item",
+				item: "minecraft:potato",
+				count: 64
 			}]
 		}
 	]
