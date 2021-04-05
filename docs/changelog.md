@@ -1,4 +1,20 @@
 # Change Log
+## Version 1.16.0
+- Mods Added: none
+- Mods Updated:
+  - cloth-config-4.11.19-forge
+  - create-mc1.16.5_v0.3.1a _(This is a major update and will break certain machines/contraptions. Please refer to Create update video in Create on a Potato PC book)_
+  - createaddition-1.16.5-20210404a
+  - PickleTweaks-1.16.4-5.2.2
+  - repurposed_structures-1.16.5-2.6.2-forge
+  - silent-gear-1.16.3-2.6.17
+  - SilentGems-1.16.3-3.7.14
+  - u_team_core-1.16.5-3.2.0.194
+- Mods Removed: none
+- Other Changes:
+  - Added new Create items to quests and updated some others
+  - Added link to Create .3.1 Update video in the Create on a Potato PC book
+
 ## Version 1.15.0
 - Mods Added:
   - globalxp-1.16.5-v1.7.1.jar
