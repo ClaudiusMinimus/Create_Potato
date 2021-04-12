@@ -900,12 +900,20 @@
 				entity: "minecraft:ender_dragon",
 				value: 10L
 			}],
-			rewards: [{
-				id: "0000000000000467",
-				type: "item",
-				item: "minecraft:diamond_block",
-				count: 10
-			}]
+			rewards: [
+				{
+					id: "0000000000000467",
+					type: "item",
+					item: "minecraft:diamond_block",
+					count: 10
+				},
+				{
+					id: "7C157791D469CF91",
+					type: "item",
+					item: "forbidden_arcanus:dragon_scale",
+					count: 32
+				}
+			]
 		},
 		{
 			icon: "minecraft:sea_lantern",
@@ -1047,13 +1055,7 @@
 			rewards: [{
 				id: "184618A1633008DF",
 				type: "item",
-				item: {
-					id: "forbidden_arcanus:pixie",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "silentgear:tyrian_steel_block"
 			}]
 		}
 	]

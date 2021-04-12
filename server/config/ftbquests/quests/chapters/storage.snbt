@@ -402,7 +402,7 @@
 			x: 0.0d,
 			y: 4.5d,
 			shape: "diamond",
-			description: ["Make sure you have some power. You will want to have started Immersive Engineering."],
+			description: ["Make sure you have some power. You will want to have started the mod, Create and then move into Create Craft \\& Additions to craft an Alternator. Be aware as your Refined Storage system grows so will your power requirements."],
 			size: 1.5d,
 			id: "0000000000000482",
 			tasks: [
