@@ -36,7 +36,7 @@
     "ftbchunks.load_offline": false,
     "ftbchunks.max_claimed": 100,
     "ftbchunks.max_force_loaded": 3,
-    "ftbranks.name_format": "&2[Veteran]&r <{name}>"
+    "ftbranks.name_format": "&4[Veteran]&r <{name}>"
   },
   "senior": {
     "name": "Senior",
@@ -59,7 +59,7 @@
     "ftbchunks.load_offline": false,
     "ftbchunks.max_claimed": 300,
     "ftbchunks.max_force_loaded": 5,
-    "ftbranks.name_format": "&6[VIP]&r <{name}>"
+    "ftbranks.name_format": "&9[VIP]&r <{name}>"
   },
   "helper": {
     "name": "Helper",
