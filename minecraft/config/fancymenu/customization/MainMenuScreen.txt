@@ -41,7 +41,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttondescription
-  description = Hi %playername%,%n%The offical server address is included%n%on the Multiplayer screen.%n%We look forward to seeing you in-game!
+  description = Hi %playername%,%n%The offical server address is included%n%on the Multiplayer screen.%n%We look forward to seeing you in-game!%n%%n%If you would like to have your%n%server listed, please contact%n%us on our discord.
 }
 
 customization {
