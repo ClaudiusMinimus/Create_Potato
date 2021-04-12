@@ -1,9 +1,30 @@
 # Change Log
+
+## Version 1.17.0
+
+- Mods Added: none
+  - moredragoneggs-1.4
+- Mods Updated:
+  - alexsmobs-1.9.0
+  - create-mc1.16.5_v0.3.1b
+  - createaddition-1.16.5-20210412a
+  - ftb-ultimine-1605.2.0-build.26-forge
+  - jei-1.16.5-7.6.4.86
+  - kubejs-1605.3.6-build.179-forge
+  - repurposed_structures-1.16.5-2.6.3-forge
+  - silent-gear-1.16.3-2.6.19
+- Mods Removed: none
+- Other Changes:
+  - Villagers _should_ now accept jobs
+  - Villagers trades should not be locked after inital maximum transactions
+  - Minor adjustments to quests
+
 ## Version 1.16.1
+
 - Mods Added: none
 - Mods Updated:
   - cloth-config-4.11.19-forge
-  - create-mc1.16.5_v0.3.1a _(This is a major update and will break certain machines/contraptions. Please refer to Create update video in Create on a Potato PC book)_
+  - create-mc1.16.5_v0.3.1a (_This is a major update and will break certain machines/contraptions. Please refer to Create update video in Create on a Potato PC book_)
   - createaddition-1.16.5-20210404a
   - PickleTweaks-1.16.4-5.2.2
   - repurposed_structures-1.16.5-2.6.2-forge
@@ -16,6 +37,7 @@
   - Added link to Create .3.1 Update video in the Create on a Potato PC book
 
 ## Version 1.15.0
+
 - Mods Added:
   - globalxp-1.16.5-v1.7.1.jar
 - Mods Updated:
@@ -35,6 +57,7 @@
   - Official Server new address contained in the minecraft/config/defaultoptions/servers.dat
   
 ## Version 1.14.0
+
 - Mods Added: none
   - bwncr-1.16.4-3.9.16 (Bad Wither No Cookie)
   - gravestone-1.16.5-1.0.3
@@ -48,18 +71,19 @@
   - ftb-quests-1605.2.1-build.39-forge
   - kubejs-1605.3.6-build.177-forge
   - silent-gear-1.16.3-2.6.14
-  - windowlogging-mc1.16.3_v0.0.4 
+  - windowlogging-mc1.16.3_v0.0.4
 - Mods Removed: none
 - Other Changes:
   - Support is added for four Curios slots and additional milestones have been added to the Spice of Life Carrot Edition, which results in gaining additional hearts.
-    - **IMPORTANT** 
+    - **IMPORTANT**
       - For existing single player worlds you will need to copy the files in your folder ".minecraft/defaultconfigs" to ".minecraft/saves/[world name]/serverconfig"
       - For existing multiplayer worlds (server) you will need to copy the files in your folder "/defaultconfigs" to "[world name]/serverconfig"
   - Added about 60 new quests and updated others
   
 ## Version 1.12.0
+
 - Mods Added: none
-- Mods Updated: 
+- Mods Updated:
   - alexsmobs-1.8.0
   - architectury-1.10.137-forge
   - createaddition-1.16.5-20210320b
@@ -74,6 +98,7 @@
   - Added recipes for smelting crushed aluminum, lead, silver, and tin
 
 ## Version 1.11.3
+
 - Mods Added: none
 - Mods Updated: none
 - Mods Removed: none
@@ -82,7 +107,8 @@
   - Minor updates to Silent's Gems and Potato books
 
 ## Version 1.11.2
-- Mods Added:    
+
+- Mods Added:
   - charginggadgets-1.3.0
   - windowlogging-mc1.16.3_v0.0.2
 - Mods Updated:
@@ -116,7 +142,8 @@
   - Added/Updated quests
   
 ## Version 1.10.1
-- Mods Added:    
+
+- Mods Added:
   - kubejs-create-1604.1.0.4
 - Mods Updated:
   - alexsmobs-1.7.0
@@ -138,7 +165,8 @@
   - Added a few recipes
 
 ## Version 1.9.0
-- Mods Added:    
+
+- Mods Added:
   - cloth-config-4.11.14-forge (required library)
   - journeymap-1.16.5-5.7.1b4
   - moreoverlays-1.18.13-mc1.16.5
@@ -171,12 +199,13 @@
   - Added a few recipes
 
 ## Version 1.8.0
-- Mods Added: 
+
+- Mods Added:
   - architectury-1.5.112-forge  
   - CustomStartingGear-1.16.4-2.0.2.1-universal  
   - Disenchanting-forge_1.16.3-1.6.0-alpha  
   - kubejs-1605.3.6-build.165-forge  
-  - rhino-1.7.13-build.14   
+  - rhino-1.7.13-build.14
 - Mods Updated:
   - alexsmobs-1.5.1  
   - citadel-1.6.1  
@@ -184,8 +213,8 @@
   - ftb-quests-1605.2.0-build.27-forge  
   - ftb-ranks-1604.1.1.11  
   - jei-1.16.4-7.6.1.71  
-  - SilentGear-1.16.3-2.6.0+217   
-  - Xaeros_Minimap_21.3.0.2_Forge_1.16.5   
+  - SilentGear-1.16.3-2.6.0+217
+  - Xaeros_Minimap_21.3.0.2_Forge_1.16.5
   - XaerosWorldMap_1.12.0.2_Forge_1.16.5
 - Mods Removed: none
 - Other Changes:
