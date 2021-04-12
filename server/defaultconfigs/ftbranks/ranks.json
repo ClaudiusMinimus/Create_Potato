@@ -5,65 +5,79 @@
     "condition": {
       "type": "always_active"
     },
-    "prefix": "Newcomer ",
     "ftbchunks.load_offline": false,
     "ftbchunks.max_claimed": 10,
     "ftbchunks.max_force_loaded": 0,
     "ftbranks.name_format": "&3[Newcomer]&r <{name}>"
   },
-  "admin": {
-    "name": "Admin",
-    "power": 1000,
-    "prefix": "Admin ",
-    "ftbchunks.load_offline": false,
-    "ftbchunks.max_claimed": 1000,
-    "ftbchunks.max_force_loaded": 10,
-    "ftbranks.name_format": "&5[Admin]&r <{name}>"
-  },
   "member": {
     "name": "Member",
     "power": 50,
-    "parent": "newcomer",
-    "prefix": "Spartan ",
-    "ftbchunks.load_offline": false,
-    "ftbchunks.max_claimed": 50,
-    "ftbchunks.max_force_loaded": 2,
-    "ftbranks.name_format": "&2[Member]&r <{name}>"
-  },
-  "vip": {
-    "name": "VIP",
-    "power": 60,
-    "parent": "newcomer",
-    "prefix": "Spartan ",
-    "ftbchunks.load_offline": false,
-    "ftbchunks.max_claimed": 100,
-    "ftbchunks.max_force_loaded": 4,
-    "ftbranks.name_format": "&6[VIP]&r <{name}>"
-  },
-  "member2": {
-    "name": "Member2",
-    "power": 50,
     "condition": {
       "type": "playtime",
-      "time": 5,
+      "time": 3,
       "time_unit": "hours"
     },
     "parent": "newcomer",
-    "prefix": "Spartan ",
     "ftbchunks.load_offline": false,
     "ftbchunks.max_claimed": 50,
     "ftbchunks.max_force_loaded": 2,
     "ftbranks.name_format": "&2[Member]&r <{name}>"
+  },
+  "veteran": {
+    "name": "Veteran",
+    "power": 60,
+    "condition": {
+      "type": "playtime",
+      "time": 30,
+      "time_unit": "hours"
+    },
+    "parent": "member",
+    "ftbchunks.load_offline": false,
+    "ftbchunks.max_claimed": 100,
+    "ftbchunks.max_force_loaded": 3,
+    "ftbranks.name_format": "&2[Veteran]&r <{name}>"
+  },
+  "senior": {
+    "name": "Senior",
+    "power": 70,
+    "condition": {
+      "type": "playtime",
+      "time": 50,
+      "time_unit": "hours"
+    },
+    "parent": "veteran",
+    "ftbchunks.load_offline": false,
+    "ftbchunks.max_claimed": 200,
+    "ftbchunks.max_force_loaded": 4,
+    "ftbranks.name_format": "&6[Senior]&r <{name}>"
+  },
+  "vip": {
+    "name": "VIP",
+    "power": 80,
+    "parent": "newcomer",
+    "ftbchunks.load_offline": false,
+    "ftbchunks.max_claimed": 300,
+    "ftbchunks.max_force_loaded": 5,
+    "ftbranks.name_format": "&6[VIP]&r <{name}>"
   },
   "helper": {
     "name": "Helper",
     "power": 500,
     "parent": "member",
     "ftbchunks.load_offline": false,
-    "ftbchunks.max_claimed": 50,
-    "ftbchunks.max_force_loaded": 2,
+    "ftbchunks.max_claimed": 500,
+    "ftbchunks.max_force_loaded": 6,
     "command.give": true,
     "command.kick": true,
     "ftbranks.name_format": "&e[Helper]&r <{name}>"
+  },
+  "admin": {
+    "name": "Admin",
+    "power": 1000,
+    "ftbchunks.load_offline": false,
+    "ftbchunks.max_claimed": 1000,
+    "ftbchunks.max_force_loaded": 10,
+    "ftbranks.name_format": "&5[Admin]&r <{name}>"
   }
 }
