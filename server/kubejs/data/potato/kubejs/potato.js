@@ -67,4 +67,11 @@ events.listen('recipes', function (event) {
         R: '#forge:rods/wooden',
         S: '#minecraft:saplings'
     })
+
+    // Add shapeless recipe for Firework Star
+    event.shapeless(item.of('minecraft:firework_star', 1), ['minecraft:gunpowder', '#forge:dyes'])
+
+    // Add shapeless recipe for Firework Rocket
+    event.shapeless(item.of('minecraft:firework_rocket', 3), ['minecraft:firework_star', '#forge:paper'])
+
 })
