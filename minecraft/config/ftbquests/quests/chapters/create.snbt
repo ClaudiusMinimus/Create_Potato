@@ -361,7 +361,7 @@
 		{
 			x: 3.0d,
 			y: 6.0d,
-			description: ["You need to put slime on the four contact surfaces for a windmill to rotate. Double click the slime to attach to all four sides at once."],
+			description: ["You need to put slime or Super Glue on at least one contact surface for connected blocks to rotate with the radial chassis. Double click the slime to attach to all four sides at once."],
 			dependencies: ["00000000000008C9"],
 			id: "00000000000007B4",
 			tasks: [{
