@@ -50,6 +50,7 @@ server/1.16.5.json
 server/auto_restart/restart
 server/banned-ips.json
 server/banned-players.json
+server/config/jei/*.ini
 server/eula.txt
 server/forge-1.16.5-36.0.14.jar
 server/minecraft_server.1.16.5.jar
@@ -70,6 +71,7 @@ server/whitelist.json
 !minecraft/config/jei
 !server/config/brandon3055
 !server/config/ftbquests/
+!server/config/jei
 
 #Stop Ignoring these files
 !minecraft/config/createaddition-common.toml
@@ -81,4 +83,5 @@ server/whitelist.json
 !minecraft/config/xaerominimap.txt
 !server/config/createaddition-common.toml
 !server/config/forge-common.toml
+!server/config/jei/blacklist.cfg
 !server/config/theoneprobe-common.toml
