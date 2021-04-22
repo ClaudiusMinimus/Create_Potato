@@ -1,5 +1,35 @@
 # Change Log
 
+## Version 1.18.0
+
+- Mods Added:
+  - Armor Points++/ Health Stacking (does a nicer job)
+  - Torchmaster
+- Mods Updated:
+  - alexsmobs-1.9.1
+  - allomancy-4.3.0-pre3
+  - Apotheosis-1.16.4-4.5.1
+  - architectury-1.12.145-forge
+  - Controlling-7.0.0.15
+  - create-mc1.16.5_v0.3.1c
+  - createaddition-1.16.5-20210422a
+  - curios-forge-1.16.5-4.0.5.1
+  - Disenchanting-forge-1.16.5-1.7.1
+  - gravestone-1.16.5-1.0.4
+  - jei-1.16.5-7.6.4.87
+  - konkrete_1.1.6_MC_1.16.2-1.16.5
+  - kubejs-1605.3.7-build.185-forge
+  - Placebo-1.16.4-4.4.2
+  - repurposed_structures-1.16.5-2.6.5-forge
+  - rhino-1.7.13-build.23
+  - silent-gear-1.16.3-2.6.21
+- Mods Removed:
+  - Overloaded Armor Bar
+- Other Changes:
+  - Added basic fireworks recipe
+  - Updated a few quests
+  - Remove Forbidden & Arcanus Bone Hoe due to client crashes
+
 ## Version 1.17.0
 
 - Mods Added: none
