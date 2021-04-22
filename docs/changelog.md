@@ -7,9 +7,9 @@
   - Torchmaster
 - Mods Updated:
   - alexsmobs-1.9.1
-  - allomancy-4.3.0-pre3
   - Apotheosis-1.16.4-4.5.1
   - architectury-1.12.145-forge
+  - BiomesOPlenty-1.16.4-13.0.0.432
   - Controlling-7.0.0.15
   - create-mc1.16.5_v0.3.1c
   - createaddition-1.16.5-20210422a
