@@ -33,6 +33,7 @@ mmc-pack.json
 build/create-potato-*.zip
 minecraft/.mixin.out/*
 minecraft/backups/*
+minecraft/config/jei/*.ini
 minecraft/instance.cfg
 minecraft/knownkeys.txt
 minecraft/mmc-pack.json
@@ -66,6 +67,7 @@ server/whitelist.json
 !minecraft/config/defaultoptions
 !minecraft/config/fancymenu
 !minecraft/config/ftbquests
+!minecraft/config/jei
 !server/config/brandon3055
 !server/config/ftbquests/
 
@@ -74,6 +76,7 @@ server/whitelist.json
 !minecraft/config/forge-client.toml
 !minecraft/config/forge-common.toml
 !minecraft/config/ftbchunks-client.toml
+!minecraft/config/jei/blacklist.cfg
 !minecraft/config/theoneprobe-client.toml
 !minecraft/config/xaerominimap.txt
 !server/config/createaddition-common.toml
