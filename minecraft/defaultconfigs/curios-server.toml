@@ -2,9 +2,7 @@
 #List of curio slot type settings
 [[curiosSettings]]
 	identifier = "charm"
-
-[[curiosSettings]]
-	identifier = "charm"
+	size = 2
 
 [[curiosSettings]]
 	identifier = "hands"
