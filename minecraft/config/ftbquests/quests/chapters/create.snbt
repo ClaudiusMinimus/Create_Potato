@@ -139,6 +139,12 @@
 				type: "item",
 				item: "create:andesite_casing",
 				count: 4L
+			}],
+			rewards: [{
+				id: "2B5FE7896E86C918",
+				type: "item",
+				item: "apotheosis:obsidian_arrow",
+				count: 4
 			}]
 		},
 		{
@@ -212,7 +218,7 @@
 				id: "00000000000007A2",
 				type: "item",
 				item: "create:iron_sheet",
-				count: 64L
+				count: 8L
 			}],
 			rewards: [{
 				id: "0000000000000865",
