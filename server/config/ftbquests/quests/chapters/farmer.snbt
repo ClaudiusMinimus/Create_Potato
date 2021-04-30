@@ -334,6 +334,17 @@
 				type: "stat",
 				stat: "minecraft:animals_bred",
 				value: 100
+			}],
+			rewards: [{
+				id: "3AEBD63B0B27C836",
+				type: "item",
+				item: {
+					id: "minecraft:trident",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
