@@ -20,7 +20,7 @@
 				"",
 				'With the Create .3.1 update when holding the "w" key while hovering over a kinetic block in your inventory or JEI will show detailed information. In other items, the shift key will reveal information.',
 				"",
-				"Expect this questline to expand! Check back with each new version. Also rewards will be added, but for now this questline is a good starting point for using Create."
+				""
 			],
 			size: 1.5d,
 			id: "000000000000062C",
@@ -58,6 +58,7 @@
 		{
 			x: 1.5d,
 			y: -2.0d,
+			description: ["You will need LOTS of these little guys!"],
 			dependencies: ["000000000000078F"],
 			id: "0000000000000791",
 			tasks: [{
@@ -149,7 +150,7 @@
 		},
 		{
 			x: 3.5d,
-			y: 0.0d,
+			y: 3.0d,
 			dependencies: ["0000000000000795"],
 			id: "000000000000079B",
 			tasks: [{
@@ -426,8 +427,7 @@
 			rewards: [{
 				id: "000000000000085D",
 				type: "item",
-				item: "create:wooden_bracket",
-				count: 4
+				item: "biomesoplenty:rainbow_birch_sapling"
 			}]
 		},
 		{
@@ -1143,6 +1143,11 @@
 		{
 			x: -7.0d,
 			y: 11.5d,
+			description: [
+				"Did someone say make cake?",
+				"",
+				"Oh, and your reward goes BOOM! Make sure to place it in a place it won't destroy anything when you mine it!"
+			],
 			dependencies: ["5978B0740E745266"],
 			id: "70CA0859E8976BEB",
 			tasks: [{
@@ -1255,6 +1260,7 @@
 			}]
 		},
 		{
+			title: "Basic Handheld Blockzapper",
 			x: -8.5d,
 			y: 14.0d,
 			description: ["This is your basic blockzapper."],
@@ -1349,6 +1355,7 @@
 			}]
 		},
 		{
+			title: "Brass Handheld Blockzapper",
 			x: -10.0d,
 			y: 13.0d,
 			description: [
@@ -1386,6 +1393,7 @@
 			}]
 		},
 		{
+			title: "Chromatic Compound Handheld Blockzapper",
 			x: -8.5d,
 			y: 12.0d,
 			description: [
@@ -1478,35 +1486,27 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 0.0d,
-			dependencies: ["000000000000078F"],
-			id: "5EE6F31F44153287",
-			tasks: [{
-				id: "78FD0E0309E4F117",
-				type: "item",
-				item: "create:andesite_tunnel"
-			}],
-			rewards: [{
-				id: "73249E74470BB43A",
-				type: "item",
-				item: "create:andesite_tunnel"
-			}]
-		},
-		{
 			x: 2.0d,
 			y: -1.0d,
+			description: ["A nice decoration."],
 			dependencies: ["000000000000078F"],
 			id: "06F565FE68808482",
 			tasks: [{
 				id: "516D1C4E03E66285",
 				type: "item",
 				item: "create:wooden_bracket"
+			}],
+			rewards: [{
+				id: "19D9C2AD0622E1C2",
+				type: "item",
+				item: "create:framed_glass_pane",
+				count: 8
 			}]
 		},
 		{
 			x: -2.0d,
 			y: -1.0d,
+			description: ["A nice sturdy decoration."],
 			dependencies: ["000000000000078F"],
 			id: "404D832597883CA2",
 			tasks: [{
@@ -1587,10 +1587,10 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: 2.0d,
+			x: 1.5d,
+			y: 0.0d,
 			description: ["Gantry Carriages can mount to and slide along a Gantry Shaft."],
-			dependencies: ["0000000000000799"],
+			dependencies: ["000000000000078F"],
 			id: "2AA453BF3617F5BF",
 			tasks: [{
 				id: "08EDD9839DE89E8B",
@@ -1605,8 +1605,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 2.0d,
+			x: 3.0d,
+			y: 0.0d,
 			description: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."],
 			dependencies: ["2AA453BF3617F5BF"],
 			id: "63E0177EA97D97D0",
@@ -1622,9 +1622,9 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: 2.0d,
-			dependencies: ["0000000000000799"],
+			x: -1.0d,
+			y: 1.5d,
+			dependencies: ["000000000000078F"],
 			id: "7C2067E003760D5E",
 			tasks: [{
 				id: "376833FF4FCE10B9",
