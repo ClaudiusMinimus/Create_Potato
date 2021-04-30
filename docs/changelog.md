@@ -1,5 +1,25 @@
 # Change Log
 
+## Version 1.19.0
+
+- Mods Added: none
+- Mods Updated:
+  - Apotheosis-1.16.4-4.5.2
+  - armorpointspp-1.16.5-2.0.0-beta2
+  - BiomesOPlenty-1.16.5-13.1.0.458-universal
+  - globalxp-1.16.5-v1.8
+  - gravestone-1.16.5-1.0.6
+  - kotlin_libraries-1.0-6
+  - kubejs-1605.3.7-build.186-forge
+  - silent-gear-1.16.3-2.6.22
+  - u_team_core-1.16.5-3.2.1.195
+  - useful_backpacks-1.16.5-1.12.0.89
+- Mods Removed: none
+- Other Changes:
+  - Updated Forge to 36.1.13
+  - Updated and fixed some quests
+  - Added Curios slots for one magnet and two charms
+
 ## Version 1.18.0
 
 - Mods Added:
