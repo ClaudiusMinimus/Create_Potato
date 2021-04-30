@@ -1,11 +1,17 @@
 
 #List of curio slot type settings
 [[curiosSettings]]
+	identifier = "charm"
+	size = 2
+
+[[curiosSettings]]
 	identifier = "hands"
 
 [[curiosSettings]]
 	identifier = "head"
 
 [[curiosSettings]]
-	identifier = "necklace"
+	identifier = "magnet"
 
+[[curiosSettings]]
+	identifier = "necklace"
