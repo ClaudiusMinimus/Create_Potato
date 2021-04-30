@@ -870,9 +870,13 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: -4.5d,
-			dependencies: ["29FFE1F7BC45D711"],
+			x: -1.5d,
+			y: -6.0d,
+			dependencies: [
+				"29FFE1F7BC45D711",
+				"000000000000057E",
+				"0000000000000460"
+			],
 			id: "000000000000045E",
 			tasks: [{
 				id: "000000000000045F",
@@ -889,8 +893,8 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: -6.0d,
+			x: -2.5d,
+			y: -7.5d,
 			id: "0000000000000460",
 			tasks: [{
 				id: "0000000000000461",
@@ -917,8 +921,8 @@
 		},
 		{
 			icon: "minecraft:sea_lantern",
-			x: 0.0d,
-			y: -6.0d,
+			x: -0.5d,
+			y: -7.5d,
 			id: "000000000000057E",
 			tasks: [{
 				id: "000000000000057F",
@@ -1037,7 +1041,7 @@
 			rewards: [{
 				id: "0A68385885F74CC1",
 				type: "item",
-				item: "create:creative_motor"
+				item: "refinedstorage:purple_creative_controller"
 			}]
 		},
 		{
