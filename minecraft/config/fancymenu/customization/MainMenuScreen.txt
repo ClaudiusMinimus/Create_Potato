@@ -225,7 +225,7 @@ customization {
   label = 
   x = -224
   width = 100
-  actionid = 8be0df37-2038-4df5-bcd5-d8d4330300e61619107092746
+  actionid = 7a126194-20c4-4152-9881-21ffc89637ed1621458712696
   action = addbutton
   y = 16
   backgroundnormal = config/fancymenu/customguis/images/buttons/discord.png
@@ -241,7 +241,7 @@ customization {
   label = 
   x = -47
   width = 100
-  actionid = ad8fddd7-db2a-4a2a-9165-4f747e5a671e1619107092750
+  actionid = 2c702220-fc18-491a-8436-78fb226f22801621458712700
   action = addbutton
   y = -36
   backgroundnormal = config/fancymenu/customguis/images/buttons/server.png
@@ -258,6 +258,6 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC v. 1.16.5-1.19.0
+  value = Create on a Potato PC v. 1.16.5-1.20.0
 }
 
