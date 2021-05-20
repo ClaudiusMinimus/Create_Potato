@@ -1,5 +1,38 @@
 # Change Log
 
+## Version 1.20.0
+
+- Mods Added:
+  - Clumps-6.0.0.22
+  - feruchemy-1.16.4-1.1.1
+- Mods Updated:
+  - alexsmobs-1.10.1
+  - angelring-1.16.5-1.3.4
+  - Apotheosis-1.16.4-4.6.0
+  - architectury-1.14.157-forge
+  - armorpointspp-1.16.5-2.0.0-rc1
+  - BiomesOPlenty-1.16.5-13.1.0.467-universal
+  - citadel-1.6.3
+  - cloth-config-4.11.26-forge
+  - comforts-forge-1.16.5-4.0.0.4
+  - Controlling-7.0.0.16
+  - createaddition-1.16.5-20210517a
+  - fancymenu_2.0.7_MC_1.16.2-1.16.5
+  - jei-1.16.5-7.7.0.98
+  - kubejs-1605.3.8-build.198-forge
+  - Patchouli-1.16.4-51
+  - Placebo-1.16.4-4.4.5
+  - repurposed_structures-1.16.5-2.6.6-forge
+  - rhino-1.7.13-build.24
+  - silent-gear-1.16.5-2.6.24
+  - SilentGems-1.16.3-3.7.15
+  - theoneprobe-1.16-3.1.3
+  - valhelsia_core-16.0.8
+- Mods Removed: none
+- Other Changes:
+  - Fixed Fluffy Puff quest to accept either Silent Gear or Silent Gems
+  - Updated Forge to 36.1.23
+
 ## Version 1.19.0
 
 - Mods Added: none
