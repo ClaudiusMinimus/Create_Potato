@@ -7,9 +7,7 @@
   - feruchemy-1.16.4-1.1.1
 - Mods Updated:
   - alexsmobs-1.10.1
-  - angelring-1.16.5-1.3.4
   - Apotheosis-1.16.4-4.6.0
-  - architectury-1.14.157-forge
   - armorpointspp-1.16.5-2.0.0-rc1
   - BiomesOPlenty-1.16.5-13.1.0.467-universal
   - citadel-1.6.3
