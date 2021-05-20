@@ -37,13 +37,45 @@
 				{
 					id: "00000000000000B4",
 					type: "item",
-					item: "silentgems:fluffy_puff",
+					title: "Fluffy Puff (Silent's Gems or Silent Gear)",
+					item: {
+						id: "itemfilters:or",
+						Count: 1b,
+						tag: {
+							items: [
+								{
+									id: "silentgear:fluffy_puff",
+									Count: 1b
+								},
+								{
+									id: "silentgems:fluffy_puff",
+									Count: 1b
+								}
+							]
+						}
+					},
 					count: 20L
 				},
 				{
 					id: "00000000000000B5",
 					type: "item",
-					item: "silentgems:fluffy_puff_seeds"
+					title: "Fluffy Puff Seeds (Silent's Gems or Silent Gear)",
+					item: {
+						id: "itemfilters:or",
+						Count: 1b,
+						tag: {
+							items: [
+								{
+									id: "silentgear:fluffy_seeds",
+									Count: 1b
+								},
+								{
+									id: "silentgems:fluffy_puff_seeds",
+									Count: 1b
+								}
+							]
+						}
+					}
 				}
 			],
 			rewards: [{
