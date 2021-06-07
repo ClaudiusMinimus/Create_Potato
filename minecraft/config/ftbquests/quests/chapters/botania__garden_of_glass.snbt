@@ -1,0 +1,489 @@
+{
+	id: "3DFD3C26419B7986",
+	group: "",
+	order_index: 1,
+	filename: "botania__garden_of_glass",
+	title: "Botania - Garden of Glass",
+	icon: "botania:lexicon",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Starting Garden of Glass",
+			icon: "botania:lexicon",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "pentagon",
+			description: [
+				"If you are playing on a Botania Garden of Glass world, then this questline will be important. Botania will be how you obtain many of your items and materials. In this world, you do not start by punching a tree.",
+				"",
+				""
+			],
+			size: 2.0d,
+			id: "678645C952FCF8CC",
+			tasks: [{
+				id: "6229FC0F3B6B7FEB",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "50A9747F7A33625B",
+				type: "item",
+				item: "botania:lexicon"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			shape: "heart",
+			description: [
+				"The first thing you will notice this is not like most Skyblock worlds. You have started on a 3x3x4 (L x W x H) dirt island. At the bottom is a block of Bedrock, on the lower sides are some Living Roots blocks, and finally, you have a single water source block. All of these items are vital for your success, so do not throw anything away!",
+				"",
+				"Be sure you use /sethome, because if you fall off the side you will fall into the void and die. If you set home, then you can use /home while falling to teleport home before you fall out of the world. You will still die, but your grave will be at your set home spawn point."
+			],
+			dependencies: ["678645C952FCF8CC"],
+			id: "73551C3B7F10B61D",
+			tasks: [{
+				id: "6D84B1337BCB792F",
+				type: "checkmark",
+				title: "Your Island - Your Home!"
+			}],
+			rewards: [{
+				id: "2FA371C2B51165B0",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.5d,
+			description: ["To get started you need some cobblestone. An easy way to get early game cobble is to Shift-Right-Click on grass or dirt. You can then craft the pebbles into Cobblestone."],
+			dependencies: ["73551C3B7F10B61D"],
+			id: "4186CEC215FCF826",
+			tasks: [{
+				id: "0AF35D4AC4D96732",
+				type: "item",
+				item: "botania:pebble",
+				count: 64L
+			}],
+			rewards: [{
+				id: "05D7D86D74E2AB42",
+				type: "item",
+				item: "minecraft:cobblestone",
+				count: 64
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 5.0d,
+			description: [
+				"Next, you need to harvest the Living Root blocks. To do so, break the first layer of grass, but leave one grass block in the center so it will spread downward.",
+				"",
+				"One way to get to the Living Root blocks is to use the water as a ladder and swim under the island. Place three Cobblestone blocks directly below the Bedrock block, then place a Cobblestone on the near-side of the lowest previously place Cobblestones. You can now stand on that last Cobblestone.",
+				"",
+				"Build a platform out from the block you are standing on so that all the Living Root blocks cannot fall into the void when you break them."
+			],
+			dependencies: ["4186CEC215FCF826"],
+			id: "39D22E9262F5E871",
+			tasks: [{
+				id: "0F6B09A5EFA30EB7",
+				type: "item",
+				item: "minecraft:dirt",
+				count: 8L
+			}],
+			rewards: [{
+				id: "650E344EE35640A0",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.5d,
+			description: [
+				"Now that you have access to the Living Root blocks you can break them with either your hand or with an axe. The Living Root blocks will drop as Living Root looking more like a twig.",
+				"",
+				"Once you have the Living Root blocks harvested, you probably want to also dig the bottom layers of dirt so you can build a dirt platform at the water level."
+			],
+			dependencies: ["39D22E9262F5E871"],
+			id: "0DF574036AE67503",
+			tasks: [{
+				id: "189B39C2E46F1DEE",
+				type: "item",
+				item: "botania:living_root"
+			}],
+			rewards: [{
+				id: "1916B1814DC78C75",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 6.5d,
+			subtitle: "Use Living Root Sparingly!",
+			description: ["Using 4-Living Roots, craft an Oak Sapling and you are on your way to continuing the In the beginning... questline."],
+			dependencies: ["0DF574036AE67503"],
+			id: "03F8CD5F1A8EFB01",
+			tasks: [{
+				id: "39AD618CA2C66DA9",
+				type: "item",
+				item: "minecraft:oak_sapling"
+			}],
+			rewards: [{
+				id: "43B50F6097DD3690",
+				type: "item",
+				item: "minecraft:oak_sapling"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 9.5d,
+			description: ["For your first flowers, you need the following Mystical Flowers: White, Red, Brown, and Light Grey."],
+			dependencies: ["4868A27F76C700DC"],
+			id: "5AE38D7F1ACE1065",
+			tasks: [{
+				id: "2F804A4ECC3A2C43",
+				type: "item",
+				title: "Any #botania:mystical_flowers",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				},
+				count: 8L
+			}],
+			rewards: [{
+				id: "503DFE79BD3EBECC",
+				type: "item",
+				item: "botania:fertilizer",
+				count: 4
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			subtitle: "Use Living Root Sparingly!",
+			description: ["The Living Root can be used directly as fertilizer or if you craft it into Floral Fertilizer, which is used to spawn Botania mystical flowers."],
+			dependencies: ["0DF574036AE67503"],
+			id: "4868A27F76C700DC",
+			tasks: [{
+				id: "75DF81BBE5C1C966",
+				type: "item",
+				item: "botania:fertilizer",
+				count: 4L
+			}],
+			rewards: [{
+				id: "4BC2DF069D6B9A21",
+				type: "item",
+				item: "botania:fertilizer",
+				count: 4
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 12.5d,
+			description: ["The Pure Daisy is used to make Livingwood and Livingrock. You will make the Pure Daisy in your Petal Apothecary. Do not forget to use a Wood Bowl to fill your Apothecary!"],
+			dependencies: ["78FEF9A7E20E7C06"],
+			id: "55468A5FB8BA4A1F",
+			tasks: [{
+				id: "7D62D84218A87462",
+				type: "item",
+				item: "botania:pure_daisy"
+			}],
+			rewards: [{
+				id: "7D781F7BA9F92F83",
+				type: "item",
+				item: "botania:pure_daisy"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 11.0d,
+			description: [
+				"The Petal Apothecary is one of the main ways of creating items/flowers for Botania. It requires water, then the petals/items for the recipe, and most recipes are completed when you drop a wheat seed into the Apothecary. (Wheat seeds can be obtained by bone-mealing grass/dirt.)",
+				"",
+				"Wooden Bowls can fill an Apothecary from your water source block without depleting it."
+			],
+			dependencies: ["5AE38D7F1ACE1065"],
+			id: "78FEF9A7E20E7C06",
+			tasks: [{
+				id: "69460C0E7671938B",
+				type: "item",
+				item: "botania:apothecary_default"
+			}],
+			rewards: [
+				{
+					id: "7A6F2D8BFDBE7976",
+					type: "item",
+					item: "minecraft:bowl"
+				},
+				{
+					id: "08773E400E876C5D",
+					type: "item",
+					item: "pamhc2foodcore:fishjerkyitem",
+					count: 8
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 12.5d,
+			dependencies: ["55468A5FB8BA4A1F"],
+			id: "542DD76032B66B50",
+			tasks: [{
+				id: "60223C44756C56A7",
+				type: "item",
+				item: "botania:livingwood",
+				count: 16L
+			}],
+			rewards: [{
+				id: "15340382B523FCE6",
+				type: "item",
+				item: "botania:livingwood",
+				count: 16
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 12.5d,
+			dependencies: ["55468A5FB8BA4A1F"],
+			id: "754F5D734147F8BA",
+			tasks: [{
+				id: "31DF1E159C3C5D80",
+				type: "item",
+				item: "botania:livingrock",
+				count: 16L
+			}],
+			rewards: [{
+				id: "50AEF9D866B8C370",
+				type: "item",
+				item: "botania:livingrock",
+				count: 16
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 11.0d,
+			shape: "gear",
+			description: ["You may want to start a basic mob farm soon as you are going to need string for a bed, bonemeal, and other mob drops to progress with Botania."],
+			dependencies: ["78FEF9A7E20E7C06"],
+			id: "35839D1079D196A7",
+			tasks: [{
+				id: "5881C22209341885",
+				type: "checkmark",
+				title: "Start Basic Mob Farm"
+			}],
+			rewards: [{
+				id: "4F3ABF40958A85C0",
+				type: "item",
+				item: "minecraft:bone_block",
+				count: 8
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 12.5d,
+			dependencies: ["542DD76032B66B50"],
+			id: "60760C5B4FB95DEA",
+			tasks: [{
+				id: "54D1339C33C0E984",
+				type: "item",
+				item: "botania:mana_spreader"
+			}],
+			rewards: [{
+				id: "1EE6F67CFF83677E",
+				type: "item",
+				item: "botania:mana_spreader"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 14.0d,
+			dependencies: ["754F5D734147F8BA"],
+			id: "2D9DC78C66027DF2",
+			tasks: [{
+				id: "62B971105574EE6F",
+				type: "item",
+				item: "botania:mana_pool"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 15.5d,
+			dependencies: ["2D9DC78C66027DF2"],
+			id: "0027048889049815",
+			tasks: [{
+				id: "360F923B08F14B43",
+				type: "item",
+				item: "botania:runic_altar"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 11.0d,
+			dependencies: ["78FEF9A7E20E7C06"],
+			id: "1EACB6765A8C7988",
+			tasks: [{
+				id: "11F49929C3E1FC8B",
+				type: "item",
+				item: "botania:orechid"
+			}],
+			rewards: [{
+				id: "17DD66C15A68A42F",
+				type: "item",
+				item: "minecraft:stone",
+				count: 32
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 15.5d,
+			dependencies: ["0059F4044C719D7D"],
+			id: "7000D800442BDB20",
+			tasks: [{
+				id: "158A7BBA4DD68B06",
+				type: "item",
+				item: "botania:water_rod"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 12.5d,
+			dependencies: ["754F5D734147F8BA"],
+			id: "168B204949452C03",
+			tasks: [{
+				id: "130E0AF36EDB2466",
+				type: "item",
+				item: {
+					id: "botania:mana_tablet",
+					Count: 1b,
+					tag: {}
+				},
+				consume_items: false
+			}],
+			rewards: [{
+				id: "55E3B134D15AC5D1",
+				type: "item",
+				item: {
+					id: "botania:mana_tablet",
+					Count: 1b,
+					tag: {
+						mana: 500000
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 15.5d,
+			dependencies: ["0027048889049815"],
+			id: "0059F4044C719D7D",
+			tasks: [{
+				id: "17D0E0C6E1EFFB2A",
+				type: "item",
+				item: "botania:rune_water",
+				count: 2L
+			}]
+		},
+		{
+			title: "May want to start straining",
+			x: 3.0d,
+			y: 11.0d,
+			shape: "gear",
+			description: ["Once you have enough iron you may want to consider crafting a Water Strainer (See questline: In the beginning...)"],
+			dependencies: ["1EACB6765A8C7988"],
+			id: "0F064BF98070F65D",
+			tasks: [{
+				id: "5C2CE9E3F278E882",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "57A0E3FC9063BAD2",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 17.5d,
+			dependencies: ["6D698E9864D3C153"],
+			id: "2AC4427434E9FBCB",
+			tasks: [{
+				id: "642F203B1E817A2D",
+				type: "item",
+				item: "botania:dirt_rod"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 16.5d,
+			dependencies: ["0027048889049815"],
+			id: "6D698E9864D3C153",
+			tasks: [{
+				id: "366C2FCC8A9E42B3",
+				type: "item",
+				item: "botania:rune_earth"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 12.5d,
+			dependencies: ["60760C5B4FB95DEA"],
+			id: "4C1249721C8EBFBB",
+			tasks: [{
+				id: "4AC859C018BFBC16",
+				type: "item",
+				item: "botania:open_crate"
+			}],
+			rewards: [{
+				id: "178FFDF36A35D3B1",
+				type: "item",
+				item: "minecraft:hopper"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 14.0d,
+			dependencies: ["2D9DC78C66027DF2"],
+			id: "11E7D116CDEC9D03",
+			tasks: [{
+				id: "65D7BD840229C6E7",
+				type: "item",
+				item: "botania:mana_distributor"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 9.5d,
+			shape: "gear",
+			description: ["Starting a tree farm may be a good idea since you will need lots of fuel to keep your Endoflames going. Think Create!"],
+			dependencies: ["03B2EDF78A084226"],
+			id: "71476487357E662F",
+			tasks: [{
+				id: "1DCA88F73FDBB2C2",
+				type: "checkmark",
+				title: "Start a Tree Farm"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 9.5d,
+			description: ["The Endoflame is a great flower for generating Mana. Craft this flower in your Petal Apothecary and place them around a Mana Spreader that is pointing to a Mana Pool."],
+			dependencies: ["5AE38D7F1ACE1065"],
+			id: "03B2EDF78A084226",
+			tasks: [{
+				id: "7A558014AE36C7A3",
+				type: "item",
+				item: "botania:endoflame",
+				count: 2L
+			}],
+			rewards: [{
+				id: "21D1BDBC64C895D3",
+				type: "item",
+				item: "botania:endoflame",
+				count: 2
+			}]
+		}
+	]
+}
