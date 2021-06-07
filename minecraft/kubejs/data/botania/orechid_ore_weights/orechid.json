@@ -1,0 +1,44 @@
+{
+  "values": [
+    {
+      "type": "block",
+      "block": "create:zinc_ore",
+      "weight": 19570
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/aluminium",
+      "weight": 5002
+    },
+    {
+      "type": "block",
+      "block": "forbidden_arcanus:arcane_crystal_ore",
+      "weight": 3201
+    },
+    {
+      "type": "block",
+      "block": "forbidden_arcanus:stella_arcanum",
+      "weight": 998
+    },
+    {
+      "type": "block",
+      "block": "forbidden_arcanus:arcane_gilded_darkstone",
+      "weight": 505
+    },
+    {
+      "type": "block",
+      "block": "forbidden_arcanus:runestone",
+      "weight": 495
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/dark_runestone",
+      "weight": 369
+    },
+    {
+      "type": "block",
+      "block": "silentgems:chaos_ore",
+      "weight": 4698
+    }    
+  ]
+}
