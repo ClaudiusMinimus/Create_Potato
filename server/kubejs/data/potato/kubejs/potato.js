@@ -74,4 +74,7 @@ events.listen('recipes', function (event) {
     // Add shapeless recipe for Firework Rocket
     event.shapeless(item.of('minecraft:firework_rocket', 3), ['minecraft:firework_star', '#forge:paper'])
 
+     // Add shapeless recipe for kelp
+    event.shapeless(item.of('minecraft:kelp', 1), ['minecraft:water_bucket', 'minecraft:sugar_cane'])   
+
 })
