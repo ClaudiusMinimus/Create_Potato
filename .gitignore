@@ -33,6 +33,7 @@ mmc-pack.json
 build/create-potato-*.zip
 minecraft/.mixin.out/*
 minecraft/backups/*
+minecraft/BotaniaVars.dat
 minecraft/config/jei/*.ini
 minecraft/instance.cfg
 minecraft/knownkeys.txt
@@ -74,6 +75,7 @@ server/whitelist.json
 !server/config/jei
 
 #Stop Ignoring these files
+!minecraft/config/alexsmobs.toml
 !minecraft/config/createaddition-common.toml
 !minecraft/config/forge-client.toml
 !minecraft/config/forge-common.toml
@@ -81,6 +83,8 @@ server/whitelist.json
 !minecraft/config/jei/blacklist.cfg
 !minecraft/config/theoneprobe-client.toml
 !minecraft/config/xaerominimap.txt
+
+!server/config/alexsmobs.toml
 !server/config/createaddition-common.toml
 !server/config/forge-common.toml
 !server/config/jei/blacklist.cfg
