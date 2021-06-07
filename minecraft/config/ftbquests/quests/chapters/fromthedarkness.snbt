@@ -18,6 +18,7 @@
 				"",
 				""
 			],
+			dependencies: ["0D9226EF4461D1D4"],
 			dependency_requirement: "one_completed",
 			size: 1.5d,
 			id: "0000000000000005",
@@ -551,6 +552,130 @@
 					}
 				},
 				count: 2
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			shape: "gear",
+			subtitle: "If you are playing the Skyblock (Garden of Glass), then you will want to switch to the Botania - Garden of Glass questline to get started.",
+			description: [""],
+			dependencies: [
+				"6FD173B38832C0B1",
+				"64C7EB8F65698451",
+				"4566ABBC235069E9"
+			],
+			size: 2.5d,
+			id: "0D9226EF4461D1D4",
+			tasks: [{
+				id: "77C45589B0D3129F",
+				type: "checkmark",
+				title: "Are you playing Skyblock?"
+			}],
+			rewards: [{
+				id: "5E2CCB1EBBCC7197",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -7.0d,
+			shape: "pentagon",
+			description: [
+				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with.",
+				"",
+				"**IMPORTANT:**",
+				"It is very important that when you complete any quest that has an item or block that you place that item or block in your inventory before going to the next step."
+			],
+			size: 2.0d,
+			id: "1AF057F95637D8A7",
+			tasks: [{
+				id: "28BFC4F2477199D4",
+				type: "checkmark",
+				title: "Quest Basics"
+			}],
+			rewards: [{
+				id: "74959768F0A77D52",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -4.5d,
+			description: [
+				"JEI is an item and recipe viewing mod for Minecraft.",
+				"Basic Controls:",
+				"- Inventory:",
+				"  - (Minecraft Options -> Controls)",
+				"  - Show Recipes: Hover over item + R",
+				"  - Show Uses: Hover over item + U",
+				"  - Toggle Item List Overlay:",
+				"     Control + O",
+				"For more information visit curseforge.com and serach mods for 'jei'"
+			],
+			dependencies: ["1AF057F95637D8A7"],
+			id: "6FD173B38832C0B1",
+			tasks: [{
+				id: "49B075A7F04A6B9C",
+				type: "checkmark",
+				title: "Just Enough Items (JEI)"
+			}],
+			rewards: [{
+				id: "705A315C877CC55D",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			description: [
+				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address.",
+				"",
+				"tinyurl.com/ftbchunk",
+				"",
+				"Sorry, links do not work in quests."
+			],
+			dependencies: ["1AF057F95637D8A7"],
+			id: "64C7EB8F65698451",
+			tasks: [{
+				id: "1EB3A1CE71A0CF5B",
+				type: "checkmark",
+				title: "Chunk Claiming"
+			}],
+			rewards: [{
+				id: "06C13FA4D8AE75D1",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.5d,
+			description: [
+				"Commands are initiated when you press the slash key '/' from within the world. Basic commands include:",
+				"/sethome will set a waypoint for your home",
+				"/home will teleport you to the home you set",
+				"/delhome delete your current home",
+				"/spawn teleport you to spawn",
+				"/tpa allows you to request a teleport to another player. The player on the other end must accept your request for the teleport to be completed.",
+				"/rtp executes a teleport to a random location. Please note there is a cooldown period between random teleport.",
+				"/back after death you can teleport to your death point or can be used to return to a previous location.",
+				"/trashcan opens a trashcan from your inventory."
+			],
+			dependencies: ["1AF057F95637D8A7"],
+			id: "4566ABBC235069E9",
+			tasks: [{
+				id: "7AD9D444872F43EA",
+				type: "checkmark",
+				title: "Basic Commands"
+			}],
+			rewards: [{
+				id: "36768AF86403FDD9",
+				type: "xp",
+				xp: 100
 			}]
 		}
 	]
