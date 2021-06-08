@@ -70,9 +70,11 @@ server/whitelist.json
 !minecraft/config/fancymenu
 !minecraft/config/ftbquests
 !minecraft/config/jei
+!minecraft/config/waterstrainer
 !server/config/brandon3055
 !server/config/ftbquests/
 !server/config/jei
+!server/config/waterstrainer
 
 #Stop Ignoring these files
 !minecraft/config/alexsmobs.toml
