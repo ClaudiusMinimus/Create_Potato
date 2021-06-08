@@ -1,5 +1,43 @@
 # Change Log
 
+## Version 1.21.1
+
+This release of Create on a Potato PC now included Botania's Garden of Glass ("GoG") skyblock. Also added is the Water Strainers mod to help get started. This implementation of GoG is very much a work in progress and feedback on our [discord](https://discord.com/invite/jXrx4Tu) would be appreciated regarding missing recipes and needed quests to help progress. Please be sure to join our [discord](https://discord.com/invite/jXrx4Tu).
+
+This update should work with your existing singleplayer non-GoG worlds. 
+
+*Always backup your worlds!*
+
+- Mods Added:
+  - Botania-1.16.5-416
+  - crashutilities-3.11.1
+  - gardenofglass-1.7
+  - ServerTabInfo-1.16.4-1.3.3
+  - WaterStrainer-1.16.3-10.0.0
+- Mods Updated:
+  - Apotheosis-1.16.4-4.6.1
+  - architectury-1.17.20-forge
+  - armorpointspp-1.16.5-2.0.0
+  - BiomesOPlenty-1.16.5-13.1.0.469-universal
+  - Clumps-6.0.0.24
+  - Controlling-7.0.0.20
+  - CookingForBlockheads_1.16.5-9.3.2
+  - CraftingTweaks_1.16.5-12.2.1
+  - DefaultOptions_1.16.5-12.2.1
+  - FarmingForBlockheads_1.16.5-7.3.1
+  - ftb-ultimine-forge-1605.2.2-build.4
+  - kubejs-forge-1605.3.10-build.18
+  - PickleTweaks-1.16.4-5.2.3
+  - Placebo-1.16.4-4.5.0
+  - repurposed_structures-1.16.5-2.7.2-forge
+  - rhino-1605.1.0-build.4
+  - silent-gear-1.16.5-2.6.26
+  - theoneprobe-1.16-3.1.4
+- Mods Removed: none
+- Other Changes:
+  - Updated quests. Added questline for Botania - Garden of Glass
+  - Updated Forge to 36.1.25
+
 ## Version 1.20.0
 
 - Mods Added:
