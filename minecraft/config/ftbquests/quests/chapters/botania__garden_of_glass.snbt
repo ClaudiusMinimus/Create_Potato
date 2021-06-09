@@ -484,6 +484,106 @@
 				item: "botania:endoflame",
 				count: 2
 			}]
+		},
+		{
+			x: -3.0d,
+			y: 11.0d,
+			description: ["Did you know you can spawn a blaze with a Fel Pumpkin. Stack two iron bars and then place the pumpkin on the very top."],
+			dependencies: ["35839D1079D196A7"],
+			id: "465071169A856F47",
+			tasks: [{
+				id: "5BDA4E79D6597905",
+				type: "item",
+				item: "botania:fel_pumpkin",
+				count: 10L
+			}],
+			rewards: [{
+				id: "023773A9444AA505",
+				type: "item",
+				item: "minecraft:cactus"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 14.0d,
+			dependencies: ["2D9DC78C66027DF2"],
+			id: "4EBF5AB892CDCB14",
+			tasks: [{
+				id: "4D42BA16910114E1",
+				type: "item",
+				item: "botania:manasteel_ingot"
+			}],
+			rewards: [{
+				id: "60971AAD50350AC7",
+				type: "item",
+				item: "botania:blacker_lotus"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 14.0d,
+			dependencies: ["4EBF5AB892CDCB14"],
+			id: "79F82A7D2D7D1280",
+			tasks: [{
+				id: "2CA9CC07CA95D6E4",
+				type: "item",
+				item: {
+					id: "botania:manasteel_pick",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 11.0d,
+			description: ["Craft 10 Blaze Mesh from Blaze Powder."],
+			dependencies: ["465071169A856F47"],
+			id: "17A1BA526CB16EB9",
+			tasks: [{
+				id: "293472722232832D",
+				type: "item",
+				item: "botania:blaze_block",
+				count: 10L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 11.0d,
+			description: ["Place the Blaze Mesh around a Pure Daisy to make Obsidian."],
+			dependencies: ["17A1BA526CB16EB9"],
+			id: "0EE80219369CCC15",
+			tasks: [{
+				id: "7E27654B5FF5B847",
+				type: "item",
+				item: "minecraft:obsidian",
+				count: 10L
+			}]
+		},
+		{
+			title: "Off to the Nether!",
+			x: -7.5d,
+			y: 11.0d,
+			dependencies: ["0EE80219369CCC15"],
+			id: "4B5C3B816DB2B66D",
+			tasks: [{
+				id: "02675C3C38238727",
+				type: "location",
+				dimension: "minecraft:nether",
+				ignore_dimension: false,
+				position: [I;
+					0,
+					0,
+					0
+				],
+				size: [I;
+					1,
+					1,
+					1
+				]
+			}]
 		}
 	]
 }
