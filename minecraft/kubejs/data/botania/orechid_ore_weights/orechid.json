@@ -17,6 +17,11 @@
     },
     {
       "type": "block",
+      "block": "forbidden_arcanus:xpetrified_ore",
+      "weight": 3251
+    },
+    {
+      "type": "block",
       "block": "forbidden_arcanus:stella_arcanum",
       "weight": 998
     },

@@ -14,6 +14,14 @@ events.listen('recipes', function (event) {
         W: '#minecraft:logs'
     })
 
+    // Add shaped recipe for blaze rods
+        event.shaped(item.of('minecraft:blaze_rod', 1), [
+            'BBB',
+            'BBB'
+        ], {
+            B: 'minecraft:blaze_powder'
+        })
+
     // Add shaped recipe for clay block
     event.shaped(item.of('minecraft:clay', 8), [
         'SDS',
