@@ -76,6 +76,12 @@ events.listen('recipes', function (event) {
         S: '#minecraft:saplings'
     })
 
+    // Add shapeless recipe for oak slab to oak planks
+    event.shapeless(item.of('minecraft:oak_planks', 1), ['minecraft:oak_slab', 'minecraft:oak_slab'])
+
+    // Add shapeless recipe for cobblestone slabs to cobblestone
+    event.shapeless(item.of('minecraft:cobblestone', 1), ['minecraft:cobblestone_slab', 'minecraft:cobblestone_slab'])    
+
     // Add shapeless recipe for Firework Star
     event.shapeless(item.of('minecraft:firework_star', 1), ['minecraft:gunpowder', '#forge:dyes'])
 

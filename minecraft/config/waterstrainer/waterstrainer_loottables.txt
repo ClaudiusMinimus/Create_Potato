@@ -39,6 +39,8 @@
 <add><strainer>strainer_fisherman</strainer> <group>JUNK</group> <chance>30</chance> <item>minecraft:lily_pad</item> <subchance>7</subchance></add>
 <add><strainer>strainer_fisherman</strainer> <group>JUNK</group> <chance>30</chance> <item>minecraft:vine</item> <subchance>7</subchance></add>
 <add><strainer>strainer_fisherman</strainer> <group>JUNK</group> <chance>30</chance> <item>silentgems:fluffy_puff_seeds</item> <subchance>13</subchance></add>
+<add><strainer>strainer_fisherman</strainer> <group>JUNK</group> <chance>30</chance> <item>forbidden_arcanus:yellow_orchid</item> <subchance>13</subchance></add>
+<add><strainer>strainer_fisherman</strainer> <group>JUNK</group> <chance>30</chance> <item>forbidden_arcanus:mysterywood_sapling</item> <subchance>13</subchance></add>
 
 <add><strainer>strainer_fisherman</strainer> <chance>1</chance> <item>minecraft:enchanted_book</item></add>
 <add><strainer>strainer_fisherman</strainer> <chance>69</chance> <item>$BLANK$</item></add>
