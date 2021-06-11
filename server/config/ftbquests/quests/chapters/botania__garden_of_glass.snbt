@@ -245,8 +245,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 12.5d,
+			x: 0.0d,
+			y: 14.0d,
 			dependencies: ["55468A5FB8BA4A1F"],
 			id: "754F5D734147F8BA",
 			tasks: [{
@@ -310,7 +310,7 @@
 		},
 		{
 			x: 1.5d,
-			y: 15.5d,
+			y: 17.0d,
 			dependencies: ["2D9DC78C66027DF2"],
 			id: "0027048889049815",
 			tasks: [{
@@ -338,7 +338,7 @@
 		},
 		{
 			x: 4.5d,
-			y: 15.5d,
+			y: 17.0d,
 			dependencies: ["0059F4044C719D7D"],
 			id: "7000D800442BDB20",
 			tasks: [{
@@ -348,8 +348,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 12.5d,
+			x: -1.5d,
+			y: 14.0d,
 			dependencies: ["754F5D734147F8BA"],
 			id: "168B204949452C03",
 			tasks: [{
@@ -376,7 +376,7 @@
 		},
 		{
 			x: 3.0d,
-			y: 15.5d,
+			y: 17.0d,
 			dependencies: ["0027048889049815"],
 			id: "0059F4044C719D7D",
 			tasks: [{
@@ -406,18 +406,24 @@
 		},
 		{
 			x: 3.5d,
-			y: 17.5d,
+			y: 19.0d,
 			dependencies: ["6D698E9864D3C153"],
 			id: "2AC4427434E9FBCB",
 			tasks: [{
 				id: "642F203B1E817A2D",
 				type: "item",
 				item: "botania:dirt_rod"
+			}],
+			rewards: [{
+				id: "451B9CB67EEFD338",
+				type: "item",
+				item: "minecraft:grass_block",
+				count: 32
 			}]
 		},
 		{
 			x: 2.5d,
-			y: 16.5d,
+			y: 18.0d,
 			dependencies: ["0027048889049815"],
 			id: "6D698E9864D3C153",
 			tasks: [{
@@ -443,8 +449,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 14.0d,
+			x: 1.5d,
+			y: 12.5d,
 			dependencies: ["2D9DC78C66027DF2"],
 			id: "11E7D116CDEC9D03",
 			tasks: [{
@@ -504,7 +510,7 @@
 			}]
 		},
 		{
-			x: 3.0d,
+			x: 4.5d,
 			y: 14.0d,
 			dependencies: ["2D9DC78C66027DF2"],
 			id: "4EBF5AB892CDCB14",
@@ -520,7 +526,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 6.5d,
 			y: 14.0d,
 			dependencies: ["4EBF5AB892CDCB14"],
 			id: "79F82A7D2D7D1280",
@@ -534,6 +540,12 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "71D9562CE35FE676",
+				type: "item",
+				item: "pamhc2foodcore:hotdogitem",
+				count: 8
 			}]
 		},
 		{
@@ -583,6 +595,163 @@
 					1,
 					1
 				]
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 17.0d,
+			description: ["When the Alchemy Catalyst is placed under a Mana Pool the Mana Pool will output different recipes. Check JEI for what the Alchemy Catalyst can do."],
+			dependencies: ["0027048889049815"],
+			id: "0A865D877C969C7B",
+			tasks: [{
+				id: "253193C40E67D396",
+				type: "item",
+				item: "botania:alchemy_catalyst"
+			}],
+			rewards: [{
+				id: "29A83DEA30E50888",
+				type: "item",
+				item: "minecraft:quartz",
+				count: 32
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 12.5d,
+			dependencies: ["4EBF5AB892CDCB14"],
+			id: "21FE58A9CB80B99B",
+			tasks: [{
+				id: "4D235D7907805211",
+				type: "item",
+				item: {
+					id: "botania:monocle",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "409A7C2BB7D9634F",
+				type: "item",
+				item: "botania:manasteel_ingot"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 12.0d,
+			description: ["The Mana Lens by itself does nothing, but is used as the base for other lens."],
+			dependencies: ["4EBF5AB892CDCB14"],
+			id: "586D540A5DE160AB",
+			tasks: [{
+				id: "7CBE4E9E4EC1E74A",
+				type: "item",
+				item: {
+					id: "botania:lens_normal",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 10.5d,
+			dependencies: ["586D540A5DE160AB"],
+			id: "305D8F543C830B44",
+			tasks: [{
+				id: "21398F10D069890F",
+				type: "item",
+				item: {
+					id: "botania:lens_weight",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 18.0d,
+			dependencies: ["0027048889049815"],
+			id: "721AD3481887982A",
+			tasks: [{
+				id: "3F379575A6F57427",
+				type: "item",
+				item: "botania:rune_air"
+			}],
+			rewards: [{
+				id: "4EA30344B5C6C79E",
+				type: "item",
+				item: "botania:white_floating_flower"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 19.0d,
+			description: ["Think of the Hopperhock as a vacuum chest that will put items into an adjacent inventory such as a cheat. Mana is not required but increases its range."],
+			dependencies: ["721AD3481887982A"],
+			id: "714B4429C2E1CF25",
+			tasks: [{
+				id: "60C035FC00F26A45",
+				type: "item",
+				item: "botania:hopperhock"
+			}],
+			rewards: [{
+				id: "644900A46B1A3FC3",
+				type: "item",
+				item: "botania:mana_pearl"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 18.5d,
+			dependencies: ["0027048889049815"],
+			id: "74CD206E24B85187",
+			tasks: [{
+				id: "54ABD30AFC694209",
+				type: "item",
+				item: "botania:rune_fire",
+				count: 2L
+			}],
+			rewards: [{
+				id: "2EE98889B47245D6",
+				type: "item",
+				item: "minecraft:ghast_tear"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 20.0d,
+			dependencies: ["74CD206E24B85187"],
+			id: "2C9103778A885567",
+			tasks: [{
+				id: "27BB2537D3FD1454",
+				type: "item",
+				item: "botania:jaded_amaranthus"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 14.0d,
+			dependencies: ["542DD76032B66B50"],
+			id: "077E7E557DCB9576",
+			tasks: [{
+				id: "3A15F801CF6E4DF6",
+				type: "item",
+				item: {
+					id: "botania:twig_wand",
+					Count: 1b,
+					tag: {
+						color1: 15,
+						boundTileZ: 0,
+						color2: 1,
+						boundTileX: 0,
+						boundTileY: -1
+					}
+				}
+			}],
+			rewards: [{
+				id: "4587E0D0A2129D73",
+				type: "item",
+				item: "minecraft:dark_oak_sapling",
+				count: 8
 			}]
 		}
 	]
