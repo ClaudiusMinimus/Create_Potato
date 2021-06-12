@@ -23,12 +23,13 @@ generator-settings=
 hardcore=false
 level-name=world
 level-seed=
+#If you don't want to use garden of glass, the leave level-type blank
 level-type=botania:gardenofglass
 max-build-height=256
 max-players=20
 max-tick-time=-1
 max-world-size=29999984
-motd=\u00A73Create Potato \u00A76>>>> Ver. 1.16.5-1.21.1 <<<<\nWelcome to our offical server\! 
+motd=\u00A73Create Potato \u00A76>>>> Ver. 1.16.5-1.22.0 <<<<\nWelcome to our offical server\! 
 network-compression-threshold=256
 online-mode=true
 op-permission-level=4
