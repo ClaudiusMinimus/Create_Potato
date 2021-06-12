@@ -1,5 +1,30 @@
 # Change Log
 
+## Version 1.22.0
+
+*Always backup your worlds!*
+
+- Mods Added: none
+- Mods Updated:
+  - architectury-1.17.21-forge
+  - citadel-1.7.1-1.16.5
+  - Clumps-6.0.0.25
+  - Controlling-7.0.0.23
+  - curios-forge-1.16.5-4.0.5.2
+  - fancymenu_2.1.0_MC_1.16.2-1.16.5
+  - kubejs-forge-1605.3.10-build.23
+  - moreoverlays-1.18.14-mc1.16.5
+  - repurposed_structures-1.16.5-2.7.5-forge
+  - rhino-1605.1.1-build.14
+- Mods Removed: none
+- Other Changes:
+  - Updated quests. Added many quests for Botania - Garden of Glass
+  - If chat message is "discord" then a Join link is shown.
+  - Added recipe for slabs to block for cobble and oak.
+  - Added recipe for blaze rods.
+  - Added  Forbidden & Arcanus Yellow Orchid and Mysterywood Sapling to Water Strainer.
+  - Added  Forbidden & Arcanus Xpetrified Ore to Orechid flower.
+
 ## Version 1.21.1
 
 This release of Create on a Potato PC now included Botania's Garden of Glass ("GoG") skyblock. Also added is the Water Strainers mod to help get started. This implementation of GoG is very much a work in progress and feedback on our [discord](https://discord.com/invite/jXrx4Tu) would be appreciated regarding missing recipes and needed quests to help progress. Please be sure to join our [discord](https://discord.com/invite/jXrx4Tu).
