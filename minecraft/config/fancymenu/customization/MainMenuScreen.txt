@@ -2,7 +2,10 @@ type = menu
 
 customization-meta {
   identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
   renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
 }
 
 customization {
@@ -225,7 +228,7 @@ customization {
   label = 
   x = -224
   width = 100
-  actionid = 7a126194-20c4-4152-9881-21ffc89637ed1621458712696
+  actionid = c15d35d5-62a2-4d76-8317-e64dfdbb43b61623519998469
   action = addbutton
   y = 16
   backgroundnormal = config/fancymenu/customguis/images/buttons/discord.png
@@ -241,7 +244,7 @@ customization {
   label = 
   x = -47
   width = 100
-  actionid = 2c702220-fc18-491a-8436-78fb226f22801621458712700
+  actionid = 0c3eb206-cf6b-4625-b249-0b5b4fa77a3e1623519998473
   action = addbutton
   y = -36
   backgroundnormal = config/fancymenu/customguis/images/buttons/server.png
@@ -258,6 +261,6 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC v. 1.16.5-1.21.1
+  value = Create on a Potato PC v. 1.16.5-1.22.0
 }
 
