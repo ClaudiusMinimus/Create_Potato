@@ -411,12 +411,19 @@
 				entity: "minecraft:wither_skeleton",
 				value: 100L
 			}],
-			rewards: [{
-				id: "0000000000000220",
-				type: "item",
-				item: "minecraft:netherite_ingot",
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "0000000000000220",
+					type: "item",
+					item: "minecraft:netherite_ingot",
+					count: 4
+				},
+				{
+					id: "7CEAE86AFCDA0A3F",
+					type: "item",
+					item: "minecraft:end_portal_frame"
+				}
+			]
 		},
 		{
 			x: -4.5d,
@@ -518,213 +525,220 @@
 				entity: "minecraft:blaze",
 				value: 100L
 			}],
-			rewards: [{
-				id: "0000000000000221",
-				type: "item",
-				item: {
-					id: "silentgear:blueprint_book",
-					Count: 1b,
-					tag: {
-						Inventory: {
-							Items: [
-								{
-									Slot: 0,
-									id: "silentgear:jeweler_tools",
-									Count: 1b
-								},
-								{
-									Slot: 1,
-									id: "silentgear:rod_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 2,
-									id: "silentgear:tip_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 3,
-									id: "silentgear:coating_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 4,
-									id: "silentgear:grip_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 5,
-									id: "silentgear:binding_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 6,
-									id: "silentgear:lining_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 7,
-									id: "silentgear:bowstring_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 8,
-									id: "silentgear:fletching_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 9,
-									id: "silentgear:sword_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 10,
-									id: "silentgear:katana_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 11,
-									id: "silentgear:machete_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 12,
-									id: "silentgear:spear_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 13,
-									id: "silentgear:knife_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 14,
-									id: "silentgear:dagger_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 15,
-									id: "silentgear:pickaxe_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 16,
-									id: "silentgear:shovel_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 17,
-									id: "silentgear:axe_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 18,
-									id: "silentgear:paxel_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 19,
-									id: "silentgear:hammer_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 20,
-									id: "silentgear:excavator_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 21,
-									id: "silentgear:saw_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 22,
-									id: "silentgear:mattock_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 23,
-									id: "silentgear:prospector_hammer_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 24,
-									id: "silentgear:sickle_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 25,
-									id: "silentgear:shears_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 26,
-									id: "silentgear:bow_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 27,
-									id: "silentgear:crossbow_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 28,
-									id: "silentgear:slingshot_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 29,
-									id: "silentgear:shield_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 30,
-									id: "silentgear:helmet_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 31,
-									id: "silentgear:chestplate_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 32,
-									id: "silentgear:leggings_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 33,
-									id: "silentgear:boots_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 34,
-									id: "silentgear:elytra_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 35,
-									id: "silentgear:arrow_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 36,
-									id: "silentgear:ring_blueprint",
-									Count: 1b
-								},
-								{
-									Slot: 37,
-									id: "silentgear:bracelet_blueprint",
-									Count: 1b
-								}
-							]
-						},
-						display: {
-							Name: '{"text":"Fully-Loaded Blueprint Book"}'
+			rewards: [
+				{
+					id: "0000000000000221",
+					type: "item",
+					item: {
+						id: "silentgear:blueprint_book",
+						Count: 1b,
+						tag: {
+							Inventory: {
+								Items: [
+									{
+										Slot: 0,
+										id: "silentgear:jeweler_tools",
+										Count: 1b
+									},
+									{
+										Slot: 1,
+										id: "silentgear:rod_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 2,
+										id: "silentgear:tip_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 3,
+										id: "silentgear:coating_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 4,
+										id: "silentgear:grip_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 5,
+										id: "silentgear:binding_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 6,
+										id: "silentgear:lining_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 7,
+										id: "silentgear:bowstring_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 8,
+										id: "silentgear:fletching_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 9,
+										id: "silentgear:sword_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 10,
+										id: "silentgear:katana_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 11,
+										id: "silentgear:machete_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 12,
+										id: "silentgear:spear_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 13,
+										id: "silentgear:knife_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 14,
+										id: "silentgear:dagger_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 15,
+										id: "silentgear:pickaxe_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 16,
+										id: "silentgear:shovel_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 17,
+										id: "silentgear:axe_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 18,
+										id: "silentgear:paxel_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 19,
+										id: "silentgear:hammer_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 20,
+										id: "silentgear:excavator_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 21,
+										id: "silentgear:saw_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 22,
+										id: "silentgear:mattock_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 23,
+										id: "silentgear:prospector_hammer_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 24,
+										id: "silentgear:sickle_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 25,
+										id: "silentgear:shears_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 26,
+										id: "silentgear:bow_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 27,
+										id: "silentgear:crossbow_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 28,
+										id: "silentgear:slingshot_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 29,
+										id: "silentgear:shield_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 30,
+										id: "silentgear:helmet_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 31,
+										id: "silentgear:chestplate_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 32,
+										id: "silentgear:leggings_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 33,
+										id: "silentgear:boots_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 34,
+										id: "silentgear:elytra_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 35,
+										id: "silentgear:arrow_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 36,
+										id: "silentgear:ring_blueprint",
+										Count: 1b
+									},
+									{
+										Slot: 37,
+										id: "silentgear:bracelet_blueprint",
+										Count: 1b
+									}
+								]
+							},
+							display: {
+								Name: '{"text":"Fully-Loaded Blueprint Book"}'
+							}
 						}
 					}
+				},
+				{
+					id: "3C3847A99F23372B",
+					type: "item",
+					item: "minecraft:end_portal_frame"
 				}
-			}]
+			]
 		},
 		{
 			x: -4.5d,
@@ -875,7 +889,8 @@
 			dependencies: [
 				"29FFE1F7BC45D711",
 				"000000000000057E",
-				"0000000000000460"
+				"0000000000000460",
+				"05481459DD353C1A"
 			],
 			id: "000000000000045E",
 			tasks: [{
@@ -1046,7 +1061,7 @@
 		},
 		{
 			title: "Wither Slayer",
-			x: -1.5d,
+			x: -2.5d,
 			y: -4.5d,
 			id: "29FFE1F7BC45D711",
 			tasks: [{
@@ -1056,10 +1071,36 @@
 				entity: "minecraft:wither",
 				value: 10L
 			}],
+			rewards: [
+				{
+					id: "184618A1633008DF",
+					type: "item",
+					item: "silentgear:tyrian_steel_block"
+				},
+				{
+					id: "6A2E3B9EFF94AE9C",
+					type: "item",
+					item: "minecraft:end_portal_frame"
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -4.5d,
+			dependency_requirement: "one_completed",
+			id: "05481459DD353C1A",
+			tasks: [{
+				id: "11CBE2B49FECF7C2",
+				type: "kill",
+				icon: "botania:life_essence",
+				entity: "botania:doppleganger",
+				value: 10L
+			}],
 			rewards: [{
-				id: "184618A1633008DF",
+				id: "11F6B35C302ACD69",
 				type: "item",
-				item: "silentgear:tyrian_steel_block"
+				item: "minecraft:end_portal_frame",
+				count: 3
 			}]
 		}
 	]
