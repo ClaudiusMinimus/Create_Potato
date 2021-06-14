@@ -438,12 +438,29 @@
 				entity: "minecraft:zombie",
 				value: 1000L
 			}],
-			rewards: [{
-				id: "0000000000000239",
-				type: "item",
-				item: "minecraft:nether_star",
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "0000000000000239",
+					type: "item",
+					item: "minecraft:nether_star",
+					count: 5
+				},
+				{
+					id: "32202C3190364DF8",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "apotheosis:capturing"
+							}]
+						}
+					},
+					count: 3
+				}
+			]
 		},
 		{
 			icon: "minecraft:cauldron",
