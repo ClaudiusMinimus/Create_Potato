@@ -11,6 +11,16 @@
       "weight": 5002
     },
     {
+      "type": "tag",
+      "tag": "forge:ores/chromium",
+      "weight": 5003
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/cadmium",
+      "weight": 5004
+    },
+    {
       "type": "block",
       "block": "forbidden_arcanus:arcane_crystal_ore",
       "weight": 3201
