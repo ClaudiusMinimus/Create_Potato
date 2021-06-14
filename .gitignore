@@ -39,6 +39,7 @@ minecraft/instance.cfg
 minecraft/knownkeys.txt
 minecraft/mmc-pack.json
 minecraft/options.txt
+minecraft/patchouli_data.json
 minecraft/servers.dat*
 minecraft/realms_persistence.json
 minecraft/reauth.toml
