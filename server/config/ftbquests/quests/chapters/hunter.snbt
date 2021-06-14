@@ -1053,7 +1053,7 @@
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
-							id: "apotheosis:true_infinity"
+							id: "apotheosis:capturing"
 						}]
 					}
 				}
