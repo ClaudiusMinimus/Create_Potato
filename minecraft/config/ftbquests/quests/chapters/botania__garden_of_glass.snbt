@@ -620,8 +620,8 @@
 			}]
 		},
 		{
-			x: 6.0d,
-			y: 12.5d,
+			x: 3.0d,
+			y: 15.0d,
 			description: ["When equipped in the Curios Amulet slot, it shows nearby Mana bursts (even those out of the line of sight) and the functional radii of flowers to the player. "],
 			dependencies: ["4EBF5AB892CDCB14"],
 			id: "21FE58A9CB80B99B",
@@ -1140,8 +1140,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 15.5d,
+			x: 6.0d,
+			y: 12.5d,
 			dependencies: ["4EBF5AB892CDCB14"],
 			id: "009EE7310AA40B79",
 			tasks: [{
@@ -1242,8 +1242,8 @@
 		},
 		{
 			icon: "botania:enchanter",
-			x: 3.0d,
-			y: 17.0d,
+			x: 6.5d,
+			y: 11.0d,
 			description: ["Enchanting with Mana is a powerful way to enchant items without consuming the enchantment books. To learn in-depth instruction open your Lexica Botania and search on: Enchanting with Mana"],
 			dependencies: ["009EE7310AA40B79"],
 			id: "6F152976BC2A0517",
@@ -1261,6 +1261,23 @@
 						mana: 500000
 					}
 				}
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 12.0d,
+			dependencies: ["009EE7310AA40B79"],
+			id: "0E9F95234AB4F307",
+			tasks: [{
+				id: "6DE1740BCEC57AD6",
+				type: "item",
+				item: "botania:gaia_pylon",
+				count: 4L
+			}],
+			rewards: [{
+				id: "70E8D38A4109CB6E",
+				type: "item",
+				item: "minecraft:diamond_block"
 			}]
 		}
 	]

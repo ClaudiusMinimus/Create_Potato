@@ -215,23 +215,35 @@
 		{
 			x: 1.0d,
 			y: 0.0d,
+			description: ["As a reward, you will receive a rabbit spawn egg. Use it wisely as you will need it for another quest."],
 			dependencies: ["7EA4A355089C0061"],
 			id: "08BE2FAC175E4F61",
 			tasks: [{
 				id: "6C8A05C62C24A46F",
 				type: "item",
 				item: "minecraft:carrot"
+			}],
+			rewards: [{
+				id: "2B4D7EF3807C973F",
+				type: "item",
+				item: "minecraft:rabbit_spawn_egg"
 			}]
 		},
 		{
 			x: -2.0d,
 			y: 0.0d,
+			description: ["As a reward, you will receive a squid spawn egg. Use it wisely as you will need it for another quest."],
 			dependencies: ["58A0817160D96360"],
 			id: "583C7A4FE8D984CB",
 			tasks: [{
 				id: "5E0C719D4DFBB8FE",
 				type: "item",
 				item: "minecraft:pumpkin"
+			}],
+			rewards: [{
+				id: "69844C77C4BC8705",
+				type: "item",
+				item: "minecraft:squid_spawn_egg"
 			}]
 		},
 		{
@@ -288,6 +300,7 @@
 		{
 			x: 4.0d,
 			y: 1.5d,
+			description: ["As a reward, you will receive a lobster spawn egg. Use it wisely as you will need it for another quest."],
 			dependencies: [
 				"058852DD03C8D49D",
 				"583C7A4FE8D984CB"
@@ -297,6 +310,11 @@
 				id: "250EAA1AAB00AFA2",
 				type: "item",
 				item: "minecraft:kelp"
+			}],
+			rewards: [{
+				id: "470142E30AB45D5D",
+				type: "item",
+				item: "alexsmobs:spawn_egg_lobster"
 			}]
 		},
 		{
@@ -335,12 +353,18 @@
 		{
 			x: -0.5d,
 			y: 3.0d,
+			description: ["As a reward, you will receive a salmon spawn egg. Use it wisely as you will need it for another quest."],
 			dependencies: ["228834E80C9D580F"],
 			id: "5110E3C2872FDBD3",
 			tasks: [{
 				id: "65B81916C63D2879",
 				type: "item",
 				item: "forbidden_arcanus:golden_orchid_seeds"
+			}],
+			rewards: [{
+				id: "22B258632E392919",
+				type: "item",
+				item: "minecraft:salmon_spawn_egg"
 			}]
 		},
 		{
