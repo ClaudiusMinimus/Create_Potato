@@ -6,11 +6,9 @@
 
 - Mods Added: none
 - Mods Updated:
-  - allomancy-4.3.0-pre3
   - architectury-1.17.22-forge
   - createplus-1.16.4_v0.3.2
   - Cucumber-1.16.4-4.1.10
-  - Feruchemy-1.2.0
   - kubejs-forge-1605.3.10-build.25
   - refinedstorage-1.9.13
   - rhino-1605.1.1-build.21
