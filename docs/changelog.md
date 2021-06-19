@@ -1,5 +1,28 @@
 # Change Log
 
+## Version 1.23.0
+
+*Always backup your worlds!*
+
+- Mods Added: none
+- Mods Updated:
+  - allomancy-4.3.0-pre3
+  - architectury-1.17.22-forge
+  - createplus-1.16.4_v0.3.2
+  - Cucumber-1.16.4-4.1.10
+  - Feruchemy-1.2.0
+  - kubejs-forge-1605.3.10-build.25
+  - refinedstorage-1.9.13
+  - rhino-1605.1.1-build.21
+  - SilentGems-1.16.3-3.7.16
+  - SoL-Carrot-1.16.5-1.10.0
+  - u_team_core-1.16.5-3.2.1.196
+  - useful_backpacks-1.16.5-1.12.1.90
+- Mods Removed: none
+- Other Changes:
+  - Updated a few quests
+  - Updated Forge to 36.1.32
+
 ## Version 1.22.0
 
 *Always backup your worlds!*
