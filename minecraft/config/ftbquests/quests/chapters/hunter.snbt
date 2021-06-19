@@ -955,6 +955,7 @@
 			icon: "minecraft:sea_lantern",
 			x: -0.5d,
 			y: -7.5d,
+			description: ["For skyblock worlds the Elder Guardian cannot be spawn as yet, but we are working on a solution."],
 			id: "000000000000057E",
 			tasks: [{
 				id: "000000000000057F",

@@ -2044,7 +2044,7 @@
 			]
 		},
 		{
-			title: "Gilded Bowstring",
+			title: "Gilded Bowstring Upgrade",
 			x: 1.5d,
 			y: -1.5d,
 			description: ["Craft a Bowstring using Gilded String"],
