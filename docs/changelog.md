@@ -1,8 +1,42 @@
 # Change Log
 
-## Version 1.23.0
-
 *Always backup your worlds!*
+
+## Version 1.24.0
+
+2021-07-01
+
+- Mods Added: none
+- Mods Updated:
+  - alexsmobs-1.11.1
+  - appleskin-forge-mc1.16.x-2.0.0
+  - architectury-1.18.26-forge
+  - BiomesOPlenty-1.16.5-13.1.0.477-universal
+  - Botania-1.16.5-418
+  - comforts-forge-1.16.5-4.0.1.1
+  - CookingForBlockheads_1.16.5-9.3.3
+  - createplus-1.16.4_v0.3.2
+  - Cucumber-1.16.4-4.1.10
+  - fancymenu_2.1.2-1_MC_1.16.2-1.16.5
+  - Feruchemy-1.2.0
+  - item-filters-forge-1605.2.5-build.4
+  - kubejs-forge-1605.3.11-build.31
+  - Patchouli-1.16.4-53
+  - refinedstorage-1.9.13
+  - repurposed_structures-1.16.5-2.7.6-forge
+  - rhino-1605.1.1-build.21
+  - silent-gear-1.16.5-2.6.27
+  - SilentGems-1.16.3-3.7.16
+  - SoL-Carrot-1.16.5-1.10.0
+  - u_team_core-1.16.5-3.2.1.196
+  - useful_backpacks-1.16.5-1.12.1.90
+- Mods Removed: none
+- Other Changes:
+  - Update quests
+  - Add flax seed to Water Strainer
+  - Enable regular ItemClear in server/defaultconfigs/crashutilities-server.toml
+
+## Version 1.23.0
 
 - Mods Added: none
 - Mods Updated:
