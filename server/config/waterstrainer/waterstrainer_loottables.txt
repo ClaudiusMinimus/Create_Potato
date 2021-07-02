@@ -19,9 +19,9 @@
 <add><strainer>strainer_survivalist</strainer> <chance>15</chance> <item>minecraft:clay_ball</item></add>
 <add><strainer>strainer_survivalist</strainer> <chance>13</chance> <item>minecraft:gravel</item></add>
 <add><strainer>strainer_survivalist</strainer> <group>INGOT</group> <chance>30</chance> <item>minecraft:iron_ingot</item> <subchance>75</subchance></add>
-<add><strainer>strainer_survivalist</strainer> <group>INGOT</group> <chance>30</chance> <item>create:zinc_ingot</item> <subchance>75</subchance></add>
 <add><strainer>strainer_survivalist</strainer> <group>INGOT</group> 
 <chance>15</chance> <item>minecraft:gold_ingot</item> <subchance>25</subchance></add>
+<add><strainer>strainer_survivalist</strainer> <group>INGOT</group> <chance>30</chance> <item>create:zinc_ingot</item> <subchance>75</subchance></add>
 <copy><child>strainer_survivalist_solid</child> <parent>strainer_survivalist</parent></copy>
 <copy><child>strainer_survivalist_reinforced</child> <parent>strainer_survivalist</parent></copy>
 
