@@ -2,6 +2,19 @@
 
 *Always backup your worlds!*
 
+## Version 1.25.0
+
+2021-07-27
+
+- Mods Added: none
+- Mods Updated:
+- Mods Removed:
+  - Feruchemy - loading errors that did not go away
+- Other Changes:
+  - Updated Forge to 36.2.0
+  - Removed/modified quests relating to Create mod update
+  - Added recipe for Living Root
+
 ## Version 1.24.0
 
 2021-07-01
