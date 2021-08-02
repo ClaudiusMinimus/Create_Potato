@@ -13,7 +13,7 @@
 	quests: [
 		{
 			x: 0.0d,
-			y: -3.0d,
+			y: -4.5d,
 			shape: "diamond",
 			description: [
 				"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine.",
@@ -75,7 +75,7 @@
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 1.0d,
 			y: 1.5d,
 			dependencies: ["000000000000078F"],
 			id: "0000000000000793",
@@ -276,22 +276,6 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 9.0d,
-			dependencies: ["0000000000000797"],
-			id: "00000000000007A9",
-			tasks: [{
-				id: "00000000000007AA",
-				type: "item",
-				item: "create:lapis_sheet"
-			}],
-			rewards: [{
-				id: "0000000000000862",
-				type: "item",
-				item: "forbidden_arcanus:orb_of_temporary_flight"
-			}]
-		},
-		{
 			x: 5.0d,
 			y: 1.5d,
 			description: [
@@ -432,7 +416,7 @@
 		},
 		{
 			x: 0.0d,
-			y: -5.0d,
+			y: -6.5d,
 			description: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."],
 			dependencies: ["000000000000062C"],
 			id: "00000000000007BD",
@@ -450,7 +434,7 @@
 		},
 		{
 			x: -1.5d,
-			y: -5.0d,
+			y: -6.5d,
 			description: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."],
 			dependencies: ["00000000000007BD"],
 			id: "00000000000007BF",
@@ -467,7 +451,7 @@
 		},
 		{
 			x: -1.5d,
-			y: -6.5d,
+			y: -8.0d,
 			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."],
 			dependencies: ["00000000000007BD"],
 			id: "00000000000007C1",
@@ -491,7 +475,7 @@
 		},
 		{
 			x: 1.5d,
-			y: -5.0d,
+			y: -6.5d,
 			description: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."],
 			dependencies: ["00000000000007BD"],
 			id: "00000000000007C5",
@@ -509,7 +493,7 @@
 		},
 		{
 			x: 0.0d,
-			y: -8.0d,
+			y: -9.5d,
 			description: ["The Spout is for refilling your fluid items. Can also be automated."],
 			dependencies: ["00000000000007CD"],
 			id: "00000000000007C7",
@@ -562,7 +546,7 @@
 		},
 		{
 			x: 0.0d,
-			y: -6.5d,
+			y: -8.0d,
 			description: ["The Fluid Tank can be a single block or a multi-block structure."],
 			dependencies: ["00000000000007BD"],
 			id: "00000000000007CD",
@@ -617,7 +601,7 @@
 		},
 		{
 			x: 1.5d,
-			y: -6.5d,
+			y: -8.0d,
 			dependencies: ["00000000000007BD"],
 			id: "0000000000000855",
 			tasks: [{
@@ -697,7 +681,7 @@
 			]
 		},
 		{
-			x: -2.5d,
+			x: -1.5d,
 			y: 12.0d,
 			dependencies: ["00000000000007A5"],
 			id: "00000000000008CF",
@@ -713,8 +697,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 12.5d,
+			x: 5.0d,
+			y: 14.5d,
 			dependencies: ["00000000000008DD"],
 			id: "00000000000008D1",
 			tasks: [{
@@ -809,12 +793,9 @@
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 11.5d,
-			dependencies: [
-				"00000000000008D1",
-				"00000000000008E8"
-			],
+			x: 7.5d,
+			y: 13.5d,
+			dependencies: ["00000000000008D1"],
 			id: "00000000000008DF",
 			tasks: [{
 				id: "00000000000008E0",
@@ -837,8 +818,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 15.0d,
+			x: 5.0d,
+			y: 17.0d,
 			dependencies: ["00000000000008D1"],
 			id: "00000000000008E1",
 			tasks: [{
@@ -854,8 +835,8 @@
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 12.5d,
+			x: 8.0d,
+			y: 14.5d,
 			dependencies: ["00000000000008D1"],
 			id: "00000000000008E3",
 			tasks: [{
@@ -871,8 +852,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 14.5d,
+			x: 3.5d,
+			y: 16.5d,
 			dependencies: ["00000000000008D1"],
 			id: "00000000000008E5",
 			tasks: [
@@ -895,17 +876,14 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 10.5d,
-			dependencies: [
-				"00000000000008D1",
-				"00000000000007A9"
-			],
+			x: -1.5d,
+			y: 13.5d,
+			dependencies: ["00000000000008CF"],
 			id: "00000000000008E8",
 			tasks: [{
 				id: "00000000000008E9",
 				type: "item",
-				item: "create:integrated_circuit"
+				item: "create:precision_mechanism"
 			}],
 			rewards: [{
 				id: "65E442B4AEBB7C9F",
@@ -916,7 +894,7 @@
 		},
 		{
 			x: 1.5d,
-			y: 10.5d,
+			y: 9.5d,
 			dependencies: ["00000000000008DD"],
 			id: "00000000000008EC",
 			tasks: [{
@@ -992,8 +970,8 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: 11.5d,
+			x: 2.5d,
+			y: 13.5d,
 			dependencies: ["00000000000008D1"],
 			id: "3E31B9BBFA9BF2E4",
 			tasks: [{
@@ -1017,8 +995,8 @@
 			]
 		},
 		{
-			x: -1.0d,
-			y: 13.5d,
+			x: 2.5d,
+			y: 15.5d,
 			dependencies: ["00000000000008D1"],
 			id: "7B97A732BFADBE7B",
 			tasks: [{
@@ -1033,8 +1011,8 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 12.5d,
+			x: 2.0d,
+			y: 14.5d,
 			dependencies: ["00000000000008D1"],
 			id: "37555B5839214875",
 			tasks: [{
@@ -1058,15 +1036,21 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 14.5d,
+			x: 6.5d,
+			y: 16.5d,
 			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"],
 			dependencies: ["00000000000008D1"],
 			id: "1BBEEF19114688A9",
 			tasks: [{
 				id: "2D698DE6C0875830",
 				type: "item",
-				item: "create:extendo_grip"
+				item: {
+					id: "create:extendo_grip",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
 			}],
 			rewards: [{
 				id: "3073DBD47D347721",
@@ -1195,8 +1179,8 @@
 		},
 		{
 			title: "Into the Void",
-			x: -5.0d,
-			y: 14.5d,
+			x: -5.5d,
+			y: 15.0d,
 			description: ["If you jump into the void you will die, but what will happen to some Chromatic Compound thrown in?"],
 			dependencies: ["688A222392CF08AA"],
 			id: "120FDBE3D5A86446",
@@ -1215,8 +1199,8 @@
 		},
 		{
 			title: "Go Towards the Light",
-			x: -7.0d,
-			y: 15.0d,
+			x: -6.5d,
+			y: 15.5d,
 			description: ["What would happen if you threw a Chromatic Compound into a beam of light or on a bunch of glowstone?"],
 			dependencies: ["688A222392CF08AA"],
 			id: "2EC000DBE2E8AEB0",
@@ -1236,15 +1220,26 @@
 		{
 			title: "A Grand Reward!",
 			x: -3.0d,
-			y: 16.0d,
+			y: 19.0d,
 			shape: "hexagon",
 			description: ["A handy tool for creating landscapes and terrain features."],
 			dependencies: [
 				"120FDBE3D5A86446",
-				"2EC000DBE2E8AEB0",
 				"00000000000008E5",
 				"7B97A732BFADBE7B",
-				"37555B5839214875"
+				"37555B5839214875",
+				"5C6483EDD2B8F901",
+				"3E31B9BBFA9BF2E4",
+				"00000000000008E1",
+				"5F7E1D2AD289101D",
+				"11B64172193C72D1",
+				"0AC25E42FE36BE47",
+				"00000000000008DF",
+				"00000000000008E3",
+				"0D63EF41017B4EC9",
+				"1BBEEF19114688A9",
+				"51CA42B8F1642023",
+				"1ED75DA02603E2F2"
 			],
 			size: 2.0d,
 			id: "5D2231E1A60829E2",
@@ -1260,42 +1255,8 @@
 			}]
 		},
 		{
-			title: "Basic Handheld Blockzapper",
-			x: -8.5d,
-			y: 14.0d,
-			description: ["This is your basic blockzapper."],
-			dependencies: ["2EC000DBE2E8AEB0"],
-			id: "0576C5525D94D1CF",
-			tasks: [{
-				id: "1930F22138BEAF11",
-				type: "item",
-				item: {
-					id: "create:handheld_blockzapper",
-					Count: 1b,
-					tag: {
-						Replace: 0b,
-						Pattern: "Solid",
-						Retriever: "None",
-						Scope: "None",
-						SearchDiagonal: 0b,
-						Amplifier: "None",
-						Body: "None",
-						SearchMaterial: 0b,
-						SearchDistance: 1,
-						Accelerator: "None"
-					}
-				}
-			}],
-			rewards: [{
-				id: "6D8FAF997EA4EAC7",
-				type: "item",
-				item: "forbidden_arcanus:arcane_polished_darkstone",
-				count: 8
-			}]
-		},
-		{
-			x: -6.5d,
-			y: 16.5d,
+			x: -5.5d,
+			y: 17.0d,
 			description: ["This can help with your OCD wanting blocks to be symmetrical!"],
 			dependencies: ["2EC000DBE2E8AEB0"],
 			id: "5C6483EDD2B8F901",
@@ -1325,111 +1286,6 @@
 				type: "item",
 				item: "pickletweaks:diamond_apple",
 				count: 4
-			}]
-		},
-		{
-			x: -8.5d,
-			y: 16.0d,
-			description: ["Have you ever felt like the lumberjack, Paul Bunyan? Now to find Babe the Blue Ox..."],
-			dependencies: ["2EC000DBE2E8AEB0"],
-			id: "1EF0E1674E05E24C",
-			tasks: [{
-				id: "526FD8AB1CB97CBD",
-				type: "item",
-				item: {
-					id: "create:deforester",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}],
-			rewards: [{
-				id: "2E15A6766DAFD023",
-				type: "item",
-				item: {
-					id: "forbidden_arcanus:eternal_stella",
-					Count: 1b,
-					tag: {}
-				}
-			}]
-		},
-		{
-			title: "Brass Handheld Blockzapper",
-			x: -10.0d,
-			y: 13.0d,
-			description: [
-				"This one is a bit tricky to find the recipe. Look at the Handheld Blockzapper in JEI then right-click to see the various upgrades.",
-				"",
-				"This is the Brass version of the Handheld Blockzapper."
-			],
-			dependencies: ["0576C5525D94D1CF"],
-			id: "0328469EABDA93EE",
-			tasks: [{
-				id: "3ED52D6E04E17DEB",
-				type: "item",
-				item: {
-					id: "create:handheld_blockzapper",
-					Count: 1b,
-					tag: {
-						Replace: 0b,
-						Pattern: "Solid",
-						Retriever: "Brass",
-						Scope: "Brass",
-						SearchDiagonal: 0b,
-						Amplifier: "Brass",
-						Body: "Brass",
-						SearchMaterial: 0b,
-						SearchDistance: 1,
-						Accelerator: "Brass"
-					}
-				}
-			}],
-			rewards: [{
-				id: "3D1833981252E86C",
-				type: "item",
-				item: "silentgems:pearl_lamp",
-				count: 8
-			}]
-		},
-		{
-			title: "Chromatic Compound Handheld Blockzapper",
-			x: -8.5d,
-			y: 12.0d,
-			description: [
-				"This one is a bit tricky to find the recipe. Look at the Handheld Blockzapper in JEI then right-click to see the various upgrades.",
-				"",
-				"This is the Chromatic Compound version of the Handheld Blockzapper."
-			],
-			dependencies: [
-				"0328469EABDA93EE",
-				"688A222392CF08AA"
-			],
-			id: "3A4C8C7A561A7874",
-			tasks: [{
-				id: "57A05BF30E87BF3A",
-				type: "item",
-				item: {
-					id: "create:handheld_blockzapper",
-					Count: 1b,
-					tag: {
-						Replace: 0b,
-						Pattern: "Solid",
-						Retriever: "Chromatic",
-						Scope: "Chromatic",
-						SearchDiagonal: 0b,
-						Amplifier: "Chromatic",
-						Body: "Chromatic",
-						SearchMaterial: 0b,
-						SearchDistance: 1,
-						Accelerator: "Chromatic"
-					}
-				}
-			}],
-			rewards: [{
-				id: "109D2FA3993AB9E6",
-				type: "item",
-				item: "alexsmobs:spawn_egg_mimicube"
 			}]
 		},
 		{
@@ -1538,8 +1394,8 @@
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 13.5d,
+			x: 7.5d,
+			y: 15.5d,
 			dependencies: ["00000000000008D1"],
 			id: "0D63EF41017B4EC9",
 			tasks: [{
@@ -1653,6 +1509,256 @@
 				type: "item",
 				item: "minecraft:potato",
 				count: 64
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 18.5d,
+			dependencies: ["00000000000008E5"],
+			id: "6B3D5D384C6972F4",
+			tasks: [{
+				id: "6AAA9B6FCBA667FA",
+				type: "item",
+				item: "createaddition:furnace_burner"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 20.0d,
+			dependencies: ["6B3D5D384C6972F4"],
+			id: "5F7E1D2AD289101D",
+			tasks: [{
+				id: "52E572E434F488AD",
+				type: "item",
+				item: "createaddition:crude_burner"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 12.5d,
+			dependencies: ["00000000000008D1"],
+			id: "51CA42B8F1642023",
+			tasks: [{
+				id: "0746AD895CC9209D",
+				type: "item",
+				item: "create:crafter_slot_cover",
+				count: 6L
+			}],
+			rewards: [{
+				id: "21ECB7733A18080C",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			dependencies: ["0000000000000795"],
+			id: "3B92E29596B40569",
+			tasks: [{
+				id: "48889F50EF1F80BD",
+				type: "item",
+				item: {
+					id: "create:copper_backtank",
+					Count: 1b,
+					tag: {
+						Air: 900
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 12.0d,
+			dependencies: ["00000000000008D1"],
+			id: "0AC25E42FE36BE47",
+			tasks: [{
+				id: "5D064F6B6E87162B",
+				type: "item",
+				item: {
+					id: "create:potato_cannon",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "6E3BDEE30B6DB23E",
+				type: "item",
+				item: "minecraft:potato",
+				count: 32
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -2.0d,
+			dependencies: ["3B92E29596B40569"],
+			id: "5285176B7732ABCA",
+			tasks: [{
+				id: "079F067BC104BBD1",
+				type: "item",
+				item: {
+					id: "create:diving_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.0d,
+			dependencies: ["3B92E29596B40569"],
+			id: "78F656DFFE233ACB",
+			tasks: [{
+				id: "6BE211578A922381",
+				type: "item",
+				item: {
+					id: "create:diving_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 12.5d,
+			dependencies: ["3E31B9BBFA9BF2E4"],
+			id: "53E71F4341DBF1D7",
+			tasks: [{
+				id: "02AFB54F51C73A4D",
+				type: "item",
+				item: "createaddition:redstone_relay"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -4.0d,
+			id: "5DF667F39C95BB49",
+			tasks: [{
+				id: "20F291D2A5B2135D",
+				type: "item",
+				item: "create:pulse_repeater"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -4.0d,
+			id: "3F8BDD3BD77AC811",
+			tasks: [{
+				id: "46A507A3563DD3FF",
+				type: "item",
+				item: "create:adjustable_repeater"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -4.0d,
+			id: "003AAC36819356BD",
+			tasks: [{
+				id: "2962A17051E4A2F7",
+				type: "item",
+				item: "create:adjustable_pulse_repeater"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			id: "5A2FE4F982249BCC",
+			tasks: [{
+				id: "40234E9C9B160D54",
+				type: "item",
+				item: "create:powered_latch"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -4.0d,
+			id: "28314F1BDDF56660",
+			tasks: [{
+				id: "1FCF8616DB08865A",
+				type: "item",
+				item: "create:powered_toggle_latch"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 9.0d,
+			dependencies: ["00000000000007A5"],
+			id: "56481651F25FCCC9",
+			tasks: [{
+				id: "418C2E137DB9DA41",
+				type: "item",
+				item: "create:linked_controller"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 12.5d,
+			dependencies: ["00000000000008D1"],
+			id: "11B64172193C72D1",
+			tasks: [{
+				id: "40E934A267343558",
+				type: "item",
+				item: "createaddition:accumulator"
+			}],
+			rewards: [{
+				id: "0F51F7FCADBDDFED",
+				type: "item",
+				item: "createaddition:multimeter"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 13.5d,
+			dependencies: ["3E31B9BBFA9BF2E4"],
+			id: "10A3AF1AB7677E7E",
+			tasks: [{
+				id: "42DB2F8CB497564F",
+				type: "item",
+				item: "createaddition:charger"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 14.5d,
+			dependencies: ["688A222392CF08AA"],
+			id: "141BCD54C3820B79",
+			tasks: [{
+				id: "52FA200F2666D056",
+				type: "item",
+				item: "createaddition:overcharged_alloy"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 16.0d,
+			dependencies: ["141BCD54C3820B79"],
+			id: "1ED75DA02603E2F2",
+			tasks: [{
+				id: "297D309FF50A3827",
+				type: "item",
+				item: {
+					id: "createaddition:overcharged_hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -2.5d,
+			id: "25959485F17ABB73",
+			tasks: [{
+				id: "410B44BC33324FB5",
+				type: "item",
+				item: "create:crafting_blueprint"
 			}]
 		}
 	]
