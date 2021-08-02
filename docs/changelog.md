@@ -22,13 +22,13 @@
   - createplus-1.16.4_v0.3.2.1
   - fancymenu_2.2.0_MC_1.16.2-1.16.5
   - forbidden_arcanus-16.2.0-beta-4
-  - ftb-chunks-forge-1605.3.1-build.39
-  - ftb-essentials-1605.1.4-build.11
+  - ftb-chunks-forge-1605.3.1-build.41
+  - ftb-essentials-1605.1.4-build.13
   - ftb-library-forge-1605.3.1-build.56
-  - ftb-quests-forge-1605.3.3-build.43
-  - ftb-ranks-1605.1.4-build.7-forge
-  - ftb-teams-forge-1605.2.1-build.17
-  - ftb-ultimine-forge-1605.3.0-build.23
+  - ftb-quests-forge-1605.3.3-build.49
+  - ftb-ranks-1605.1.4-build.9-forge
+  - ftb-teams-forge-1605.2.1-build.20
+  - ftb-ultimine-forge-1605.3.0-build.25
   - item-filters-forge-1605.2.5-build.9
   - jei-1.16.5-7.7.1.116
   - journeymap-1.16.5-5.7.3
