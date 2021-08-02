@@ -1,532 +1,533 @@
 {
-	id: "00000000000000AF",
-	group: "",
-	order_index: 4,
-	filename: "farmer",
-	title: "Let's Get Farming \\& Ranching",
-	icon: "minecraft:wheat",
-	default_quest_shape: "",
+	id: "00000000000000AF"
+	group: ""
+	order_index: 4
+	filename: "farmer"
+	title: "Let's Get Farming \\& Ranching"
+	icon: "minecraft:wheat"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 4.0d,
-			y: -1.5d,
-			shape: "diamond",
-			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"],
-			size: 1.5d,
-			id: "00000000000000B0",
+			x: 4.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
+			size: 1.5d
+			id: "00000000000000B0"
 			tasks: [{
-				id: "00000000000000B1",
-				type: "item",
-				item: "minecraft:wheat",
+				id: "00000000000000B1"
+				type: "item"
+				item: "minecraft:wheat"
 				count: 12L
-			}],
+			}]
 			rewards: [{
-				id: "00000000000005E8",
-				type: "item",
-				item: "pamhc2foodcore:chocolaterollitem",
+				id: "00000000000005E8"
+				type: "item"
+				item: "pamhc2foodcore:chocolaterollitem"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 0.0d,
-			description: ["Fluffy Puff seeds are a wonderful resource"],
-			dependencies: ["00000000000000B0"],
-			id: "00000000000000B3",
+			x: 4.0d
+			y: 0.0d
+			description: ["Fluffy Puff seeds are a wonderful resource"]
+			dependencies: ["00000000000000B0"]
+			id: "00000000000000B3"
 			tasks: [
 				{
-					id: "00000000000000B4",
-					type: "item",
-					title: "Fluffy Puff (Silent's Gems or Silent Gear)",
+					id: "00000000000000B4"
+					type: "item"
+					title: "Fluffy Puff (Silent's Gems or Silent Gear)"
 					item: {
-						id: "itemfilters:or",
-						Count: 1b,
+						id: "itemfilters:or"
+						Count: 1b
 						tag: {
 							items: [
 								{
-									id: "silentgear:fluffy_puff",
+									id: "silentgear:fluffy_puff"
 									Count: 1b
-								},
+								}
 								{
-									id: "silentgems:fluffy_puff",
+									id: "silentgems:fluffy_puff"
 									Count: 1b
 								}
 							]
 						}
-					},
+					}
 					count: 20L
-				},
+				}
 				{
-					id: "00000000000000B5",
-					type: "item",
-					title: "Fluffy Puff Seeds (Silent's Gems or Silent Gear)",
+					id: "00000000000000B5"
+					type: "item"
+					title: "Fluffy Puff Seeds (Silent's Gems or Silent Gear)"
 					item: {
-						id: "itemfilters:or",
-						Count: 1b,
+						id: "itemfilters:or"
+						Count: 1b
 						tag: {
 							items: [
 								{
-									id: "silentgear:fluffy_seeds",
+									id: "silentgear:fluffy_seeds"
 									Count: 1b
-								},
+								}
 								{
-									id: "silentgems:fluffy_puff_seeds",
+									id: "silentgems:fluffy_puff_seeds"
 									Count: 1b
 								}
 							]
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000000BE",
-				type: "item",
+				id: "00000000000000BE"
+				type: "item"
 				item: "comforts:sleeping_bag_blue"
 			}]
-		},
+		}
 		{
-			x: 5.5d,
-			y: 0.0d,
-			dependencies: ["00000000000000B3"],
-			id: "00000000000000B6",
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["00000000000000B3"]
+			id: "00000000000000B6"
 			tasks: [{
-				id: "00000000000000B7",
-				type: "item",
-				item: "minecraft:string",
+				id: "00000000000000B7"
+				type: "item"
+				item: "minecraft:string"
 				count: 24L
-			}],
+			}]
 			rewards: [{
-				id: "00000000000000BF",
-				type: "xp",
+				id: "00000000000000BF"
+				type: "xp"
 				xp: 25
 			}]
-		},
+		}
 		{
-			x: 6.5d,
-			y: -1.0d,
-			dependencies: ["00000000000000B6"],
-			id: "00000000000000B8",
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["00000000000000B6"]
+			id: "00000000000000B8"
 			tasks: [{
-				id: "00000000000000B9",
-				type: "item",
-				item: "minecraft:white_wool",
+				id: "00000000000000B9"
+				type: "item"
+				item: "minecraft:white_wool"
 				count: 12L
-			}],
+			}]
 			rewards: [
 				{
-					id: "00000000000000C0",
-					type: "xp",
+					id: "00000000000000C0"
+					type: "xp"
 					xp: 25
-				},
+				}
 				{
-					id: "0000000000000519",
-					type: "item",
+					id: "0000000000000519"
+					type: "item"
 					item: "minecraft:villager_spawn_egg"
 				}
 			]
-		},
+		}
 		{
-			x: 5.5d,
-			y: -1.5d,
-			dependencies: ["00000000000000B3"],
-			id: "00000000000000BA",
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["00000000000000B3"]
+			id: "00000000000000BA"
 			tasks: [{
-				id: "00000000000000BB",
-				type: "item",
-				item: "minecraft:feather",
+				id: "00000000000000BB"
+				type: "item"
+				item: "minecraft:feather"
 				count: 10L
-			}],
+			}]
 			rewards: [
 				{
-					id: "00000000000000BC",
-					type: "item",
-					item: "minecraft:flint",
+					id: "00000000000000BC"
+					type: "item"
+					item: "minecraft:flint"
 					count: 10
-				},
+				}
 				{
-					id: "00000000000000BD",
-					type: "xp",
+					id: "00000000000000BD"
+					type: "xp"
 					xp: 25
 				}
 			]
-		},
+		}
 		{
-			x: 4.0d,
-			y: -3.0d,
-			dependencies: ["00000000000000B0"],
-			id: "000000000000036F",
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["00000000000000B0"]
+			id: "000000000000036F"
 			tasks: [{
-				id: "0000000000000370",
-				type: "item",
+				id: "0000000000000370"
+				type: "item"
 				item: "farmingforblockheads:market"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000518",
-				type: "item",
+				id: "0000000000000518"
+				type: "item"
 				item: "minecraft:brewing_stand"
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: -1.5d,
-			dependencies: ["00000000000000B0"],
-			id: "0000000000000371",
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["00000000000000B0"]
+			id: "0000000000000371"
 			tasks: [{
-				id: "0000000000000372",
-				type: "item",
-				item: "farmingforblockheads:chicken_nest",
+				id: "0000000000000372"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
 				count: 3L
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000651",
-				type: "item",
+				id: "0000000000000651"
+				type: "item"
 				item: "minecraft:rabbit_spawn_egg"
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: -2.5d,
-			dependencies: ["00000000000000B0"],
-			id: "0000000000000373",
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["00000000000000B0"]
+			id: "0000000000000373"
 			tasks: [{
-				id: "0000000000000374",
-				type: "item",
-				item: "farmingforblockheads:feeding_trough",
+				id: "0000000000000374"
+				type: "item"
+				item: "farmingforblockheads:feeding_trough"
 				count: 3L
-			}],
+			}]
 			rewards: [{
-				id: "000000000000050B",
-				type: "item",
-				item: "farmingforblockheads:green_fertilizer",
+				id: "000000000000050B"
+				type: "item"
+				item: "farmingforblockheads:green_fertilizer"
 				count: 4
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: 0.0d,
-			dependencies: ["08BE2FAC175E4F61"],
-			id: "58A0817160D96360",
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["08BE2FAC175E4F61"]
+			id: "58A0817160D96360"
 			tasks: [{
-				id: "2EDF18FBF83FBA4D",
-				type: "item",
+				id: "2EDF18FBF83FBA4D"
+				type: "item"
 				item: "minecraft:potato"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 0.0d,
-			description: ["As a reward, you will receive a rabbit spawn egg. Use it wisely as you will need it for another quest."],
-			dependencies: ["7EA4A355089C0061"],
-			id: "08BE2FAC175E4F61",
+			x: 1.0d
+			y: 0.0d
+			description: ["As a reward, you will receive a rabbit spawn egg. Use it wisely as you will need it for another quest."]
+			dependencies: ["7EA4A355089C0061"]
+			id: "08BE2FAC175E4F61"
 			tasks: [{
-				id: "6C8A05C62C24A46F",
-				type: "item",
+				id: "6C8A05C62C24A46F"
+				type: "item"
 				item: "minecraft:carrot"
-			}],
+			}]
 			rewards: [{
-				id: "2B4D7EF3807C973F",
-				type: "item",
+				id: "2B4D7EF3807C973F"
+				type: "item"
 				item: "minecraft:rabbit_spawn_egg"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 0.0d,
-			description: ["As a reward, you will receive a squid spawn egg. Use it wisely as you will need it for another quest."],
-			dependencies: ["58A0817160D96360"],
-			id: "583C7A4FE8D984CB",
+			x: -2.0d
+			y: 0.0d
+			description: ["As a reward, you will receive a squid spawn egg. Use it wisely as you will need it for another quest."]
+			dependencies: ["58A0817160D96360"]
+			id: "583C7A4FE8D984CB"
 			tasks: [{
-				id: "5E0C719D4DFBB8FE",
-				type: "item",
+				id: "5E0C719D4DFBB8FE"
+				type: "item"
 				item: "minecraft:pumpkin"
-			}],
+			}]
 			rewards: [{
-				id: "69844C77C4BC8705",
-				type: "item",
+				id: "69844C77C4BC8705"
+				type: "item"
 				item: "minecraft:squid_spawn_egg"
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: 1.5d,
-			dependencies: ["3FC4295847723271"],
-			id: "4AD3D33CC7F2C87B",
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["3FC4295847723271"]
+			id: "4AD3D33CC7F2C87B"
 			tasks: [{
-				id: "4F7B97AD12E30E83",
-				type: "item",
+				id: "4F7B97AD12E30E83"
+				type: "item"
 				item: "minecraft:melon"
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: 0.0d,
-			description: ["There is a good reward at the end of this quest-line and you also will need these ingredients throughout the pack. Have fun!"],
-			dependencies: ["00000000000000B3"],
-			id: "7EA4A355089C0061",
+			x: 2.5d
+			y: 0.0d
+			description: ["There is a good reward at the end of this quest-line and you also will need these ingredients throughout the pack. Have fun!"]
+			dependencies: ["00000000000000B3"]
+			id: "7EA4A355089C0061"
 			tasks: [
 				{
-					id: "5AB195FFA5E7DBC5",
-					type: "item",
+					id: "5AB195FFA5E7DBC5"
+					type: "item"
 					item: "silentgear:flax_fiber"
-				},
+				}
 				{
-					id: "08CEBC4515E6DFA8",
-					type: "item",
+					id: "08CEBC4515E6DFA8"
+					type: "item"
 					item: "silentgear:flax_flowers"
 				}
 			]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 1.5d,
-			id: "3FC4295847723271",
+			x: -2.0d
+			y: 1.5d
+			id: "3FC4295847723271"
 			tasks: [{
-				id: "39508657AC6DA729",
-				type: "item",
+				id: "39508657AC6DA729"
+				type: "item"
 				item: "minecraft:beetroot"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 1.5d,
-			dependencies: ["4AD3D33CC7F2C87B"],
-			id: "5AB17565CCA74C58",
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["4AD3D33CC7F2C87B"]
+			id: "5AB17565CCA74C58"
 			tasks: [{
-				id: "51F57AA941D8153F",
-				type: "item",
+				id: "51F57AA941D8153F"
+				type: "item"
 				item: "minecraft:brown_mushroom"
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 1.5d,
-			description: ["As a reward, you will receive a lobster spawn egg. Use it wisely as you will need it for another quest."],
+			x: 4.0d
+			y: 1.5d
+			description: ["As a reward, you will receive a lobster spawn egg. Use it wisely as you will need it for another quest."]
 			dependencies: [
-				"058852DD03C8D49D",
+				"058852DD03C8D49D"
 				"583C7A4FE8D984CB"
-			],
-			id: "69D63CAEFC10E53D",
+			]
+			id: "69D63CAEFC10E53D"
 			tasks: [{
-				id: "250EAA1AAB00AFA2",
-				type: "item",
+				id: "250EAA1AAB00AFA2"
+				type: "item"
 				item: "minecraft:kelp"
-			}],
+			}]
 			rewards: [{
-				id: "470142E30AB45D5D",
-				type: "item",
+				id: "470142E30AB45D5D"
+				type: "item"
 				item: "alexsmobs:spawn_egg_lobster"
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 3.0d,
-			dependencies: ["4FD111B5C2DFCC94"],
-			id: "518B3FF9DCABDCB9",
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["4FD111B5C2DFCC94"]
+			id: "518B3FF9DCABDCB9"
 			tasks: [{
-				id: "58FD2FC0A9FEF366",
-				type: "item",
+				id: "58FD2FC0A9FEF366"
+				type: "item"
 				item: "minecraft:wither_rose"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 3.0d,
-			dependencies: ["5110E3C2872FDBD3"],
-			id: "2772160249E18CF4",
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["5110E3C2872FDBD3"]
+			id: "2772160249E18CF4"
 			tasks: [{
-				id: "25E70B79BC72DBE4",
-				type: "item",
+				id: "25E70B79BC72DBE4"
+				type: "item"
 				item: "minecraft:nether_wart"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 3.0d,
-			dependencies: ["69D63CAEFC10E53D"],
-			id: "228834E80C9D580F",
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["69D63CAEFC10E53D"]
+			id: "228834E80C9D580F"
 			tasks: [{
-				id: "325E23B384478C7F",
-				type: "item",
+				id: "325E23B384478C7F"
+				type: "item"
 				item: "minecraft:crimson_fungus"
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: 3.0d,
-			description: ["As a reward, you will receive a salmon spawn egg. Use it wisely as you will need it for another quest."],
-			dependencies: ["228834E80C9D580F"],
-			id: "5110E3C2872FDBD3",
+			x: -0.5d
+			y: 3.0d
+			description: ["As a reward, you will receive a salmon spawn egg. Use it wisely as you will need it for another quest."]
+			dependencies: ["228834E80C9D580F"]
+			id: "5110E3C2872FDBD3"
 			tasks: [{
-				id: "65B81916C63D2879",
-				type: "item",
+				id: "65B81916C63D2879"
+				type: "item"
 				item: "forbidden_arcanus:golden_orchid_seeds"
-			}],
+			}]
 			rewards: [{
-				id: "22B258632E392919",
-				type: "item",
+				id: "22B258632E392919"
+				type: "item"
 				item: "minecraft:salmon_spawn_egg"
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: 1.5d,
-			dependencies: ["5AB17565CCA74C58"],
-			id: "058852DD03C8D49D",
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["5AB17565CCA74C58"]
+			id: "058852DD03C8D49D"
 			tasks: [{
-				id: "0C03C8E0E1E978C2",
-				type: "item",
+				id: "0C03C8E0E1E978C2"
+				type: "item"
 				item: "minecraft:vine"
 			}]
-		},
+		}
 		{
-			title: "Ready for the Slaughter",
-			x: 7.0d,
-			y: -2.5d,
-			description: [""],
-			dependencies: ["0000000000000373"],
-			id: "27DF8606C56037DD",
+			title: "Ready for the Slaughter"
+			x: 7.0d
+			y: -2.5d
+			description: [""]
+			dependencies: ["0000000000000373"]
+			id: "27DF8606C56037DD"
 			tasks: [{
-				id: "74E8680A8FB78598",
-				type: "stat",
-				stat: "minecraft:animals_bred",
+				id: "74E8680A8FB78598"
+				type: "stat"
+				stat: "minecraft:animals_bred"
 				value: 100
-			}],
+			}]
 			rewards: [{
-				id: "3AEBD63B0B27C836",
-				type: "item",
+				id: "3AEBD63B0B27C836"
+				type: "item"
 				item: {
-					id: "minecraft:trident",
-					Count: 1b,
+					id: "minecraft:trident"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: 9.5d,
-			y: 0.0d,
-			shape: "diamond",
-			dependencies: ["518B3FF9DCABDCB9"],
-			size: 2.0d,
-			id: "02315A8C83FA7D53",
+			x: 9.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["518B3FF9DCABDCB9"]
+			size: 2.0d
+			id: "02315A8C83FA7D53"
 			tasks: [{
-				id: "2ABBF9213FC0826C",
+				id: "2ABBF9213FC0826C"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "58EDE99BAF4D2E8D",
-				type: "item",
+				id: "58EDE99BAF4D2E8D"
+				type: "item"
 				item: "createaddition:creative_energy"
 			}]
-		},
+		}
 		{
-			x: 8.0d,
-			y: 0.0d,
-			dependencies: ["02315A8C83FA7D53"],
-			id: "03F291ACDBA1DBEE",
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "03F291ACDBA1DBEE"
 			tasks: [{
-				id: "3A4CFD2D5B769692",
-				type: "kill",
-				entity: "minecraft:chicken",
+				id: "3A4CFD2D5B769692"
+				type: "kill"
+				entity: "minecraft:chicken"
 				value: 10L
 			}]
-		},
+		}
 		{
-			x: 9.5d,
-			y: 1.5d,
-			dependencies: ["02315A8C83FA7D53"],
-			id: "295F3C124EBC2FA7",
+			x: 9.5d
+			y: 1.5d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "295F3C124EBC2FA7"
 			tasks: [{
-				id: "05877E9674BE25C4",
-				type: "kill",
-				entity: "minecraft:cow",
+				id: "05877E9674BE25C4"
+				type: "kill"
+				entity: "minecraft:cow"
 				value: 10L
 			}]
-		},
+		}
 		{
-			x: 10.5d,
-			y: 1.0d,
-			dependencies: ["02315A8C83FA7D53"],
-			id: "0295D56733275C84",
+			x: 10.5d
+			y: 1.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "0295D56733275C84"
 			tasks: [{
-				id: "6C7FA3C9E8959D66",
-				type: "kill",
-				entity: "minecraft:sheep",
+				id: "6C7FA3C9E8959D66"
+				type: "kill"
+				entity: "minecraft:sheep"
 				value: 10L
 			}]
-		},
+		}
 		{
-			x: 11.0d,
-			y: 0.0d,
-			dependencies: ["02315A8C83FA7D53"],
-			id: "4F5953DFCA0C460D",
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "4F5953DFCA0C460D"
 			tasks: [{
-				id: "1E171E4EDB7454C9",
-				type: "kill",
-				entity: "minecraft:pig",
+				id: "1E171E4EDB7454C9"
+				type: "kill"
+				entity: "minecraft:pig"
 				value: 10L
 			}]
-		},
+		}
 		{
-			x: 8.5d,
-			y: 1.0d,
-			dependencies: ["02315A8C83FA7D53"],
-			id: "48A506E3650ECB1E",
+			x: 8.5d
+			y: 1.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "48A506E3650ECB1E"
 			tasks: [{
-				id: "44A0F68E90B3952B",
-				type: "kill",
-				entity: "minecraft:rabbit",
+				id: "44A0F68E90B3952B"
+				type: "kill"
+				entity: "minecraft:rabbit"
 				value: 10L
 			}]
-		},
+		}
 		{
-			x: 10.5d,
-			y: -1.0d,
-			dependencies: ["02315A8C83FA7D53"],
-			id: "15494CE3719EEF68",
+			x: 10.5d
+			y: -1.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "15494CE3719EEF68"
 			tasks: [{
-				id: "22FD29019E1C39F5",
-				type: "kill",
-				entity: "minecraft:salmon",
+				id: "22FD29019E1C39F5"
+				type: "kill"
+				entity: "minecraft:salmon"
 				value: 10L
 			}]
-		},
+		}
 		{
-			x: 8.5d,
-			y: -1.0d,
+			x: 8.5d
+			y: -1.0d
 			dependencies: [
-				"02315A8C83FA7D53",
+				"02315A8C83FA7D53"
 				"27DF8606C56037DD"
-			],
-			id: "05E530DC06491CDF",
+			]
+			id: "05E530DC06491CDF"
 			tasks: [{
-				id: "64A13E62554EA873",
-				type: "kill",
-				entity: "minecraft:squid",
+				id: "64A13E62554EA873"
+				type: "kill"
+				entity: "minecraft:squid"
 				value: 10L
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: 3.0d,
-			dependencies: ["2772160249E18CF4"],
-			id: "4FD111B5C2DFCC94",
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["2772160249E18CF4"]
+			id: "4FD111B5C2DFCC94"
 			tasks: [{
-				id: "430401B0234016CA",
-				type: "item",
+				id: "430401B0234016CA"
+				type: "item"
 				item: "minecraft:chorus_flower"
 			}]
-		},
+		}
 		{
-			x: 9.5d,
-			y: -1.5d,
-			dependencies: ["02315A8C83FA7D53"],
-			id: "07AB2698FFAF22F0",
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "07AB2698FFAF22F0"
 			tasks: [{
-				id: "2411408B69B91C9D",
-				type: "kill",
-				entity: "alexsmobs:lobster",
+				id: "2411408B69B91C9D"
+				type: "kill"
+				entity: "alexsmobs:lobster"
 				value: 10L
 			}]
 		}
