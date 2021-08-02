@@ -4,16 +4,53 @@
 
 ## Version 1.25.0
 
-2021-07-27
+2021-08-02
 
-- Mods Added: none
+- Mods Added:
+  - flywheel-1.16-0.2.0 - new dependancy for createplus
 - Mods Updated:
+  - allomancy-4.3.0-pre3
+  - appleskin-forge-mc1.16.x-2.1.0
+  - architectury-1.20.28-forge
+  - BiomesOPlenty-1.16.5-13.1.0.482-universal
+  - BorderlessWindow-1.16.5-1.2.0
+  - Botania-1.16.5-419
+  - citadel-1.7.2-1.16.5
+  - crashutilities-3.12
+  - create-mc1.16.5_v0.3.2c
+  - createaddition-1.16.5-20210801b
+  - createplus-1.16.4_v0.3.2.1
+  - fancymenu_2.2.0_MC_1.16.2-1.16.5
+  - forbidden_arcanus-16.2.0-beta-4
+  - ftb-chunks-forge-1605.3.1-build.39
+  - ftb-essentials-1605.1.4-build.11
+  - ftb-library-forge-1605.3.1-build.56
+  - ftb-quests-forge-1605.3.3-build.43
+  - ftb-ranks-1605.1.4-build.7-forge
+  - ftb-teams-forge-1605.2.1-build.17
+  - ftb-ultimine-forge-1605.3.0-build.23
+  - item-filters-forge-1605.2.5-build.9
+  - jei-1.16.5-7.7.1.116
+  - journeymap-1.16.5-5.7.3
+  - kubejs-create-1605.1.2-build.7
+  - kubejs-forge-1605.3.13-build.55
+  - moreoverlays-1.18.15-mc1.16.5
+  - Patchouli-1.16.4-53.1
+  - polymorph-forge-1.16.5-0.25
+  - refinedstorage-1.9.15
+  - refinedstorageaddons-0.7.3
+  - repurposed_structures_forge-3.0.2+1.16.5
+  - rsrequestify-1.16.3-2.1.1
+  - silent-gear-1.16.5-2.6.30
+  - StorageDrawers-1.16.3-8.3.0
+  - valhelsia_core-16.0.9
 - Mods Removed:
   - Feruchemy - loading errors that did not go away
 - Other Changes:
   - Updated Forge to 36.2.0
   - Removed/modified quests relating to Create mod update
-  - Added recipe for Living Root
+  - Added quests for Forbidden & Arcanus - rewards and descriptions still to come
+  - Added recipe for Living Root for those who are not playing GoG Skyblock
 
 ## Version 1.24.0
 
