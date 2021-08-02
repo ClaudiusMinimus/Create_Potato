@@ -2,6 +2,17 @@
 
 *Always backup your worlds!*
 
+## Version 1.26.0
+
+2021-08-02
+
+- Mods Added:
+  - Feruchemy - was just updated and now works
+- Mods Updated:
+  - allomancy-4.3.1
+- Mods Removed: none
+- Other Changes: none
+
 ## Version 1.25.0
 
 2021-08-02
