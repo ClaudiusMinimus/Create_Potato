@@ -228,7 +228,7 @@ customization {
   label = 
   x = -224
   width = 100
-  actionid = c15d35d5-62a2-4d76-8317-e64dfdbb43b61623519998469
+  actionid = e5389f17-9384-423e-bb4b-c73894dc9b371627299214916
   action = addbutton
   y = 16
   backgroundnormal = config/fancymenu/customguis/images/buttons/discord.png
@@ -244,7 +244,7 @@ customization {
   label = 
   x = -47
   width = 100
-  actionid = 0c3eb206-cf6b-4625-b249-0b5b4fa77a3e1623519998473
+  actionid = d870e064-5d43-48bc-9de6-5d7cd536b9c91627299214919
   action = addbutton
   y = -36
   backgroundnormal = config/fancymenu/customguis/images/buttons/server.png
@@ -254,13 +254,18 @@ customization {
 
 customization {
   orientation = bottom-left
-  shadow = false
-  x = 6
+  shadow = true
+  x = 7
   action = addtext
   actionid = 661d17f3-0416-41e8-9753-55b81bbe095e1616010972563
   y = -12
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC v. 1.16.5-1.24.0
+  value = Create on a Potato PC v. 1.16.5-1.25.0
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
 }
 
