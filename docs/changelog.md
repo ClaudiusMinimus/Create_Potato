@@ -7,7 +7,7 @@
 2021-08-02
 
 **IMPORTANT**
-For existing worlds this update will break your quests.  To fix you will need to open your Minecraft folder and rename the ```.minecraft/saves/[world name]/ftbquests``` to ```.minecraft/saves/[world name]/ftbquests_old```
+This update _may_ break your world and it **will** break your quests. To fix you will need to open your Minecraft folder and rename the ```.minecraft/saves/[world name]/ftbquests``` to ```.minecraft/saves/[world name]/ftbquests_old```
 This will reset your quests and allow you to start the quests over.
 _You will also need to reclaim all previously claimed chunks._
 
