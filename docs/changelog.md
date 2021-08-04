@@ -154,7 +154,7 @@ To fix on a server rename the ```/[world name]/ftbquests``` to ```/[world name]/
 
 This release of Create on a Potato PC now included Botania's Garden of Glass ("GoG") skyblock. Also added is the Water Strainers mod to help get started. This implementation of GoG is very much a work in progress and feedback on our [discord](https://discord.com/invite/jXrx4Tu) would be appreciated regarding missing recipes and needed quests to help progress. Please be sure to join our [discord](https://discord.com/invite/jXrx4Tu).
 
-This update should work with your existing singleplayer non-GoG worlds. 
+This update should work with your existing singleplayer non-GoG worlds.
 
 *Always backup your worlds!*
 
