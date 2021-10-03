@@ -489,7 +489,13 @@
 			rewards: [{
 				id: "72793EE021D12F9D"
 				type: "item"
-				item: "allomancy:allomantic_grinder"
+				item: {
+					id: "allomancy:allomantic_grinder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
