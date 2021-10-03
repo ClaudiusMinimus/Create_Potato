@@ -370,8 +370,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 5.0d
+			x: -6.0d
+			y: 4.0d
 			description: [
 				"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: "
 				""
@@ -505,7 +505,7 @@
 		}
 		{
 			x: -4.5d
-			y: 4.5d
+			y: 4.0d
 			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."]
 			dependencies: ["00000000000007A1"]
 			id: "00000000000007C9"
@@ -733,7 +733,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -2.5d
 			y: 5.0d
 			dependencies: ["00000000000007A1"]
 			id: "00000000000008D9"
@@ -1768,6 +1768,41 @@
 						apoth_rspawn: 1b
 					}
 				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			description: ["The Rope Pulley allows you to make easy-to-craft early game elevators."]
+			dependencies: ["00000000000007A1"]
+			id: "28D15A9B43C825CE"
+			tasks: [{
+				id: "55FC041B690B7696"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [{
+				id: "56BBA7C1A97911CF"
+				type: "item"
+				item: "create:clutch"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			description: ["The Gearshift allows you to change rotational direction using a redstone signal."]
+			dependencies: ["00000000000007A1"]
+			id: "2D2DF1DE0851BE05"
+			tasks: [{
+				id: "255F7C7798B28C9A"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [{
+				id: "1D1D56ED06D69395"
+				type: "item"
+				item: "botania:grass_seeds"
+				count: 4
 			}]
 		}
 	]
