@@ -14,6 +14,11 @@ customization {
 }
 
 customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
   identifier = %id=400322%
   orientation = top-left
   x = 127
@@ -36,6 +41,8 @@ customization {
 
 customization {
   identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/multiplayer.png
   backgroundnormal = config/fancymenu/customguis/images/buttons/multiplayer.png
@@ -45,6 +52,11 @@ customization {
   identifier = %id=400322%
   action = setbuttondescription
   description = Hi %playername%,%n%The offical server address is included%n%on the Multiplayer screen.%n%%n%We look forward to seeing you in-game!%n%%n%If you would like to have your server %n%listed, please contact us on our discord.
+}
+
+customization {
+  identifier = %id=400322%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -70,9 +82,26 @@ customization {
 
 customization {
   identifier = %id=604382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/accessibility.png
   backgroundnormal = config/fancymenu/customguis/images/buttons/accessibility.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -98,9 +127,16 @@ customization {
 
 customization {
   identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/options.png
   backgroundnormal = config/fancymenu/customguis/images/buttons/options.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -126,9 +162,16 @@ customization {
 
 customization {
   identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/exitgame.png
   backgroundnormal = config/fancymenu/customguis/images/buttons/exitgame.png
+}
+
+customization {
+  identifier = %id=502382%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -154,9 +197,16 @@ customization {
 
 customization {
   identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/language.png
   backgroundnormal = config/fancymenu/customguis/images/buttons/language.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -182,9 +232,16 @@ customization {
 
 customization {
   identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/singleplayer.png
   backgroundnormal = config/fancymenu/customguis/images/buttons/singleplayer.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -210,9 +267,16 @@ customization {
 
 customization {
   identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu/customguis/images/buttons/mods.png
   backgroundnormal = config/fancymenu/customguis/images/buttons/mods.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -221,11 +285,18 @@ customization {
 }
 
 customization {
+  identifier = %id=502346%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
   orientation = top-right
+  restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/discord.png
   description = %playername%,%n%Please come join us on our discord server,%n%%n%We have a great community%n%and look forward to having You a be part of it!
   label = 
+  loopbackgroundanimations = true
   x = -224
   width = 100
   actionid = e5389f17-9384-423e-bb4b-c73894dc9b371627299214916
@@ -238,10 +309,12 @@ customization {
 
 customization {
   orientation = bottom-centered
+  restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/server.png
   description = %playername%,%n%Need a server to play with friends?%n%%n%Use the code minimus%n%to get 25% off your first month!
   label = 
+  loopbackgroundanimations = true
   x = -47
   width = 100
   actionid = d870e064-5d43-48bc-9de6-5d7cd536b9c91627299214919
@@ -261,11 +334,11 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC v. 1.16.5-1.26.0
+  value = Create on a Potato PC v. 1.16.5-1.27.0
 }
 
 customization {
-  identifier = %id=376322%
-  action = hidebutton
+  identifier = %id=0%
+  action = vanilla_button_visibility_requirements
 }
 
