@@ -2,6 +2,56 @@
 
 *Always backup your worlds!*
 
+## Version 1.27.0
+
+2021-10-03
+
+- Mods Added: none
+- Mods Updated:
+  - alexsmobs-1.12.1
+  - allomancy-4.3.2
+  - Apotheosis-1.16.5-4.8.0
+  - architectury-1.23.33-forge
+  - bwncr-1.16.5-3.10.16
+  - citadel-1.8.1-1.16.5
+  - Clumps-6.0.0.26
+  - comforts-forge-1.16.5-4.0.1.3
+  - Controlling-7.0.0.25
+  - CookingForBlockheads_1.16.5-9.3.4
+  - create-mc1.16.5_v0.3.2d
+  - createaddition-1.16.5-20210930a
+  - curios-forge-1.16.5-4.0.5.3
+  - CustomStartingGear-1.16.5-2.0.3-universal
+  - Disenchanting-forge-1.16.5-1.7.2
+  - fancymenu_2.3.3_MC_1.16.2-1.16.5
+  - feruchemy-1.2.2
+  - flywheel-1.16-0.2.4
+  - ftb-chunks-forge-1605.3.2-build.57
+  - ftb-essentials-1605.1.4-build.20
+  - ftb-library-forge-1605.3.3-build.74
+  - ftb-quests-forge-1605.3.5-build.64
+  - ftb-ranks-1605.1.4-build.12-forge
+  - ftb-teams-forge-1605.2.2-build.32
+  - gravestone-1.16.5-1.0.7
+  - jei-1.16.5-7.7.1.121
+  - konkrete_1.3.0_MC_1.16.2-1.16.5
+  - kubejs-forge-1605.3.18-build.141
+  - metalbarrels-1.16.2-3.3b
+  - Patchouli-1.16.4-53.2
+  - PickleTweaks-1.16.5-5.2.5
+  - Placebo-1.16.5-4.6.0
+  - repurposed_structures_forge-3.2.5+1.16.5
+  - rhino-forge-1605.1.4-build.63
+  - rsrequestify-1.16.5-2.1.3
+  - silent-gear-1.16.5-2.6.30
+  - SoL-Carrot-1.16.5-1.10.1
+  - torchmaster-2.3.8
+  - valhelsia_core-16.0.11
+- Mods Removed: none
+- Other Changes:
+  - Updated Forge to 36.2.8
+  - Minor quest updates
+
 ## Version 1.26.0
 
 2021-08-02
