@@ -4,12 +4,12 @@
 
 ## Version 1.27.0
 
-2021-10-03
+2021-10-04
 
 - Mods Added: none
 - Mods Updated:
   - alexsmobs-1.12.1
-  - allomancy-4.3.2
+  - allomancy-4.3.2 (The Metal Selection Wheel does *NOT* show if you have only one metal. If you eat a lerasium and become Mistborn, the wheel will show when you press the burn button.)
   - Apotheosis-1.16.5-4.8.0
   - architectury-1.23.33-forge
   - bwncr-1.16.5-3.10.16
