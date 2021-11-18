@@ -1174,8 +1174,8 @@
 		}
 		{
 			title: "Into the Void"
-			x: -5.5d
-			y: 15.0d
+			x: -7.0d
+			y: 14.5d
 			description: ["If you jump into the void you will die, but what will happen to some Chromatic Compound thrown in?"]
 			dependencies: ["688A222392CF08AA"]
 			id: "120FDBE3D5A86446"
@@ -1194,8 +1194,8 @@
 		}
 		{
 			title: "Go Towards the Light"
-			x: -6.5d
-			y: 15.5d
+			x: -8.5d
+			y: 13.0d
 			description: ["What would happen if you threw a Chromatic Compound into a beam of light or on a bunch of glowstone?"]
 			dependencies: ["688A222392CF08AA"]
 			id: "2EC000DBE2E8AEB0"
@@ -1213,45 +1213,8 @@
 			}]
 		}
 		{
-			title: "A Grand Reward!"
-			x: -3.0d
-			y: 19.0d
-			shape: "hexagon"
-			description: ["A handy tool for creating landscapes and terrain features."]
-			dependencies: [
-				"120FDBE3D5A86446"
-				"00000000000008E5"
-				"7B97A732BFADBE7B"
-				"37555B5839214875"
-				"5C6483EDD2B8F901"
-				"3E31B9BBFA9BF2E4"
-				"00000000000008E1"
-				"5F7E1D2AD289101D"
-				"11B64172193C72D1"
-				"0AC25E42FE36BE47"
-				"00000000000008DF"
-				"00000000000008E3"
-				"0D63EF41017B4EC9"
-				"1BBEEF19114688A9"
-				"51CA42B8F1642023"
-				"1ED75DA02603E2F2"
-			]
-			size: 2.0d
-			id: "5D2231E1A60829E2"
-			tasks: [{
-				id: "7A87D2C9FF67A9EB"
-				type: "checkmark"
-				icon: "create:handheld_worldshaper"
-			}]
-			rewards: [{
-				id: "737FA77AA17CBA26"
-				type: "item"
-				item: "create:handheld_worldshaper"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 17.0d
+			x: -10.0d
+			y: 13.0d
 			description: ["This can help with your OCD wanting blocks to be symmetrical!"]
 			dependencies: ["2EC000DBE2E8AEB0"]
 			id: "5C6483EDD2B8F901"
@@ -1507,8 +1470,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 18.5d
+			x: 2.5d
+			y: 18.0d
 			dependencies: ["00000000000008E5"]
 			id: "6B3D5D384C6972F4"
 			tasks: [{
@@ -1524,8 +1487,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 20.0d
+			x: 1.5d
+			y: 19.5d
 			dependencies: ["6B3D5D384C6972F4"]
 			id: "5F7E1D2AD289101D"
 			tasks: [{
@@ -1717,8 +1680,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 14.5d
+			x: -5.5d
+			y: 13.0d
 			dependencies: ["688A222392CF08AA"]
 			id: "141BCD54C3820B79"
 			tasks: [{
@@ -1733,8 +1696,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 16.0d
+			x: -4.0d
+			y: 13.0d
 			dependencies: ["141BCD54C3820B79"]
 			id: "1ED75DA02603E2F2"
 			tasks: [{
@@ -1803,6 +1766,27 @@
 				type: "item"
 				item: "botania:grass_seeds"
 				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			description: ["To learn more about the Toolbox, open your Create on a Potato PC book to Videos > Create > 0.3.2f update"]
+			dependencies: ["00000000000007A7"]
+			id: "5489879D11B3894A"
+			tasks: [{
+				id: "1796B99CACF32B88"
+				type: "item"
+				item: "create:brown_toolbox"
+			}]
+			rewards: [{
+				id: "35502B756B837E0E"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]
