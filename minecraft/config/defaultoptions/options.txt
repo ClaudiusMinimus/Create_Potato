@@ -32,8 +32,8 @@ difficulty:2
 graphicsMode:1
 ao:2
 biomeBlendRadius:2
-renderClouds:true
-resourcePacks:["vanilla","mod_resources","kubejs:resource_pack","openloader/resources/silentsgems_resource_pack","file/Patrix_1.16_32x_basic.zip","file/Patrix_1.16_32x_bonus.zip","file/Patrix_1.16_32x_addon.zip"]
+renderClouds:false
+resourcePacks:["vanilla","mod_resources","openloader/resources/silentsgems_resource_pack","file/Patrix_1.16_32x_basic.zip","file/Patrix_1.16_32x_addon.zip","openloader/resources/potato"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -67,7 +67,7 @@ hideMatchedNames:true
 joinedFirstServer:true
 syncChunkWrites:false
 soundCategory_master:1.0
-soundCategory_music:0.20422535
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
