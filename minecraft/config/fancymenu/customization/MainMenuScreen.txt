@@ -51,12 +51,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttondescription
-  description = Hi %playername%,%n%The offical server address is included%n%on the Multiplayer screen.%n%%n%We look forward to seeing you in-game!%n%%n%If you would like to have your server %n%listed, please contact us on our discord.
-}
-
-customization {
-  identifier = %id=400322%
-  action = vanilla_button_visibility_requirements
+  description = Hi %playername%,%n%The official server address is now Whitelisted%n%and included on the Multiplayer screen.%n%To join, please visit our discord to apply.%n%%n%We look forward to seeing you in-game!
 }
 
 customization {
@@ -90,18 +85,8 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
-  action = vanilla_button_visibility_requirements
-}
-
-customization {
   identifier = %id=376322%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=376322%
-  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -135,11 +120,6 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
-  action = vanilla_button_visibility_requirements
-}
-
-customization {
   identifier = %id=502382%
   orientation = bottom-right
   x = -93
@@ -167,11 +147,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/exitgame.png
   backgroundnormal = config/fancymenu/customguis/images/buttons/exitgame.png
-}
-
-customization {
-  identifier = %id=502382%
-  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -205,11 +180,6 @@ customization {
 }
 
 customization {
-  identifier = %id=376382%
-  action = vanilla_button_visibility_requirements
-}
-
-customization {
   identifier = %id=400298%
   orientation = top-left
   x = 17
@@ -237,11 +207,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/customguis/images/buttons/hover/singleplayer.png
   backgroundnormal = config/fancymenu/customguis/images/buttons/singleplayer.png
-}
-
-customization {
-  identifier = %id=400298%
-  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -275,18 +240,8 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
-  action = vanilla_button_visibility_requirements
-}
-
-customization {
   identifier = %id=502346%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=502346%
-  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -334,11 +289,6 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC v. 1.16.5-1.27.0
-}
-
-customization {
-  identifier = %id=0%
-  action = vanilla_button_visibility_requirements
+  value = Create on a Potato PC v. 1.16.5-1.28.0
 }
 
