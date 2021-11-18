@@ -51,7 +51,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttondescription
-  description = Hi %playername%,%n%The official server address is now Whitelisted%n%and included on the Multiplayer screen.%n%To join, please visit our discord to apply.%n%%n%We look forward to seeing you in-game!
+  description = Hi, %playername%,%n%The official server is now Whitelisted.%n%To join, please visit our discord to apply.%n%%n%We look forward to seeing you in-game!
 }
 
 customization {
