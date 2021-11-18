@@ -2,6 +2,60 @@
 
 *Always backup your worlds!*
 
+## Version 1.28.0
+
+2021-10-04
+
+- Mods Added:
+  - itemblacklist-1.16.5-1.2.0
+  - Wyrmroost-1.16.3-1.2.11
+  - wyrmroostspawncontrol-0.1.2
+  - Xaeros_Minimap_21.21.0_Forge_1.16.5
+  - XaerosWorldMap_1.18.2_Forge_1.16.5
+- Mods Updated:
+  - Apotheosis-1.16.5-4.8.2
+  - appleskin-forge-mc1.16.x-2.2.0
+  - architectury-1.24.35-forge
+  - BorderlessWindow-1.16.5-1.2.1
+  - Botania-1.16.5-420
+  - cloth-config-4.12.41-forge
+  - Clumps-6.0.0.27
+  - Controlling-7.0.0.27
+  - create-mc1.16.5_v0.3.2f
+  - createaddition-1.16.5-20211023a
+  - Cucumber-1.16.5-4.1.12
+  - fancymenu_2.3.6_MC_1.16.2-1.16.5
+  - forbidden_arcanus-16.2.1
+  - ftb-backups-2.1.2.2
+  - ftb-chunks-forge-1605.3.2-build.81
+  - ftb-essentials-1605.1.5-build.32
+  - ftb-library-forge-1605.3.4-build.83
+  - ftb-quests-forge-1605.3.5-build.72
+  - ftb-teams-forge-1605.2.3-build.38
+  - ftb-ultimine-forge-1605.3.1-build.45
+  - jei-1.16.5-7.7.1.136
+  - kubejs-forge-1605.3.19-build.174
+  - moredragoneggs-2.2
+  - PickleTweaks-1.16.5-5.2.6
+  - polymorph-forge-1.16.5-0.32
+  - refinedstorage-1.9.16
+  - refinedstorageaddons-0.7.4
+  - repurposed_structures_forge-3.4.4+1.16.5
+  - rhino-forge-1605.1.5-build.75
+  - rsrequestify-1.16.5-2.1.4
+  - silent-gear-1.16.5-2.6.33
+  - silent-lib-1.16.5-4.10.0
+  - sounddeviceoptions-1.4.3
+  - valhelsia_core-16.0.13a
+  - windowlogging-mc1.16.5_v0.0.5
+- Mods Removed:
+  - Journey Map (I prefer Xaeros for all my packs)
+- Other Changes:
+  - Updated Forge to 36.2.9
+  - Updated book, Create on a Potato PC version 2
+  - Updated Create quest line
+  - Main menu shows offical server is now whitelisted
+
 ## Version 1.27.0
 
 2021-10-04
