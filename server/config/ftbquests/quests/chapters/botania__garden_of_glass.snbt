@@ -203,12 +203,14 @@
 		{
 			x: 0.0d
 			y: 11.0d
+			shape: "diamond"
 			description: [
 				"The Petal Apothecary is one of the main ways of creating items/flowers for Botania. It requires water, then the petals/items for the recipe, and most recipes are completed when you drop a wheat seed into the Apothecary. (Wheat seeds can be obtained by bone-mealing grass/dirt.)"
 				""
 				"Wooden Bowls can fill an Apothecary from your water source block without depleting it."
 			]
 			dependencies: ["5AE38D7F1ACE1065"]
+			size: 1.5d
 			id: "78FEF9A7E20E7C06"
 			tasks: [{
 				id: "69460C0E7671938B"
