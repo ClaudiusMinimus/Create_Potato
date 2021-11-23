@@ -76,7 +76,7 @@
     "name": "Admin",
     "power": 1000,
     "ftbchunks.load_offline": false,
-    "ftbchunks.max_claimed": 1000,
+    "ftbchunks.max_claimed": 2000,
     "ftbchunks.max_force_loaded": 10,
     "ftbranks.name_format": "&5[Admin]&r <{name}>"
   }
