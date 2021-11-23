@@ -1664,22 +1664,6 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 13.5d
-			dependencies: ["3E31B9BBFA9BF2E4"]
-			id: "10A3AF1AB7677E7E"
-			tasks: [{
-				id: "42DB2F8CB497564F"
-				type: "item"
-				item: "createaddition:charger"
-			}]
-			rewards: [{
-				id: "00B054D11C0C2AF1"
-				type: "item"
-				item: "forbidden_arcanus:orb_of_temporary_flight"
-			}]
-		}
-		{
 			x: -5.5d
 			y: 13.0d
 			dependencies: ["688A222392CF08AA"]
