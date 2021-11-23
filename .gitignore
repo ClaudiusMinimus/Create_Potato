@@ -34,6 +34,7 @@ build/create-potato-*.zip
 minecraft/.mixin.out/*
 minecraft/backups/*
 minecraft/BotaniaVars.dat
+minecraft/optionsof.txt
 minecraft/config/jei/*.ini
 minecraft/instance.cfg
 minecraft/knownkeys.txt
