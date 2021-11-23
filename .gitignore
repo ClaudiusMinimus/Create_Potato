@@ -4,7 +4,7 @@ minecraft/crash-reports/*
 minecraft/journeymap/*
 minecraft/local/*
 minecraft/logs/*
-minecraft/mods/*
+minecraft/mod*/*
 minecraft/resourcepacks/*
 minecraft/saves/*
 minecraft/schematics/*
@@ -18,7 +18,7 @@ server/journeymap/*
 server/libraries/*
 server/local/*
 server/logs/*
-server/mods/*
+server/mod*/*
 server/resourcepacks/*
 server/saves/*
 server/screenshots/*
