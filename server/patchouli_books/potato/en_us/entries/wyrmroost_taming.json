@@ -1,0 +1,14 @@
+{
+    "name": "Wyrmroost",
+    "icon": "wyrmroost:coin_dragon",
+    "category": "patchouli:mobs",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Taming Dragons:$()$(li)Rooststalker, feed it eggs (If you can make a cake with it, you can tame a drake with it).$(li)Silver Glider, tame like a cat.$(li)Overworld Drake, put a saddle on it and tame like a horse.$(li)Canari, walk up to it and feed it sweet berries while it's doing its little threat animation."
+        },{
+            "type": "patchouli:text",
+            "text": "$(li)Dragonfruit drake, feed the babies apples.$(li)Alpine, lead a pollenated bee that is tied to you with a leash to the Alp.$(li)Royal Red, knock it out and feed it any meat.$(li)Butterfly Leviathan, get it on land while it's raining, run around until it smites you, and then quickly feed it meat while it recharges."
+        }
+    ]
+}
